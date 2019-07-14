@@ -32,7 +32,7 @@ begin
 process (clk)
     variable i: integer := 0;
 begin 
-    if (clk'event and clk='1') then
+    if (clk'event and clk='1') then                 --Front montant d'horloge
         if (first_time = '1') then                  --Actions a effectuer a la naissance du bloc
             first_time <= '0';
         else                                        --Actions a effectuer pendant le vie du bloc
