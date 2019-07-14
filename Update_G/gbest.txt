@@ -1,0 +1,34 @@
+library IEEE ;
+Use ieee.std_logic_1164.all;
+Use ieee.numeric_std.all;
+Use ieee.std_logic_signed.all;
+entity g_best is
+port(x1:in std_logic_vector(7 downto 0);
+x2:in std_logic_vector(7 downto 0);
+f1: std_logic_vector(16 downto 0);
+f2: std_logic_vector(16 downto 0);
+gbest : out std_logic_vector(16 downto 0); 
+xbest :out std_logic_vector(7 downto 0));
+end g_best;
+architecture best of g_best is
+--signal sortie : std_logic_vector(16 downto 0);
+--signal position :std_logic_vector (7 downto 0);
+--type memoire is array (0 to 3) of std_logic_vector(16 downto 0);
+--type entree is array (0 to 3) of std_logic_vector(7 downto 0);
+--signal f : memoire;
+--signal x :entree;
+begin 
+  process(f2,f1)
+    begin
+if (f2 > f1) then 
+gbest <= f1;
+xbest <= x1;
+else 
+gbest <= f2;
+xbest <= x2;
+end if ;
+end process;
+
+end best ;
+
+  

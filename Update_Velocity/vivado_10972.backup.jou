@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 19 14:50:29 2019
+# Process ID: 10972
+# Current directory: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15428 C:\Users\IDEAL-INFO\Desktop\RNG4\Update_Velocity\Update_Velocity.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity\vivado.jou
+#----------------------------------------------------------start_gui
+open_project C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/Update_Velocity.xpr
+r
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+create_project array_1d C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d -part xc7z020clg400-1
+close [ open C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd w ]
+add_files C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd
+update_compile_order -fileset sources_1
+current_project Update_Velocity
+update_compile_order -fileset sources_1
+current_project array_1d
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd w ]
+add_files -fileset sim_1 C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_runs impl_1 -jobs 3
+wait_on_run impl_1
+launch_simulation
+source RAM1.tcl
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+source tb_memory.tcl

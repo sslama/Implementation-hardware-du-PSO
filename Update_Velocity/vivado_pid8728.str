@@ -1,0 +1,2652 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 8728
+License: Customer
+
+Current time: 	Thu Jul 11 23:26:15 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 24 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/.Xil/Vivado-8728-DESKTOP-SFCC8J7
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 534 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 60 MB (+60958kb) [00:00:19]
+// [Engine Memory]: 510 MB (+383425kb) [00:00:19]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Velocity\Update_Velocity.xpr. Version: Vivado v2018.1 
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 561 MB. GUI used memory: 32 MB. Current time: 7/11/19 11:26:17 PM CEST
+// [Engine Memory]: 561 MB (+26398kb) [00:00:24]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 646 MB (+60071kb) [00:00:40]
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 37 MB. Current time: 7/11/19 11:26:37 PM CEST
+// Project name: Update_Velocity; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:24 . Memory (MB): peak = 832.281 ; gain = 141.480 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_Velocity.vhd) elapsed time: 0.3s
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity.vhd", 385, 269); // cd (w, ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 12 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Update_Velocity_tb"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// [GUI Memory]: 66 MB (+2304kb) [00:01:34]
+// [GUI Memory]: 70 MB (+1175kb) [00:01:39]
+// Elapsed time: 10 seconds
+setFolderChooser("C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 32 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bv (ch):  Add Simulation Sources  : addNotify
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd}} 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Simulation Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// PAPropertyPanels.initPanels (sim_1) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Update_Velocity_tb(Behavioral) (Update_Velocity_tb.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Update_Velocity_tb(Behavioral) (Update_Velocity_tb.vhd)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 76 MB (+2062kb) [00:02:10]
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 130, 290); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 104, 144); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 50, 144); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 162, 143, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 103, 161); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 332, 183); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 270, 196); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 354, 240); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 103, 24); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 60, 27, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 120, 208); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 42, 129); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 242, 160); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 45, 128); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 406, 176, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("Update_Velocity.vhd", 246, 214); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 41, 127); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 338, 198, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ch)
+selectCodeEditor("Update_Velocity.vhd", 97, 197); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 40, 129); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 347, 184, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 99, 193); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 99, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 71, 210); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 231, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 432, 253); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 230, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 230, 247); // cd (w, ch)
+// [GUI Memory]: 85 MB (+5876kb) [00:04:21]
+selectCodeEditor("Update_Velocity_tb.vhd", 231, 262); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 239, 283); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 253, 227); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 481, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 102, 195); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 156, 192); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 160, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 54, 191, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 465, 214); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 96, 213); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 160, 212); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 165, 260); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 505, 143); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 265, 166); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 270, 152); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 502, 146); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 133, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 151, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 201, 191); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 244, 201); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 78, 109); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 118, 111, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 110, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 73, 193, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 99, 198, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+// [GUI Memory]: 90 MB (+980kb) [00:07:01]
+selectCodeEditor("Update_Velocity_tb.vhd", 537, 108); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 133, 63); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 77, 61); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 118, 62, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 112, 93); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 105, 159); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 105, 175); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 101, 145); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 143, 112); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 143, 181); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 222, 227); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 58, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 180, 166); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 178, 175); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 158, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 162, 208); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 104, 179); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 81, 229); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 79, 164); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 58, 229); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 222, 214); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 54, 183, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 118, 232); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 227, 179); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 226, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 47, 158, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 153, 205); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 77, 214); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 221, 248); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 225, 248); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 47, 233, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 121, 271); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 295, 247); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 75, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 191, 162); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 68, 124, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity_tb.vhd", 74, 59); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 78, 190); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 78, 192, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 49, 232); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 103, 166); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 106, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 106, 207); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 74, 231); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 97, 248); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 99, 267); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 97, 279); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 76, 294); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 77, 159); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 96, 111); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 100, 128); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 146); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 93, 185); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 202); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 100, 217); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 234); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 145, 161); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 154, 228); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 188, 231); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 247); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 188, 231); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 244); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 194, 262); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 173, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 181, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 179, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 188, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 179, 228); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 186, 245); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 188, 176); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 164); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 181, 178); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 180, 225); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 187, 245); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 174, 266); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 183, 264); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 191, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 188, 215); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul 11 23:39:32 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// [GUI Memory]: 97 MB (+2768kb) [00:13:43]
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 136 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: Vivado Simulator 2018.1 Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved. Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto fe738af53c4a4f8dab40d1f26870dba1 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot Update_Velocity_tb_behav xil_defaultlib.Update_Velocity_tb -log elaborate.log  Using 2 slave threads. Starting static elaboration ERROR: [VRFC 10-1360] signal cannot be unconstrained [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd:27] ERROR: [XSIM 43-3321] Static elaboration of top level VHDL design unit update_velocity_tb in library work failed. 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds INFO: [USF-XSim-99] Step results log file:'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim/elaborate.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim/elaborate.log' file for more information. 
+// Tcl Message: ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:12 . Memory (MB): peak = 859.777 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 14 seconds
+// Elapsed time: 14 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0); // b (D, a)
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[USF-XSim-62] 'elaborate' step failed with error(s). Please check the Tcl console output or 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim/elaborate.log' file for more information.", 0, false, false, false, true, false); // b (D, a) - Popup Trigger
+selectList(PAResourceAtoD.CmdMsgDialog_MESSAGES, "[Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.", 1); // b (D, a)
+// Elapsed time: 49 seconds
+dismissDialog("Critical Messages"); // a (ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 194, 76); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 193, 78); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 26, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 191, 95); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'c'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity_tb.vhd", 'v'); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/IDEAL-INFO/Desktop/VHDL -notrace couldn't read file "C:/Users/IDEAL-INFO/Desktop/VHDL": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Thu Jul 11 23:44:16 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 861.219 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '6' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "Update_Velocity_tb_behav -key {Behavioral:sim_1:Functional:Update_Velocity_tb} -tclbatch {Update_Velocity_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// PAPropertyPanels.initPanels (Update_Velocity_tb.vhd) elapsed time: 0.2s
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source Update_Velocity_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/11/19 11:44:32 PM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:54 xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:16 . Memory (MB): peak = 873.359 ; gain = 10.859 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'Update_Velocity_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:08 ; elapsed = 00:00:24 . Memory (MB): peak = 873.359 ; gain = 12.141 
+// 'd' command handler elapsed time: 23 seconds
+// Elapsed time: 23 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 167, 194); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 77, 108); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 49 MB. Current time: 7/11/19 11:44:39 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:44:46 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:44:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 96, 84); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 357, 166); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 99, 95); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 399, 161); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 94, 115); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 338, 142); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 120, 153); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 132); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 325, 169); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 89, 147); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 335, 172); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 155, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 156, 167); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 146, 176); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 93, 183); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 49 MB. Current time: 7/11/19 11:46:04 PM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:54 relaunch_xsim_kernel: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 878.383 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 878.383 ; gain = 0.000 
+// 'a' command handler elapsed time: 18 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:46:08 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 49 MB. Current time: 7/11/19 11:46:08 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 242, 289); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, vs[0:2][7:0]]", 5, true); // a (s, ch) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 268, 208); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 151, 197); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 72, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 57, 178, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity.vhd", 194, 190); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 276, 223); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 412, 215); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 5, 160); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 169, 147); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 81, 145); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 171, 142); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 258, 187); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 258, 187, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 168, 146); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity.vhd", 52, 180); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 232, 231); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Thu Jul 11 23:46:51 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 91 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:48:47 PM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:54 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 881.117 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 881.117 ; gain = 0.000 
+// 'a' command handler elapsed time: 18 seconds
+// Elapsed time: 18 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:48:59 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 87, 97); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 101, 111); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 95, 127); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 92, 120); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 94, 144); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 61, 96); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 253, 107); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 93, 177); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 88, 194); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:54 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 881.117 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 881.117 ; gain = 0.000 
+// 'a' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:49:58 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 138, 189); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:50:03 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:50:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:50:07 PM CEST
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 178, 135); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 164, 147); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 164, 147, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity_tb.vhd", 75, 134); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 64, 191); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 255, 149); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 255, 149, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 233, 176); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 233, 176, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_Velocity.vhd", 248, 129); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 248, 129, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 35 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:52:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:17 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:52:25 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:27 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/11/19 11:52:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:52:32 PM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 240, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 240, 211, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity_tb.vhd", 245, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 245, 211, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 34, 113); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 315, 237); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 117, 141); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 134, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 129, 143); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 129, 182); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 122, 145); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 130, 179); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 120, 94); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 147, 168); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 218, 164); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 67, 181); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 67, 181, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity_tb.vhd", 204, 238); // cd (w, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [GUI Memory]: 104 MB (+1573kb) [00:29:27]
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 88, 159); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 255, 229); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 96, 196); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 241, 159); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 242, 161); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 241, 176); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 235, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 243, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 241, 209); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 231, 214); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 250, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 209, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 214, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 206, 228); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 149, 227); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 276, 226); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 195, 129); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 238, 190); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 190, 128); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 150, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 208, 244); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Update_Velocity_tb.vhd", 207, 194); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: DG_GRAPH_GENERATED
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Thu Jul 11 23:57:29 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 208, 92); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 208, 92, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Velocity.vhd", 280, 94); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 278, 144); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_ALREADY_RUNNING_WOULD_YOU_LIKE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// 'k' command handler elapsed time: 3 seconds
+dismissDialog("Launch Runs"); // f (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Thu Jul 11 23:58:21 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 33 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 306, 197); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 305, 215); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("Update_Velocity.vhd", 169, 182); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Update_Velocity.vhd", 175, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 195, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 191, 229); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 206, 244); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// HOptionPane Warning: 'A background task is running. Please wait until it completes and try again. (Background Task)'
+selectButton("OptionPane.button", "OK"); // JButton (A, H)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Fri Jul 12 00:00:13 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectCodeEditor("Update_Velocity.vhd", 265, 142); // cd (w, ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 56 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:01:23 AM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:54 relaunch_xsim_kernel: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 887.238 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:22 . Memory (MB): peak = 887.238 ; gain = 0.000 
+// 'a' command handler elapsed time: 21 seconds
+// Elapsed time: 22 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:01:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/12/19 12:01:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:01:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/12/19 12:01:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 10 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk_period]", 6, false); // a (s, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:01:55 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:02:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 235, 253); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity.vhd", 76, 197); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 656, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 74, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 243, 193); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 93, 195); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_Velocity.vhd", 84, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 119, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 133, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 590, 289); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 590, 288, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 639, 191); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 465, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 465, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 465, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 465, 195); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 465, 195); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Update_Velocity.vhd", 299, 274); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 279, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 279, 195, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 279, 195); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// Tcl Message: add_bp {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd} 54 
+// TclEventType: SIMULATION_DELETE_BREAKPOINT
+// Tcl Message: remove_bps -file {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd} -line 54 
+selectCodeEditor("Update_Velocity.vhd", 74, 235); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 118, 246); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 122, 204); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 133, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 106, 152); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 98, 201, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("Update_Velocity.vhd", 82, 198); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 543, 283); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:03:06 AM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 543, 283, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 720, 298); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:03:07 AM CEST
+// TclEventType: WAVEFORM_CLOSE_WCFG
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1"); // w
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 126, 199); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 330, 191); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 642, 197); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 81, 201); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 485, 301); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// TclEventType: SIMULATION_CLOSE_SIMULATION
+// e (ch):  Run Simulation : addNotify
+selectButton("PAResourceQtoS.SimulationRun_SIMULATION_ALREADY_RUNNING_DO_YOU_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_sim 
+// Tcl Message: INFO: [Simtcl 6-16] Simulation closed 
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "Update_Velocity_tb_behav -key {Behavioral:sim_1:Functional:Update_Velocity_tb} -tclbatch {Update_Velocity_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:03:54 AM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source Update_Velocity_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 887.238 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'Update_Velocity_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:11 . Memory (MB): peak = 887.238 ; gain = 0.000 
+// 'd' command handler elapsed time: 17 seconds
+// Elapsed time: 11 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:02 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:04:03 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:03 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:03 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:03 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:03 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:04:09 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:04:12 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:04:12 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/12/19 12:04:13 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 50 MB. Current time: 7/12/19 12:04:13 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:04:14 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 276, 255); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:04:16 AM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 641, 197); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Velocity.vhd", 162, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 579, 195, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity.vhd", 162, 217); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 228, 213); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 221, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 249, 241); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 280, 212); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 343, 163); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 390, 163); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 456, 128); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 439, 201); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul 12 00:05:35 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 131 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+dismissFileChooser();
+// 'e' command handler elapsed time: 6 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 55 MB. Current time: 7/12/19 12:08:19 AM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:55 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 891.922 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:20 . Memory (MB): peak = 891.922 ; gain = 0.000 
+// 'a' command handler elapsed time: 19 seconds
+// Elapsed time: 20 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectCodeEditor("Update_Velocity.vhd", 153, 141); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 1, 160); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 55 MB. Current time: 7/12/19 12:08:28 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, -2, 155); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:08:30 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:08:32 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:08:38 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 181, 106); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 55 MB. Current time: 7/12/19 12:08:41 AM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 88, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 53, 140); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 153, 130); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 153, 131, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 153, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 153, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 153, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 130); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 154, 131); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 391, 182); // cd (w, ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// Elapsed time: 11 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Vivado Commands, reset_run synth_1. , [Vivado 12-1017] Problems encountered:. 1. Failed to delete one or more files in run directory C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1. . ]", 2, false, false, false, false, true, false); // ah (O, ch) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 17 seconds
+expandTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3331] design velocity has unconnected port v[0][7]. ]", 4); // ah (O, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 43 seconds
+selectCodeEditor("Update_Velocity.vhd", 199, 251); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 208, 180); // cd (w, ch)
+// Elapsed time: 85 seconds
+selectCodeEditor("Update_Velocity.vhd", 99, 177); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Velocity.vhd", 44, 178); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 44, 178, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 52, 177); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 52, 177, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity.vhd", 165, 142); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 198, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 44, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 44, 211, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 84, 212); // cd (w, ch)
+// Elapsed time: 52 seconds
+selectCodeEditor("Update_Velocity.vhd", 283, 197); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:13:46 AM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:55 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 893.574 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 893.574 ; gain = 0.000 
+// 'a' command handler elapsed time: 19 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectCodeEditor("Update_Velocity.vhd", 229, 175); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 171, 260); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 171, 260, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 134, 181); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 115, 118); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 225, 182); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 93 MB. Current time: 7/12/19 12:15:44 AM CEST
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:55 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 893.574 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 893.574 ; gain = 0.000 
+// 'a' command handler elapsed time: 18 seconds
+// Elapsed time: 18 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Fri Jul 12 00:15:53 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 115 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '4' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:18:12 AM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: ERROR: Array sizes do not match, left array has 8 elements, right array has 16 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:55 relaunch_xsim_kernel: Time (s): cpu = 00:00:02 ; elapsed = 00:00:09 . Memory (MB): peak = 896.602 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:17 . Memory (MB): peak = 896.602 ; gain = 0.000 
+// 'a' command handler elapsed time: 17 seconds
+// Elapsed time: 17 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 156, 185); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 281, 182); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 311, 184); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 268, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 262, 183); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 169, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 171, 180); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 168, 175); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:15 AM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 896.602 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:12 . Memory (MB): peak = 896.602 ; gain = 0.000 
+// 'a' command handler elapsed time: 12 seconds
+// Elapsed time: 12 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:21 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:21 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:21 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:21 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:22 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:23 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:23 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:23 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:23 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:23 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:24 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:27 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 238, 147); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:19:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:19:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:19:45 AM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+// [GUI Memory]: 111 MB (+1648kb) [00:54:41]
+// Elapsed time: 122 seconds
+selectCodeEditor("Update_Velocity.vhd", 180, 182); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 31 seconds
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:22:54 AM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 896.602 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:18 . Memory (MB): peak = 896.602 ; gain = 0.000 
+// 'a' command handler elapsed time: 18 seconds
+// Elapsed time: 18 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 91 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 55 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:23:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:23:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 12:23:04 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+// Elapsed time: 35 seconds
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, false); // g (aQ, ch): FALSE
+selectCheckBox(PAResourceItoN.MsgView_WARNING_MESSAGES, (String) null, true); // g (aQ, ch): TRUE
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (vs_reg[0][0]) is unused and will be removed from module velocity.. ]", 5, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-3332] Sequential element (vs_reg[0][0]) is unused and will be removed from module velocity.. ]", 5, false, false, false, false, false, true); // ah (O, ch) - Double Click
+// Elapsed time: 25 seconds
+selectCodeEditor("Update_Velocity.vhd", 276, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 281, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 285, 207); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 284, 229); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 321, 198); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 328, 225); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 10 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+// Elapsed time: 45 seconds
+selectCodeEditor("Update_Velocity.vhd", 151, 174); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:26:26 AM CEST
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_STOPPED
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps ERROR: Array sizes do not match, left array has 8 elements, right array has 10 elements Time: 10 ns  Iteration: 1  Process: /Update_Velocity_tb/uut/line__49   File: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd  HDL Line: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:55 relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:15 . Memory (MB): peak = 896.602 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:19 . Memory (MB): peak = 896.602 ; gain = 0.000 
+// 'a' command handler elapsed time: 19 seconds
+// Elapsed time: 19 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// Elapsed time: 253 seconds
+selectCodeEditor("Update_Velocity.vhd", 279, 96); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Velocity.vhd", 279, 126); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity.vhd", 15, 96); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 476, 100); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 90, 114); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 376, 115); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 464, 92); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 483, 106); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 210, 164); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 289, 120); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 141, 176); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 201, 205); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Update_Velocity_tb.vhd", 146, 139); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 196, 124); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Fri Jul 12 00:32:57 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 178 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '3' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:36:29 AM CEST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: relaunch_xsim_kernel: Time (s): cpu = 00:00:02 ; elapsed = 00:00:19 . Memory (MB): peak = 896.602 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 896.602 ; gain = 0.000 
+// 'a' command handler elapsed time: 32 seconds
+// Elapsed time: 32 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:37:30 AM CEST
+// Elapsed time: 62 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 101, 297); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 204, 213); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("Update_Velocity.vhd", 214, 186); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("Update_Velocity.vhd", 305, 167); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity velocity INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:39:09 AM CEST
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:14 . Memory (MB): peak = 899.195 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:18 . Memory (MB): peak = 899.195 ; gain = 0.000 
+// 'a' command handler elapsed time: 17 seconds
+// Elapsed time: 18 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:39:20 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb_behav.wcfg");
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// A (ch): Waveform Configuration File: addNotify
+// Tcl Message: save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb_behav.wcfg} 
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// 'e' command handler elapsed time: 7 seconds
+// Tcl Message: add_files -fileset sim_1 -norecurse {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb_behav.wcfg}} 
+// Tcl Message: set_property xsim.view {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb_behav.wcfg}} [get_filesets sim_1] 
+dismissDialog("Waveform Configuration File"); // A (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 402 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+// Elapsed time: 113 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+// Elapsed time: 100 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 20 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 143, 95); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 140, 106); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 140, 123); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 149, 77); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 145, 88); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 145, 103); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 149, 94); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 149, 109); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 148, 121); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 148, 155); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 147, 173); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 147, 191); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 54 MB. Current time: 7/12/19 12:52:35 AM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_Velocity_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_Velocity_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_Velocity_tb_behav 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_xsim_kernel: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 899.195 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 899.195 ; gain = 0.000 
+// 'a' command handler elapsed time: 13 seconds
+// Elapsed time: 13 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 53 MB. Current time: 7/12/19 1:09:04 AM CEST
+// Elapsed time: 980 seconds
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 36, 185); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 149, 351); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 28 seconds
+selectCodeEditor("Update_Velocity_tb.vhd", 236, 196); // cd (w, ch)
+selectCodeEditor("Update_Velocity_tb.vhd", 378, 151); // cd (w, ch)
+// Elapsed time: 151 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity_tb_behav.wcfg", 2); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity_tb_behav.wcfg} 
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.

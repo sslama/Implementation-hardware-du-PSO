@@ -1,0 +1,2487 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 13368
+License: Customer
+
+Current time: 	Thu Jul 11 16:15:59 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 24 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/.Xil/Vivado-13368-DESKTOP-SFCC8J7
+
+GUI allocated memory:	118 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 427 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+54034kb) [00:01:05]
+// [Engine Memory]: 427 MB (+296053kb) [00:01:05]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 57 MB (+799kb) [00:01:07]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Position\Update_Position.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 427 MB. GUI used memory: 37 MB. Current time: 7/11/19 4:16:01 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 462 MB (+14547kb) [00:01:25]
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// HMemoryUtils.trashcanNow. Engine heap size: 464 MB. GUI used memory: 37 MB. Current time: 7/11/19 4:16:16 PM CEST
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// [Engine Memory]: 488 MB (+2566kb) [00:01:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 489 MB. GUI used memory: 36 MB. Current time: 7/11/19 4:16:46 PM CEST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 557 MB (+47063kb) [00:01:59]
+// Project name: Update_Position; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position; part: xc7z020clg400-2
+// [GUI Memory]: 62 MB (+1682kb) [00:02:04]
+// Tcl Message: open_project: Time (s): cpu = 00:00:33 ; elapsed = 00:00:56 . Memory (MB): peak = 787.203 ; gain = 140.527 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_Position.vhd) elapsed time: 0.3s
+// Elapsed time: 28 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, position(best) (Update_Position.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, position(best) (Update_Position.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 67 MB (+2126kb) [00:03:12]
+// [GUI Memory]: 71 MB (+660kb) [00:03:22]
+// [GUI Memory]: 76 MB (+1086kb) [00:03:32]
+// [GUI Memory]: 81 MB (+1171kb) [00:10:48]
+// [GUI Memory]: 85 MB (+539kb) [00:14:08]
+// Elapsed time: 865 seconds
+selectCodeEditor("Update_Position.vhd", 73, 129); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 381, 160); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 61, 145); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 453, 176); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 39, 160); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 403, 184); // cd (w, ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 13 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Update_Position_tb"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// [GUI Memory]: 91 MB (+1956kb) [00:17:57]
+// Elapsed time: 28 seconds
+setFolderChooser("C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: ''Update_Position_tb.vhd' already exists. Please enter another name. (Create Source File)'
+dismissDialog("Create Source File"); // F (c)
+// 'h' command handler elapsed time: 64 seconds
+dismissDialog("Add Sources"); // c (ch)
+selectCodeEditor("Update_Position.vhd", 277, 233); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// PAPropertyPanels.initPanels (sim_1) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Update_Position_tb(Behavioral) (Update_Position_tb.vhd)]", 6, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+dismissDialog("Remove Sources"); // aF (ch)
+// aF (ch): Remove Sources: addNotify
+// bv (aF):  Remove Sources : addNotify
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: remove_files  -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb.vhd}} 
+dismissDialog("Remove Sources"); // bv (aF)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, position(best) (Update_Position.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, position(best) (Update_Position.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_position(behavior) (Update_Position_test.vhd)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_position(behavior) (Update_Position_test.vhd)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_position(behavior) (Update_Position_test.vhd)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_position(behavior) (Update_Position_test.vhd)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+// Elapsed time: 21 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, test_position(behavior) (Update_Position_test.vhd)]", 5, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+dismissDialog("Remove Sources"); // aF (ch)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_test.vhd}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aF (ch): Remove Sources: addNotify
+// bv (aF):  Remove Sources : addNotify
+// Tcl Message: remove_files  -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_test.vhd}} 
+dismissDialog("Remove Sources"); // bv (aF)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 46 MB. Current time: 7/11/19 4:46:47 PM CEST
+// Elapsed time: 910 seconds
+selectCodeEditor("Update_Position.vhd", 23, 119); // cd (w, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, position(best) (Update_Position.vhd)]", 5, false); // B (D, ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 30 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Update_Position_tb"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// [GUI Memory]: 98 MB (+2436kb) [00:35:21]
+// Elapsed time: 240 seconds
+setFolderChooser("C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// HOptionPane Warning: ''Update_Position_tb.vhd' already exists. Please enter another name. (Create Source File)'
+selectButton("PAResourceAtoD.CreateSrcFileDialog_FILE_WITH_SPECIFIED_NAME_ALREADY_OK", "OK"); // JButton (A, H)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "Update_Position_tb1"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 296 seconds
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// bv (ch):  Add Simulation Sources  : addNotify
+// Tcl Message: close [ open {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd} w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd}} 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Simulation Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+selectCodeEditor("Update_Position.vhd", 540, 337); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 7, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 7, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, test_position_behav.wcfg]", 8, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File, test_position_behav.wcfg]", 8, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceQtoS.SrcMenu_IP_HIERARCHY, "IP Hierarchy"); // Z (ai, ch)
+selectMenu(PAResourceCommand.PACommandNames_AUTO_UPDATE_HIER, "Hierarchy Update"); // Z (ai, ch)
+selectMenuItem(RDIResourceCommand.RDICommands_DELETE, "Remove File from Project..."); // ac (ai, ch)
+// Run Command: RDIResourceCommand.RDICommands_DELETE
+// aF (ch): Remove Sources: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (aF)
+// 'c' command handler elapsed time: 3 seconds
+dismissDialog("Remove Sources"); // aF (ch)
+// Tcl Message: export_ip_user_files -of_objects  [get_files {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/test_position_behav.wcfg}}] -no_script -reset -force -quiet 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// aF (ch): Remove Sources: addNotify
+// bv (aF):  Remove Sources : addNotify
+// Tcl Message: remove_files  -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/test_position_behav.wcfg}} 
+dismissDialog("Remove Sources"); // bv (aF)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 7, true); // B (D, ch) - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Waveform Configuration File]", 7, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, position(best) (Update_Position.vhd)]", 5, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, position(best) (Update_Position.vhd)]", 5, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Update_Position_tb1(Behavioral) (Update_Position_tb1.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, Update_Position_tb1(Behavioral) (Update_Position_tb1.vhd)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Update_Position_tb1.vhd", 591, 305); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 407, 282); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 622, 320); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 8, 47); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 48, 71); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 169, 150); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 112, 386); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+// [GUI Memory]: 104 MB (+788kb) [00:41:31]
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 77, 112); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 196, 127, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 293, 366); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 100, 316); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 103, 335); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 42, 347); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 102, 336); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 102, 352); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 564, 414); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 334, 314); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 239, 314); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 277, 400); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 174, 160); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 244, 330); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 235, 348); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 370, 407); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 154, 199); // cd (w, ch)
+// Elapsed time: 244 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 265, 413); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 106, 199); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 73, 197, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 2); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 196, 297); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 121, 265); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 430, 373); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 88, 246); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 88, 250); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 84, 243); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 543, 358); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 465, 380); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 229, 369); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 271, 399); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 248, 370); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 245, 369); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 56, 387); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 92, 383); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 103, 365); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 89, 385); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 381); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 500, 432); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 72, 432); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 127, 459); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 89, 300); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 102, 295, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 132, 431); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 91, 440); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 133, 435); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 298, 462); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 76, 437); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 744, 449); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 133, 109); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 99, 115, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 111, 381); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 427, 456); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 106, 415); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 159, 415); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 265, 428); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 89, 433); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 238, 466); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 138, 451); // cd (w, ch)
+// Elapsed time: 61 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 290, 450); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 232, 440); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 161, 427, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 230, 436); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 150, 468); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 95, 451); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 147, 466); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 152, 468); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 154, 486); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 89, 451); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 91, 469); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 92, 487); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 106, 383); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 401); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 418); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 452); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 470); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 105, 486); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 214, 348); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 211, 367); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 215, 366); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 293, 396); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 205, 400); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 207, 396); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 195, 415); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 206, 434); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 325, 437); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 68, 219); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 352, 238); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 327, 214); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 142, 264); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 294, 319); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 104, 298); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 105, 315); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 103, 331); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 289, 350); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 337, 398); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 238, 233); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 68, 205, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 228, 331); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 79, 349); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 83, 351); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 206, 365); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 193, 382); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 302, 415); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 202, 398); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 395, 452); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 229, 389); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 240, 351); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 228, 332); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 147, 212); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 82, 76); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 265, 182); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 246, 180); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 172, 117, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 341, 344); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 302, 437); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 210, 390); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 71, 457); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 83, 249); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 71, 261); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 76, 281); // cd (w, ch)
+// [GUI Memory]: 111 MB (+1950kb) [00:53:57]
+selectCodeEditor("Update_Position_tb1.vhd", 75, 314); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 70, 330); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 78, 347); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 297, 386); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 183, 282); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 179, 266); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 178, 247); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 374, 313); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 180, 332); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 177, 349); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 274, 371); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// TclEventType: DG_GRAPH_GENERATED
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 35 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul 11 17:10:05 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 42 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// [GUI Memory]: 117 MB (+577kb) [00:56:46]
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 183 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 827.402 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '5' seconds INFO: [USF-XSim-3] XSim::Elaborate design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot Update_P_tb_behav 
+// TclEventType: LAUNCH_SIM
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/IDEAL-INFO/Desktop/VHDL -notrace couldn't read file "C:/Users/IDEAL-INFO/Desktop/VHDL": no such file or directory INFO: [Common 17-206] Exiting Webtalk at Thu Jul 11 17:13:44 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:10 . Memory (MB): peak = 827.402 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "Update_P_tb_behav -key {Behavioral:sim_1:Functional:Update_P_tb} -tclbatch {Update_P_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source Update_P_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:14:18 PM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: add_wave: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 834.871 ; gain = 2.438 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:32 . Memory (MB): peak = 835.262 ; gain = 7.859 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'Update_P_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:09 ; elapsed = 00:00:57 . Memory (MB): peak = 835.262 ; gain = 7.859 
+// 'd' command handler elapsed time: 57 seconds
+// Elapsed time: 58 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:14:28 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 30 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:15:00 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:15:02 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:15:04 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:15:04 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 5:16:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 53 MB. Current time: 7/11/19 5:16:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:07 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:08 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:08 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 52 MB. Current time: 7/11/19 5:16:08 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 53 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 53 MB. Current time: 7/11/19 5:16:10 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:16:10 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+// Elapsed time: 380 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Position.vhd", 141, 469); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 469, 475); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("Update_Position.vhd", 74, 451); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 352, 452, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 399, 443); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 74, 451); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 95, 476); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 89, 467); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 1, 468); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 243, 466); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 333, 521); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 466, 481); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("Update_Position.vhd", 157, 501); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 260, 502); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_Position.vhd", 266, 550); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Position.vhd", 230, 505); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul 11 17:25:33 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 8 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 348 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:31:40 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// Tcl Message: suspend_sim: Time (s): cpu = 00:00:05 ; elapsed = 00:00:12 . Memory (MB): peak = 843.652 ; gain = 0.000 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 843.652 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_P_tb_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 843.652 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:11 . Memory (MB): peak = 843.652 ; gain = 0.000 Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: relaunch_xsim_kernel: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 843.652 ; gain = 0.000 relaunch_sim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:43 . Memory (MB): peak = 843.652 ; gain = 0.000 
+// 'a' command handler elapsed time: 43 seconds
+// Elapsed time: 43 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 59 MB. Current time: 7/11/19 5:32:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:17 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:32:18 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:32:18 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:32:19 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:32:19 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:32:19 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:20 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:20 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:20 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:20 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:20 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:21 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:22 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:32:22 PM CEST
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 61 seconds
+selectCodeEditor("Update_Position.vhd", 141, 470); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 156, 455); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 379, 517); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 148, 449); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 285, 525); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 93, 429); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 89, 420); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 358, 556); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 288, 397); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("Update_Position.vhd", 296, 395); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 295, 399); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 2, 420); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 222, 433); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Position.vhd", 407, 320); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 53, 331); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 44, 335); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 49, 333); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 390, 425); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("Update_Position.vhd", 148, 417); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Position.vhd", 182, 417); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 110, 418, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 169, 434); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 172, 430); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 176, 452); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 171, 450); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 259, 500); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("Update_Position.vhd", 153, 386); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 160, 316); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 116, 316, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 254, 384); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 341, 451); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 183, 402); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 264, 399); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 333, 421); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 300, 382); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("Update_Position.vhd", 298, 384); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 300, 382); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 336, 386); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 305, 381); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_Position.vhd", 299, 383); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 307, 383); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 302, 379); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 131, 385); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 258, 378, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 335, 383); // cd (w, ch)
+// [GUI Memory]: 123 MB (+330kb) [01:23:56]
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 344, 384); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 460, 382); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 594, 425); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 134, 384); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 304, 383); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 306, 381); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 348, 381); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 528, 382); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 538, 477); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 411, 510); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 135, 402); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 290, 407); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 146, 415); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 186, 415); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 250, 419); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 496, 482); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 182, 347); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 293, 347); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 155, 314, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 305, 343); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 237, 376); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 166, 401); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 166, 402); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 166, 416); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 142, 381); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 142, 402); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 136, 416); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 404, 417); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Position.vhd", 119, 349); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 127, 375); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 115, 351); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 115, 351, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 60 seconds
+selectCodeEditor("Update_Position.vhd", 316, 510); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("Update_Position.vhd", 143, 523); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 117, 334); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 117, 334, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Position.vhd", 55, 552); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 305, 524); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 70, 146); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 70, 146, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 122, 519); // cd (w, ch)
+// Elapsed time: 53 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 48 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Thu Jul 11 17:44:29 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 49 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 5000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 224 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 895.781 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '6' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 895.781 ; gain = 0.000 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Built simulation snapshot Update_P_tb_behav 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 895.781 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 895.781 ; gain = 0.000 Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:45 PM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:25 . Memory (MB): peak = 896.039 ; gain = 0.258 
+// 'a' command handler elapsed time: 25 seconds
+// Elapsed time: 25 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:48:51 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:51 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:48:51 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:48:51 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:51 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:48:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:52 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:53 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:53 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:53 PM CEST
+// Elapsed time: 10 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:48:56 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:01 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:02 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:03 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:03 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:49:03 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:03 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:03 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 582, 63); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 582, 63, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:05 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:09 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:10 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:10 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:10 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:11 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:11 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 608, 390); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:12 PM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 604, 59); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 604, 59, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:26 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 584, 63); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 584, 63, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:26 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 584, 63); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:29 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 251, 138); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 399, 113); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:36 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 396, 100); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 164, 113); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:37 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:45 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:49:49 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 207, 136); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 207, 136, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:50 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 377, 137); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 377, 137, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:49:51 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 578, 111); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 578, 111, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 54 MB. Current time: 7/11/19 5:49:55 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 573, 136); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:49:59 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 10 seconds
+selectTreeTableHeader(PAResourceQtoS.SimulationObjectsPanel_SIMULATION_OBJECTS_TREE_TABLE, "Name", 0); // m (c, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 687, 255); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:50:14 PM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_Position.vhd", 198, 469); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 107, 465, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 78, 474); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 121, 499); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 243, 521); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:51:09 PM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 899.305 ; gain = 0.000 
+// 'a' command handler elapsed time: 6 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 278 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 67, 523); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 118, 312); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 118, 312, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_Position.vhd", 109, 485); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 72, 536); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 85, 536); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 89, 505); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:56:34 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 899.594 ; gain = 0.000 
+// 'a' command handler elapsed time: 7 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 74, 507); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 204, 511); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 196, 503); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 61, 516); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 268, 527); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 281, 497); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 365, 513); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 71, 303); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 101, 318); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 137, 334); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 133, 349); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 56, 555); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:57:42 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 900.398 ; gain = 0.000 
+// 'a' command handler elapsed time: 5 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:57:50 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 154, 352); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 156, 335); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 114, 313); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 88, 300); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 85, 297); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 82, 342); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 110, 398); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 78, 385); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 100, 401); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 102, 401, false, false, false, false, true); // cd (w, ch) - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 5:58:44 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 900.398 ; gain = 0.000 
+// 'a' command handler elapsed time: 7 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:58:55 PM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 80, 503); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 86, 503); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:59:15 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 901.156 ; gain = 0.000 
+// 'a' command handler elapsed time: 7 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 412, 98); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 5:59:23 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 412, 98, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 213, 432); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 140, 402); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 318, 476); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 122, 196); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("Update_Position.vhd", 267, 470); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 66, 500); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 137, 384); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 77, 109); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 473, 384); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position.vhd", 162, 402); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 166, 398); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_Position.vhd", 76, 353); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 90, 350, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 210, 382); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_Position.vhd", 74, 332); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 96, 332, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position.vhd", 287, 389); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 351, 464); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 6:02:18 PM CEST
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 904.230 ; gain = 0.000 
+// 'a' command handler elapsed time: 7 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 55 MB. Current time: 7/11/19 6:02:32 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 67, 434); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 241, 470); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 193, 89); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 6:03:06 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 193, 89, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 166, 312); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 237, 355); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 243, 432); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 310, 442); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 235, 235); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 34, 138); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 352, 239); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 87, 126); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 83, 141); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 84, 160); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 83, 198); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 82, 209); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 79, 233); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 515, 274); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 6:04:02 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:06 . Memory (MB): peak = 904.230 ; gain = 0.000 
+// 'a' command handler elapsed time: 6 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 100, 124); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 95, 127); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 97, 147); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 98, 163); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 96, 196); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 98, 208); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 93, 230); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 446, 342); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 257, 424); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 31, 297, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 261, 417); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 307, 420); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 491, 424); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 310, 418); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 179, 383); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 216, 382); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 210, 384); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 224, 399); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 267, 429); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 220, 417); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 169, 416); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 325, 481); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 221, 449); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 221, 465); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 186, 397); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 167, 398); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 211, 403, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 223, 463); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 221, 418); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 189, 421, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 221, 487); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 206, 487); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 347, 520); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 201, 486); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 394, 512); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 6:06:04 PM CEST
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 904.590 ; gain = 0.000 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// Elapsed time: 29 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 89, 81); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 113, 93); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 113, 74); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 122, 88); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 123, 77); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 130, 91); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 129, 77); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 130, 94); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 127, 76); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 130, 89); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 118, 108); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 6:06:57 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 227, 91); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 225, 91, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 6:07:01 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 189, 62); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 6:07:03 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 188, 39); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 188, 66); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 56 MB. Current time: 7/11/19 6:07:04 PM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 207, 31); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// Elapsed time: 79 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 182, 197); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 182, 197, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 227, 248); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 227, 248, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 368, 298); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 368, 298, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 460, 298); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 460, 298, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 184, 226); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 200, 198); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 909.379 ; gain = 0.000 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 57 MB. Current time: 7/11/19 6:09:54 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 55 seconds
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// Elapsed time: 76 seconds
+dismissFileChooser();
+// 'e' command handler elapsed time: 76 seconds
+// Elapsed time: 130 seconds
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// Elapsed time: 25 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_P_tb_behav.wcfg");
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// A (ch): Waveform Configuration File: addNotify
+// Tcl Message: save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_P_tb_behav.wcfg} 
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a (A)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// 'e' command handler elapsed time: 28 seconds
+// Tcl Message: add_files -fileset sim_1 -norecurse {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_P_tb_behav.wcfg}} 
+// Tcl Message: set_property xsim.view {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/test_position_behav.wcfg} {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_P_tb_behav.wcfg}} [get_filesets sim_1] 
+dismissDialog("Waveform Configuration File"); // A (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 71 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 251, 181); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 82, 152); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 88, 161); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 92, 182); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 89, 198); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 86, 231); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 87, 247); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 85, 264); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P_tb_behav.wcfg", 2); // k (j, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+selectButton(PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH, "simulation_relaunch"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RELAUNCH
+// b (ch):  Relaunch Simulation : addNotify
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// Tcl Message: relaunch_sim 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 60 MB. Current time: 7/11/19 6:16:24 PM CEST
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'Update_P_tb' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj Update_P_tb_vhdl.prj" 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity position INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb1.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity Update_P_tb 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.sim/sim_1/behav/xsim' 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_MODEL_ABOUT_TO_CLOSE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_MODEL_RELOADED
+// TclEventType: SIMULATION_DELETE_ALL_BREAKPOINTS
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_SCOPE_TREE
+// TclEventType: SIMULATION_UPDATE_STACKS
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: Time resolution is 1 ps relaunch_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:08 . Memory (MB): peak = 909.379 ; gain = 0.000 
+// 'a' command handler elapsed time: 8 seconds
+dismissDialog("Relaunch Simulation"); // b (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 60 MB. Current time: 7/11/19 6:16:33 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 60 MB. Current time: 7/11/19 6:16:33 PM CEST
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P_tb_behav.wcfg", 2); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_P_tb_behav.wcfg} 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 45 MB. Current time: 7/11/19 9:03:50 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 10331 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 50 MB. Current time: 7/11/19 9:08:56 PM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 50 MB. Current time: 7/11/19 9:09:30 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 50 MB. Current time: 7/11/19 9:09:36 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 44 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectCodeEditor("Update_Position.vhd", 307, 210); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Position.vhd", 13, 80); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 13, 80, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 65, 99); // cd (w, ch)
+// Elapsed time: 1110 seconds
+selectCodeEditor("Update_Position.vhd", 182, 179); // cd (w, ch)
+// Find in Files: addNotify
+// Elapsed time: 10 seconds
+selectButton(PAResourceEtoH.FindAndReplaceAllDialog_CLOSE, "Close"); // x (q)
+// 'f' command handler elapsed time: 6 seconds
+selectCodeEditor("Update_Position.vhd", 252, 236); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 252, 236, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 252, 236); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 248, 246); // cd (w, ch)
+// Elapsed time: 149 seconds
+selectCodeEditor("Update_Position.vhd", 281, 234); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 114, 152, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // U (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 18 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_SETTINGS, "Settings"); // Z (ch)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (ch)
+selectMenu(PAResourceCommand.PACommandNames_SIMULATION_RUN, "Run Simulation"); // U (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FLOW, "Flow"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_RUN, "Run"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Elapsed time: 13 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_Position.vhd", 87, 69, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("Update_Position.vhd", 55, 78); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 33, 152); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 40, 141); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_Position.vhd", 19, 80); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 19, 80, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 25, 93); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 25, 93, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 23, 104); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 23, 104, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("Update_Position.vhd", 59, 134); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 5, 134); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("Update_Position.vhd", 69, 178); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 48, 105); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 43, 194); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 43, 194, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 37, 210); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 37, 210, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 40, 234); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 40, 234, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 39, 256); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 64, 256); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 35, 242); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 29, 89); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 27, 149); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 58, 218); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Position.vhd", 33, 272); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 48, 279); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 2, 118); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 1, 131); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 4, 180); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 2, 178); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 14, 170); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 14, 170, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 10, 163); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 10, 163, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 16, 157); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 16, 157, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 16, 182); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 16, 182, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 22, 200); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 22, 200, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 29 seconds
+selectCodeEditor("Update_Position.vhd", 26, 164); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 54, 176); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 47, 190); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 43, 231); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 43, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 50, 148); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 50, 148, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 53, 164); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 53, 164, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 64, 196); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 68, 190); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 59, 199); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 59, 199, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position.vhd", 83, 78); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 83, 78, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Position.vhd", 105, 97); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 105, 97, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position.vhd", 175, 132); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 175, 132, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 175, 132); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 133, 185); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 55, 183); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 55, 183, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 139, 191); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("Update_Position.vhd", 120, 160); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 109, 150); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 109, 150, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 117, 140); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 138, 139); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 102, 162); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 102, 162, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position.vhd", 79, 196); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 76, 194); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 62, 215); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 60, 245); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_Position.vhd", 60, 245); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 62, 260); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 52 MB. Current time: 7/11/19 9:39:41 PM CEST
+// Elapsed time: 43 seconds
+selectCodeEditor("Update_Position.vhd", 60, 139); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 58, 80); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 59, 111); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 82, 122); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 81, 139); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 80, 174); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 84, 176); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 111, 191); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 109, 209); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 81, 226); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 81, 244); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 57, 265); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 29, 230); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 26, 252); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 27, 262); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("Update_Position.vhd", 41, 282); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("Update_Position.vhd", 78, 120); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("Update_Position.vhd", 254, 92); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 514, 100); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 514, 100, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 158, 111); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 152, 117); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 150, 122); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 56, 131); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 96, 138); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 113, 135); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 124, 166); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 143, 165); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 142, 190); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 100, 96); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("Update_Position.vhd", 319, 181); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("Update_Position.vhd", 313, 188); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 313, 188, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 317, 182); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 317, 182, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 246, 218); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 338, 212); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 344, 212); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 366, 212); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 343, 214); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 176, 174); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 176, 174, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 289, 201); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 336, 184); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 309, 199); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 309, 199, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 309, 199); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 313, 176); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 241, 227); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 164, 231); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 164, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 164, 231); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 164, 231); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 160, 267); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 160, 267, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 150, 266); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 139, 266); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 118, 266); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 92, 266); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 93, 266, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 93, 266); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 197, 197); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 197, 197, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 197, 197); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 157, 198); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 157, 198, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_Position.vhd", 247, 201); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 304, 189); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 262, 199); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 349, 189); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("Update_Position.vhd", 365, 193); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 365, 193, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Position.vhd", 625, 205); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 647, 202); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 140 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 190, 106); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 150, 58); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 167, 66); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 52 MB. Current time: 7/11/19 10:09:42 PM CEST
+// Elapsed time: 3055 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 287, 248); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 420, 216); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 51 MB. Current time: 7/11/19 10:39:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:09:50 PM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 51 MB. Current time: 7/11/19 11:40:06 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 52 MB. Current time: 7/12/19 12:09:54 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 51 MB. Current time: 7/12/19 12:39:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 52 MB. Current time: 7/12/19 1:09:50 AM CEST

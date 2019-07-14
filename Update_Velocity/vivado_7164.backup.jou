@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jul  8 02:27:33 2019
+# Process ID: 7164
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14068 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Velocity\Update_Velocity.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr}
+update_compile_order -fileset sources_1

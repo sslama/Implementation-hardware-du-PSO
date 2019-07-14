@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jul 10 12:14:38 2019
+# Process ID: 11516
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9564 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Position\Update_Position.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:37 . Memory (MB): peak = 805.949 ; gain = 128.711
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position_tb.vhd}}
+update_compile_order -fileset sim_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 10 15:25:31 2019...

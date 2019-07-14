@@ -1,0 +1,1303 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7172
+License: Customer
+
+Current time: 	Fri Jun 28 17:59:54 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 26 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/.Xil/Vivado-7172-DESKTOP-SFCC8J7
+
+GUI allocated memory:	151 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 523 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 61 MB (+61313kb) [00:00:13]
+// [Engine Memory]: 503 MB (+376277kb) [00:00:13]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Fitness_module\Fitness_module.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 524 MB. GUI used memory: 33 MB. Current time: 6/28/19 5:59:56 PM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 554 MB (+27010kb) [00:00:24]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 579 MB. GUI used memory: 33 MB. Current time: 6/28/19 6:00:21 PM CEST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 620 MB (+40018kb) [00:00:44]
+// Project name: Fitness_module; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:33 . Memory (MB): peak = 792.359 ; gain = 103.480 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (fitness_module.vhd) elapsed time: 0.5s
+// Elapsed time: 426 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, fitness_module(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectCodeEditor("fitness_module.vhd", 229, 162); // cd (w, ch)
+// [GUI Memory]: 67 MB (+3055kb) [00:08:02]
+selectCodeEditor("fitness_module.vhd", 5, 46); // cd (w, ch)
+// [GUI Memory]: 70 MB (+166kb) [00:09:25]
+// [GUI Memory]: 75 MB (+836kb) [00:09:35]
+// Elapsed time: 400 seconds
+selectCodeEditor("fitness_module.vhd", 163, 158); // cd (w, ch)
+// [GUI Memory]: 80 MB (+1734kb) [00:15:34]
+// [GUI Memory]: 85 MB (+439kb) [00:19:09]
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/28/19 6:30:22 PM CEST
+// Elapsed time: 1332 seconds
+selectCodeEditor("fitness_module.vhd", 76, 59); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 97, 64); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 186, 124); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 80, 81); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 369, 78); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 353, 77); // cd (w, ch)
+// Elapsed time: 380 seconds
+selectCodeEditor("fitness_module.vhd", 227, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 241, 95); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 94); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("fitness_module.vhd", 213, 79); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 227, 94); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 325, 104); // cd (w, ch)
+// [GUI Memory]: 89 MB (+655kb) [00:48:43]
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 36 MB. Current time: 6/28/19 7:00:22 PM CEST
+// Elapsed time: 1690 seconds
+selectCodeEditor("fitness_module.vhd", 212, 120); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 88, 14); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 195, 24); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 204, 44); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 221, 57); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 332, 190); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 331, 190, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 71, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 33, 185); // cd (w, ch)
+// Elapsed time: 245 seconds
+selectCodeEditor("fitness_module.vhd", 223, 161); // cd (w, ch)
+// Elapsed time: 55 seconds
+selectCodeEditor("fitness_module.vhd", 67, 123); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 63, 128); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 37 MB. Current time: 6/28/19 7:30:22 PM CEST
+// Elapsed time: 2060 seconds
+selectCodeEditor("fitness_module.vhd", 58, 121); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 489, 136); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 362, 96); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 436, 156); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 1, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 60, 125); // cd (w, ch)
+// Elapsed time: 218 seconds
+selectCodeEditor("fitness_module.vhd", 520, 93); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 405, 102); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 110, 95); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 263, 146); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 401, 99); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 236, 137); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 175, 82); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 354, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 397, 97); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 8, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 403, 77); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 289, 76); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 385, 79, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 38 MB. Current time: 6/28/19 8:00:22 PM CEST
+// Elapsed time: 317 seconds
+selectCodeEditor("fitness_module.vhd", 260, 143); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 146, 154); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 13, 133); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 194, 162); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 94, 127); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 123); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 40, 108); // cd (w, ch)
+// Elapsed time: 84 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 271, 132); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 40, 119); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 44, 115, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 54, 111); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 256, 95); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 122); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 41, 117); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 243, 87); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("fitness_module.vhd", 92, 76); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 1, 78); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 52, 63); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 59, 64); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 10, 62); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 406, 139); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 506, 28); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 338, 84); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 76); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 5, 90); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 13, 62); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 39, 95); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 10, 74); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 108, 112); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/28/19 8:30:23 PM CEST
+// Elapsed time: 1563 seconds
+selectCodeEditor("fitness_module.vhd", 97, 112); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 308, 204); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 19, 198); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 66, 185); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 55, 214); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 56, 199); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 191); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 191, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 17, 199); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 47, 196); // cd (w, ch)
+// [GUI Memory]: 94 MB (+363kb) [02:37:29]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 33 MB. Current time: 6/29/19 10:35:59 AM CEST
+// Elapsed time: 50628 seconds
+selectCodeEditor("fitness_module.vhd", 12, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 211, 251); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 16, 178); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 532, 195); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("fitness_module.vhd", 513, 290); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 152, 209); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 146, 230); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 78, 217); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 101, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 174, 156); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 312, 180); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectCodeEditor("fitness_module.vhd", 226, 62); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 357, 91); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 166, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 318, 63); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 19, 72); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 3, 100); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 634, 192); // cd (w, ch)
+// [GUI Memory]: 100 MB (+746kb) [16:41:28]
+// Elapsed time: 1450 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 215, 171); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 208, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 219, 158); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 10, 160); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 224, 168); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 63, 158, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 216, 161); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("fitness_module.vhd", 226, 184); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/29/19 11:06:00 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 38 MB. Current time: 6/29/19 11:36:00 AM CEST
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// Elapsed time: 2243 seconds
+selectCodeEditor("fitness_module.vhd", 340, 191); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 208, 185); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/29/19 12:06:01 PM CEST
+// Elapsed time: 1642 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+// Elapsed time: 133 seconds
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 38 MB. Current time: 6/29/19 4:38:53 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 16611 seconds
+selectCodeEditor("fitness_module.vhd", 38, 141); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 55, 151); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 103, 144); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 58, 144); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 169, 141); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 264, 154); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 264, 149); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 419, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 404, 149); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ch)
+selectCodeEditor("fitness_module.vhd", 351, 189); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 437, 201); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 139, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 48, 146); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 72, 157); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 75, 270); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 95, 266); // cd (w, ch)
+// Elapsed time: 155 seconds
+selectCodeEditor("fitness_module.vhd", 253, 142); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 327, 225); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("fitness_module.vhd", 76, 128); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 227, 129); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 16, 128); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 257, 122); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 49, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 128); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 218, 149); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 235, 126); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 122, 193); // cd (w, ch)
+// Elapsed time: 160 seconds
+selectCodeEditor("fitness_module.vhd", 96, 153); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 170, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 22, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 115); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 260, 175); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 100, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 87, 124); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 247, 126); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 98, 149); // cd (w, ch)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 190, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 237, 146); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 460, 145); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 558, 146); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 604, 99); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 574, 212); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 500, 149); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("fitness_module.vhd", 536, 154); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 528, 168); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 521, 188); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 94, 140); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("fitness_module.vhd", 396, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 397, 181); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 412, 202); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 506, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 601, 178); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 562, 197); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 544, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 544, 164, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 540, 183); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 506, 238); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 482, 268); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/29/19 5:08:50 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/29/19 5:38:50 PM CEST
+// Elapsed time: 2669 seconds
+selectCodeEditor("fitness_module.vhd", 87, 146); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 85, 132); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 107, 151); // cd (w, ch)
+// Elapsed time: 407 seconds
+selectCodeEditor("fitness_module.vhd", 140, 202); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 296, 208); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 142, 209); // cd (w, ch)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 110, 95); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 2, 200); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 197, 191); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 143, 208); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 117, 214); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 408, 193); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 2, 244); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 320, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 476, 224); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("fitness_module.vhd", 181, 214); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 391, 133); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 46, 163); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 5, 126); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 469, 208); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 29, 194); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 218, 231); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 214, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 246, 164); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, (String) null); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("fitness_module.vhd", 270, 78); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 253, 207); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 385, 258); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("fitness_module.vhd", 289, 245); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 395, 217); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 6, 254); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 91, 247); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 171, 246); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 208, 248); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 294, 267); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 64, 175); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 19, 197); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 330, 206); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 301, 197); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("fitness_module.vhd", 460, 209); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 306, 193); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 307, 198); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("fitness_module.vhd", 46, 162); // cd (w, ch)
+// Elapsed time: 80 seconds
+selectCodeEditor("fitness_module.vhd", 243, 177); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 93, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 130, 187); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 249, 194); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 149, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 231, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 177, 177); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 205, 75); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 236, 211); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 456, 142); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 301, 212); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 217, 211); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 207, 207); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 378, 172); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 109, 214); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 316, 157); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 334, 85); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 592, 80); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("fitness_module.vhd", 76, 148); // cd (w, ch)
+// Elapsed time: 240 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 52 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/Update_P/Update_P.vhd");
+// 'e' command handler elapsed time: 52 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 15 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/Update_P/test_Update_P.vhd");
+// 'e' command handler elapsed time: 15 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 43 MB. Current time: 6/29/19 6:08:50 PM CEST
+// Elapsed time: 456 seconds
+dismissFileChooser();
+// 'e' command handler elapsed time: 456 seconds
+// Elapsed time: 67 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 28 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/vhdl.tibou/FPGA_Serie/FPGA_Project/interface_port_serie.vhd");
+// 'e' command handler elapsed time: 28 seconds
+selectCodeEditor("interface_port_serie.vhd", 231, 155); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("interface_port_serie.vhd", 106, 150); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 106, 150, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("interface_port_serie.vhd", 57, 73); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 57, 73, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 12 seconds
+selectCodeEditor("interface_port_serie.vhd", 11, 112); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 160, 183); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 5, 117); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("interface_port_serie.vhd", 397, 161); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 82, 182); // cd (w, ch)
+// Elapsed time: 232 seconds
+selectCodeEditor("interface_port_serie.vhd", 128, 161); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 68, 129); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 68, 129, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 89, 265); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 89, 265, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 185, 121); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 185, 121, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 39, 132); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 39, 132, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 55, 131); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 55, 131, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 83, 130); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 83, 130, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 211, 131); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 211, 131, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 256, 122); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("interface_port_serie.vhd", 112, 78); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 112, 78, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 75, 165); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 75, 165, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 101, 76); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 101, 76, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 83, 160); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 83, 160, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 135, 162); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 187, 159); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 140, 144); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 140, 144); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 89, 12); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 89, 12, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 169, 9); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 169, 9, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 160, 63); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 160, 63, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 107, 79); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 107, 79, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 102, 102); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 102, 102, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 125, 122); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 125, 122, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 748 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+// Elapsed time: 90 seconds
+selectCodeEditor("fitness_module.vhd", 99, 139); // cd (w, ch)
+// Elapsed time: 257 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("interface_port_serie.vhd", 136, 200); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 43 MB. Current time: 6/29/19 6:38:51 PM CEST
+// Elapsed time: 198 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 93, 166); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 112, 139); // cd (w, ch)
+// Elapsed time: 47 seconds
+selectCodeEditor("fitness_module.vhd", 132, 150); // cd (w, ch)
+// Elapsed time: 94 seconds
+selectCodeEditor("fitness_module.vhd", 15, 230); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 15, 226); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 17, 216); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 249, 215); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 150, 251); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 94, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 116, 212); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 158, 244); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 97, 211); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 136, 216); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 167, 221); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 167, 216); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 228, 209); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 229, 208); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 226, 209); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 195, 272); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 188, 215); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 59, 274); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 39, 275); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("fitness_module.vhd", 37, 282); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 50, 174); // cd (w, ch)
+// Elapsed time: 69 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 213, 103); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 240, 196); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 240, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 21, 199); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 360, 194, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("interface_port_serie.vhd", 11, 153); // cd (w, ch)
+// Elapsed time: 61 seconds
+selectCodeEditor("interface_port_serie.vhd", 18, 166); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 373, 157, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 43, 178); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 65, 196); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 65, 196, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 145, 297); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 147, 122); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 221, 191); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 221, 191, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 221, 191); // cd (w, ch)
+typeControlKey((HResource) null, "interface_port_serie.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 69, 22); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 69, 22, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 69, 22); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 99, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 99, 131, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 84, 155); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 8, 129); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 8, 129, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 235, 50); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 107, 46); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 107, 46, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 37, 148); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 97, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 97, 131, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 97, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 97, 131, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 64, 137); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 95, 150); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 95, 150, false, false, false, false, true); // cd (w, ch) - Double Click
+// [GUI Memory]: 105 MB (+487kb) [24:50:50]
+// Elapsed time: 241 seconds
+selectCodeEditor("fitness_module.vhd", 55, 195); // cd (w, ch)
+// Elapsed time: 88 seconds
+selectCodeEditor("fitness_module.vhd", 35, 229); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+// Elapsed time: 186 seconds
+selectCodeEditor("interface_port_serie.vhd", 128, 122); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 52, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 106, 93); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 106, 93, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 170, 104); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 170, 104, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 179, 100); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 181, 95); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 181, 95, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 185, 96); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 185, 96, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 149, 148); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 120, 99); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 86, 131); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("fitness_module.vhd", 84, 75); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 84, 75, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 84, 75, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 87, 123); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 45, 130); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 53, 126); // cd (w, ch)
+// Elapsed time: 84 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 96, 199); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 96, 199, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 28 seconds
+selectCodeEditor("interface_port_serie.vhd", 254, 223); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 254, 223, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 254, 223, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 41 MB. Current time: 6/29/19 7:08:51 PM CEST
+// Elapsed time: 796 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "fitness_module.vhd", 1); // k (j, ch)
+selectCodeEditor("fitness_module.vhd", 104, 159); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 60, 125); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 53, 125); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 36, 124); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 13, 120); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 32, 121); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 32, 121, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 32, 121); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 58, 121); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 64, 124); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("fitness_module.vhd", 139, 167); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 160, 158); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 163, 152); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 46, 142); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 46, 142, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 51, 147); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 51, 147, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 66, 179); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 66, 179, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 83, 173); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 236, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 324, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 342, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 353, 162); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("fitness_module.vhd", 80, 179); // cd (w, ch)
+// Elapsed time: 236 seconds
+selectCodeEditor("fitness_module.vhd", 91, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 91, 165, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 206, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 182, 203); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 122, 177); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 66, 172); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/29/19 7:39:20 PM CEST
+// Elapsed time: 1280 seconds
+selectCodeEditor("fitness_module.vhd", 80, 204); // cd (w, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 108 seconds
+dismissFileChooser();
+// 'e' command handler elapsed time: 108 seconds
+// Elapsed time: 111 seconds
+selectCodeEditor("fitness_module.vhd", 115, 159); // cd (w, ch)
+// Elapsed time: 345 seconds
+selectCodeEditor("fitness_module.vhd", 92, 163); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 220, 27); // cd (w, ch)
+// Elapsed time: 14 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 26, 59); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 218, 50); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("fitness_module.vhd", 127, 172); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 114, 163); // cd (w, ch)
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 43 MB. Current time: 6/29/19 8:08:56 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 43 MB. Current time: 6/29/19 8:38:56 PM CEST
+// Elapsed time: 3118 seconds
+selectCodeEditor("fitness_module.vhd", 303, 60); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 347, 63); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 78, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 70, 98); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 70, 98, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 70, 98, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 98, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 98, 161, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // U (ai, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 173, 160, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 80 seconds
+selectCodeEditor("fitness_module.vhd", 281, 150); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 72); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 407, 74, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 168, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 168, 92, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 79, 98); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 79, 98, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 77, 140); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 203, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 338, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 210, 164); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 245, 220); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 257, 143); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 222, 240); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// PAPropertyPanels.initPanels (fitness_module.vhd) elapsed time: 0.2s
+// TclEventType: DG_GRAPH_STALE
+// f (ch): Launch Runs: addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jun 29 20:46:37 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 848.059 ; gain = 9.652 
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// 'k' command handler elapsed time: 20 seconds
+// WARNING: updateGUI() is taking  2268 ms.
+// Elapsed time: 14 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 122, 133); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 83, 147); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("fitness_module.vhd", 202, 203); // cd (w, ch)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 90 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-2715] syntax error near = [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:41]. ]", 6, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\VHDL V2\Fitness_module\fitness_module.vhd;-;;-;16;-;line;-;41;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("fitness_module.vhd", 244, 189); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 241, 175); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("fitness_module.vhd", 174, 260); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 510, 67); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 38 seconds
+selectCodeEditor("fitness_module.vhd", 184, 56); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Elapsed time: 29 seconds
+selectCodeEditor("fitness_module.vhd", 248, 159); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 32 seconds
+selectCodeEditor("fitness_module.vhd", 136, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 181, 170); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 185, 158); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 201, 160); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("fitness_module.vhd", 194, 67); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 194, 79); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 70, 231); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 308, 243); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("fitness_module.vhd", 263, 181); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jun 29 20:53:29 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 5 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_FAILED
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 62 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. ]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. ]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. ]", 1, true, false, false, false, false, true); // ah (O, ch) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. , [Synth 8-944] 0 definitions of operator + match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:44]. ]", 2, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. , [Synth 8-944] 0 definitions of operator + match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:44]. ]", 2, false, false, false, false, false, true); // ah (O, ch) - Double Click
+// Elapsed time: 112 seconds
+selectCodeEditor("fitness_module.vhd", 315, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 170, 42); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 224, 61); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 224, 61, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 224, 61); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 217, 61, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 238, 25); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 211 seconds
+selectCodeEditor("fitness_module.vhd", 388, 205); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 104, 112); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 104, 112, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 229, 106); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 259, 108); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 382, 110); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 324, 184); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 299, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 305, 100); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 308, 84); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 302, 119); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 245, 137); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 60, 108); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 55, 108); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 137, 107); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// [GUI Memory]: 111 MB (+224kb) [27:02:48]
+// Elapsed time: 203 seconds
+selectCodeEditor("fitness_module.vhd", 309, 188); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 236, 114); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 236, 113, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 295, 192); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 326, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 315, 115); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 324, 115); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 329, 112); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 337, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 201, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 192, 105); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 154, 105); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 112); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 148, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 224, 117); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 298, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 329, 174); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 226, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 224, 109, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 151, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 99, 110); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 82, 110); // cd (w, ch)
+// Elapsed time: 215 seconds
+selectCodeEditor("fitness_module.vhd", 107, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 108, 109, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 315, 108); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("fitness_module.vhd", 261, 114); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 308, 194); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 3, 163, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 42 MB. Current time: 6/29/19 9:08:58 PM CEST
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 162, 183); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 130); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("fitness_module.vhd", 240, 133); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 64, 114, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 540 seconds
+selectCodeEditor("fitness_module.vhd", 246, 201); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 238, 193); // cd (w, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-944] 0 definitions of operator * match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:43]. , [Synth 8-944] 0 definitions of operator + match here [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd:44]. ]", 2, false, false, false, false, true, false); // ah (O, ch) - Popup Trigger
+selectMenu(PAResourceItoN.MsgTreePanel_MESSAGE_SEVERITY, "Message Severity"); // Z (K, Popup.HeavyWeightWindow)
+// Elapsed time: 119 seconds
+selectCodeEditor("fitness_module.vhd", 102, 166); // cd (w, ch)
+// Elapsed time: 27 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 206, 227); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 244, 165); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 58, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 53, 159); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 228, 165, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("fitness_module.vhd", 212, 183); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 245, 167); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 295, 239); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("fitness_module.vhd", 402, 161); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 371, 237); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 250, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 78, 163, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 77, 179); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("fitness_module.vhd", 568, 246); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 42 MB. Current time: 6/29/19 9:38:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 42 MB. Current time: 6/29/19 10:08:58 PM CEST
+// Elapsed time: 3046 seconds
+selectCodeEditor("fitness_module.vhd", 72, 48); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 341, 69); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 394, 56); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 59, 102); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 56); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 78); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("fitness_module.vhd", 292, 233); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 117, 230); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 270, 233); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 251, 246); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 429, 245); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 324, 246); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 228, 245); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 349, 270); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 9, 43); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 9, 43, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 359, 122); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 15, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 13, 94); // cd (w, ch)
+// Elapsed time: 34 seconds
+selectCodeEditor("fitness_module.vhd", 579, 201); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 547, 213); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 589, 234); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 32, 227); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 32, 227, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 110, 234); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("fitness_module.vhd", 171, 134); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 171, 134, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 175, 131, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 332 seconds
+selectCodeEditor("fitness_module.vhd", 284, 206); // cd (w, ch)
+// Elapsed time: 73 seconds
+selectCodeEditor("fitness_module.vhd", 339, 254); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 122, 127); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 122, 127, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 149, 211); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 158, 231); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 158, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 225, 226); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 225, 226, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 238, 248); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 428, 245); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 67 seconds
+selectCodeEditor("fitness_module.vhd", 54, 182); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 55, 193); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 58, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 267, 195); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 66, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 66, 92, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 57, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 41, 128); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 343, 182); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 75); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 4, 92); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 2, 94); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 2, 111); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 207, 183); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 190, 220); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 181, 232); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 274, 135); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 1, 11); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 24); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 37); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 4, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 0, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 1, 96); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 94); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 305, 190); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 53); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 232, 53, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 229, 132); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 229, 134, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 249, 175); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 161, 230); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 61, 79); // cd (w, ch)
+// Elapsed time: 13 seconds
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("fitness_module.vhd", 176, 110); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 147, 124); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 162, 131); // cd (w, ch)
+// Elapsed time: 74 seconds
+selectCodeEditor("fitness_module.vhd", 152, 131); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 85 seconds
+selectCodeEditor("fitness_module.vhd", 139, 137); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 194, 231); // cd (w, ch)
+// Elapsed time: 148 seconds
+selectCodeEditor("fitness_module.vhd", 208, 145); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 208, 144, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 90, 118); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 18, 97, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 187, 209); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 187, 209, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 220, 176); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 220, 158); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 217, 139); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 206, 120); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("fitness_module.vhd", 69, 84); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 44, 151); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 41, 191); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 182, 185); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("fitness_module.vhd", 122, 156); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("fitness_module.vhd", 99, 190); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("fitness_module.vhd", 65, 101); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("fitness_module.vhd", 92, 133); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 128, 155); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 42 MB. Current time: 6/29/19 10:38:59 PM CEST
+// Elapsed time: 387 seconds
+selectCodeEditor("fitness_module.vhd", 76, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 20, 112, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 193, 212); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 193, 212, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 194, 215, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 336, 208); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 212, 96); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 204, 121); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 293, 111); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 283, 185); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 298, 150); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 153, 109); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 64, 190); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 54, 215); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 241, 175); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 232, 129); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 340, 126); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 314, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 348, 198); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 365, 126); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 369, 116); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 310, 130); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 310, 71); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 310, 75); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 338, 134); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 323, 177); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 308, 191); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 301, 204); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("fitness_module.vhd", 308, 61); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 270, 59); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 108, 125); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 21 seconds
+selectCodeEditor("fitness_module.vhd", 222, 166); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("fitness_module.vhd", 290, 172); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 280, 192); // cd (w, ch)
+// Elapsed time: 43 seconds
+selectCodeEditor("fitness_module.vhd", 314, 216); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("fitness_module.vhd", 130, 116); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 130, 116, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 238, 80); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 264, 77); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 271, 76); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 274, 94); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 274, 94, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 312, 148); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("fitness_module.vhd", 374, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 251, 148); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("fitness_module.vhd", 42, 116); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("fitness_module.vhd", 230, 155); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 54, 104); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 54, 104, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 287 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "slv8_array_t"); // l (aP, ch)
+selectCodeEditor("fitness_module.vhd", 153, 144); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 114, 103); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("fitness_module.vhd", 7, 102); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 7, 102, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_SELECT_ALL, "Select All"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 63, 128, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("fitness_module.vhd", 79, 210); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 88, 132); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 206, 50); // cd (w, ch)
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 5:20:31 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 66567 seconds
+selectCodeEditor("fitness_module.vhd", 1, 8); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 5:50:30 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 6:20:29 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 6:50:31 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 7:20:30 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 7:50:32 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 8:20:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 8:50:31 PM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 9:20:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 9:50:32 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 10:20:32 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 10:50:33 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 6/30/19 11:20:33 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 39 MB. Current time: 6/30/19 11:50:33 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 7/1/19 12:20:34 AM CEST
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 40 MB. Current time: 7/1/19 12:50:35 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 36 MB. Current time: 7/1/19 6:21:45 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 647 MB. GUI used memory: 35 MB. Current time: 7/1/19 10:42:59 AM CEST

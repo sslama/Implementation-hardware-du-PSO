@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity p_best
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Update_P_tb

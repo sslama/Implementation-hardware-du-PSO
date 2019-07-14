@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Position_memory/position_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity RAM1
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Position_memory/Position_memory_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity position_memory_tb

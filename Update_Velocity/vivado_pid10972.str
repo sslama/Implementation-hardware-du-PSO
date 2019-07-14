@@ -1,0 +1,2454 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 10972
+License: Customer
+
+Current time: 	Wed Jun 19 14:53:05 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 18 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/.Xil/Vivado-10972-DESKTOP-SFCC8J7
+
+GUI allocated memory:	164 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 459 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 20 MB (+18428kb) [00:00:06]
+// [Engine Memory]: 313 MB (+176904kb) [00:00:06]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [GUI Memory]: 30 MB (+9599kb) [00:00:15]
+// [Engine Memory]: 362 MB (+35082kb) [00:00:15]
+// Tcl Message: start_gui 
+// [GUI Memory]: 60 MB (+29241kb) [00:01:52]
+// [Engine Memory]: 457 MB (+79974kb) [00:01:52]
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\RNG4\Update_Velocity\Update_Velocity.xpr. Version: Vivado v2018.1 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// Tcl Message: open_project C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/Update_Velocity.xpr 
+// HMemoryUtils.trashcanNow. Engine heap size: 464 MB. GUI used memory: 33 MB. Current time: 6/19/19 2:53:07 PM CEST
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 501 MB (+22419kb) [00:02:13]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_FAILED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity/Update_Velocity.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// HMemoryUtils.trashcanNow. Engine heap size: 526 MB. GUI used memory: 32 MB. Current time: 6/19/19 2:53:45 PM CEST
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 561 MB (+36541kb) [00:02:43]
+// [Engine Memory]: 590 MB (+1201kb) [00:02:50]
+// HMemoryUtils.trashcanNow. Engine heap size: 597 MB. GUI used memory: 40 MB. Current time: 6/19/19 2:54:05 PM CEST
+// Project name: Update_Velocity; location: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_Velocity; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:21 ; elapsed = 00:01:00 . Memory (MB): peak = 801.590 ; gain = 118.922 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_Velocity.vhd) elapsed time: 1.3s
+// Elapsed time: 163 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false); // B (D, ch)
+// [GUI Memory]: 65 MB (+2585kb) [00:05:40]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, velocity(arch) (Update_Velocity.vhd)]", 1, false); // B (D, ch)
+// [GUI Memory]: 69 MB (+356kb) [00:06:13]
+// Elapsed time: 52 seconds
+selectCodeEditor("Update_Velocity.vhd", 597, 98); // cd (w, ch)
+// [GUI Memory]: 72 MB (+446kb) [00:06:47]
+// [GUI Memory]: 77 MB (+568kb) [00:13:58]
+// [GUI Memory]: 81 MB (+974kb) [00:21:58]
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/19/19 3:24:06 PM CEST
+// [GUI Memory]: 86 MB (+344kb) [00:34:38]
+// Elapsed time: 1900 seconds
+selectCodeEditor("Update_Velocity.vhd", 159, 180); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 150, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 197, 185); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 157, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 50, 158); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 131, 164); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 32, 161); // cd (w, ch)
+// Elapsed time: 328 seconds
+selectCodeEditor("Update_Velocity.vhd", 73, 111); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 230, 119); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 232, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 244, 270); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 226, 190); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 230, 194); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 340, 269); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 229, 209); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 238, 216); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_Velocity.vhd", 342, 222); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 432, 214); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 343, 216); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 346, 224); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 361, 226); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 353, 219); // cd (w, ch)
+// [GUI Memory]: 92 MB (+1523kb) [00:59:47]
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 36 MB. Current time: 6/19/19 3:54:06 PM CEST
+// Elapsed time: 2563 seconds
+selectCodeEditor("Update_Velocity.vhd", 44, 214); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 223, 293); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 276, 215); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 281, 215); // cd (w, ch)
+// Elapsed time: 28 seconds
+selectCodeEditor("Update_Velocity.vhd", 108, 213); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 309, 240); // cd (w, ch)
+// Elapsed time: 64 seconds
+selectCodeEditor("Update_Velocity.vhd", 244, 114); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectCodeEditor("Update_Velocity.vhd", 72, 126); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity.vhd", 4, 130); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_Velocity.vhd", 232, 226); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 37 MB. Current time: 6/19/19 4:24:07 PM CEST
+// Elapsed time: 219 seconds
+selectCodeEditor("Update_Velocity.vhd", 147, 66); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 67, 159); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 96, 161); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 90, 162); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 96, 170); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_Velocity.vhd", 86, 163); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity.vhd", 266, 184); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 1, 160); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 105, 165); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 41, 185); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 169, 206); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 3, 168); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 114, 158, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity.vhd", 140, 182); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 7, 174); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_Velocity.vhd", 266, 208); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 2, 179); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 136, 173, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Velocity.vhd", 188, 179); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Velocity.vhd", 297, 213); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 68, 215); // cd (w, ch)
+// Elapsed time: 91 seconds
+selectCodeEditor("Update_Velocity.vhd", 49, 140); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 46, 149); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 48, 163); // cd (w, ch)
+// Elapsed time: 989 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 60 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.vhd");
+// 'e' command handler elapsed time: 61 seconds
+// [GUI Memory]: 101 MB (+4800kb) [01:55:12]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Velocity.vhd", 220, 145); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 228, 141); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 221, 109); // cd (w, ch)
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 43 MB. Current time: 6/19/19 4:54:07 PM CEST
+// Elapsed time: 727 seconds
+selectCodeEditor("Update_Velocity.vhd", 212, 168); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 278, 167); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 397, 152); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 51, 232); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 17, 235); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 113, 269); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity.vhd", 179, 248); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity.vhd", 78, 120); // cd (w, ch)
+// Elapsed time: 506 seconds
+selectCodeEditor("Update_Velocity.vhd", 303, 234); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("Update_Velocity.vhd", 567, 239); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 560, 224); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 564, 226, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 566, 228); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 568, 228, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 568, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 568, 230); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 286, 184); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 295, 199); // cd (w, ch)
+// Elapsed time: 93 seconds
+selectCodeEditor("Update_Velocity.vhd", 194, 280); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 625 seconds
+selectCodeEditor("Update_Velocity.vhd", 209, 145); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 349, 147); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 43 MB. Current time: 6/19/19 5:24:07 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 12:45:28 PM CEST
+// [GUI Memory]: 107 MB (+642kb) [22:02:37]
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 1:15:24 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 1:45:24 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 2:15:25 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 2:45:25 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 3:15:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 3:45:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 4:15:26 PM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 48 MB. Current time: 6/20/19 4:45:26 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 5:15:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/20/19 5:45:29 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 38 MB. Current time: 6/21/19 10:26:43 AM CEST
+// Elapsed time: 148739 seconds
+selectCodeEditor("Update_Velocity.vhd", 259, 201); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 348, 148); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 40, 203); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 39, 203, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 2, 229); // cd (w, ch)
+// Elapsed time: 466 seconds
+selectCodeEditor("Update_Velocity.vhd", 108, 124); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 346, 134); // cd (w, ch)
+// Elapsed time: 145 seconds
+selectCodeEditor("Update_Velocity.vhd", 230, 146); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 10:56:44 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 11:26:44 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 11:56:45 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 12:26:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 12:56:45 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 39 MB. Current time: 6/21/19 1:26:53 PM CEST
+// Elapsed time: 10785 seconds
+selectCodeEditor("Update_Velocity.vhd", 229, 229); // cd (w, ch)
+// Elapsed time: 400 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (ch): New Project: addNotify
+// Elapsed time: 15 seconds
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 42 MB. Current time: 6/21/19 1:56:48 PM CEST
+// Elapsed time: 14 seconds
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "array_1d"); // X (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 72 seconds
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, f)
+// F (f): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 14 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "array_1d"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// Elapsed time: 63 seconds
+setFolderChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// Elapsed time: 12 seconds
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7z020clg400-1 ; 400 ; 125 ; 53200 ; 106400 ; 140 ; 0 ; 220 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 4 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 798, "xc7z020clg400-1", 0); // v (O, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// bv (f):  Create Project : addNotify
+selectButton("PAResourceItoN.NewProjectWizard_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_No", "No"); // JButton (A, H)
+// Tcl Message: create_project array_1d C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d -part xc7z020clg400-1 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories 
+// Tcl Message: INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: create_project: Time (s): cpu = 00:00:11 ; elapsed = 00:01:29 . Memory (MB): peak = 873.199 ; gain = 16.070 
+// Tcl Message: close [ open C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd w ] 
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd 
+// I (ch): Define Module: addNotify
+// Elapsed time: 91 seconds
+dismissDialog("New Project"); // f (ch)
+// Elapsed time: 186 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 487 seconds
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (array_1d.vhd) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, array_1d(Behavioral) (array_1d.vhd)]", 1, false); // B (D, ch)
+// [GUI Memory]: 112 MB (+443kb) [47:13:57]
+// [GUI Memory]: 120 MB (+1851kb) [47:20:47]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 58 MB. Current time: 6/21/19 2:28:42 PM CEST
+// WARNING: updateGUI() is taking  1834 ms.
+// Elapsed time: 2998 seconds
+selectCodeEditor("array_1d.vhd", 146, 162); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 37, 55); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 117, 155); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 391, 164); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("Update_Velocity.vhd", 4, 25); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 30, 47); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 56, 45); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 231, 59); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 37, 32, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 16 seconds
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 193, 38); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 54 MB. Current time: 6/21/19 2:56:54 PM CEST
+// Elapsed time: 47 seconds
+selectCodeEditor("array_1d.vhd", 252, 45); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("array_1d.vhd", 107, 59); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 165, 57); // cd (w, ch)
+// Elapsed time: 885 seconds
+selectCodeEditor("Update_Velocity.vhd", 239, 204); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 361, 254); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 387, 144); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 161, 78); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_Velocity.vhd", 185, 262); // cd (w, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// HOptionPane Error: 'There are no HDL sources in file set 'sources_1'. Please use the Add Sources command. (Run Synthesis)'
+// 'k' command handler elapsed time: 6 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// Tcl Message: current_project Update_Velocity 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 54 MB. Current time: 6/21/19 3:26:53 PM CEST
+// Elapsed time: 1844 seconds
+selectCodeEditor("array_1d.vhd", 180, 61); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 107, 144); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 173, 61); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 261, 56); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 166, 54); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 273, 117); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 149, 58); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("array_1d.vhd", 405, 76); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 307, 225); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 225, 93); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 287, 62); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 296, 170); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 210, 64); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 210, 64, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 297, 118); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 312, 136); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 224, 108); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 139, 262); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 22, 162); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 3, 160); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 53 MB. Current time: 6/21/19 3:56:53 PM CEST
+// Elapsed time: 825 seconds
+selectCodeEditor("array_1d.vhd", 15, 151); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 128, 111); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("array_1d.vhd", 145, 147); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 88, 130); // cd (w, ch)
+// Elapsed time: 593 seconds
+selectCodeEditor("array_1d.vhd", 130, 139); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 121, 140); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 102, 132); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 55 MB. Current time: 6/21/19 4:26:54 PM CEST
+// Elapsed time: 1322 seconds
+selectCodeEditor("array_1d.vhd", 125, 257); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 13, 118); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 161, 90); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 106, 82); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 94, 92); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 94, 92, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 144, 106); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 162, 95); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 116, 95, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("array_1d.vhd", 93, 261); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 97, 263, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 51 seconds
+selectCodeEditor("array_1d.vhd", 303, 103); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 172, 235); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 2, 143); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 124, 252); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 398, 180); // cd (w, ch)
+// Elapsed time: 209 seconds
+selectCodeEditor("array_1d.vhd", 174, 269); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 285, 239); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 243, 164); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 18, 183); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 95, 193); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 162, 190); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 197, 179); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 228, 176); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 281, 219); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("array_1d.vhd", 230, 180); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("array_1d.vhd", 137, 199); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 318, 252); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 280, 196); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 298, 260); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 56 MB. Current time: 6/21/19 4:56:54 PM CEST
+// Elapsed time: 1296 seconds
+selectCodeEditor("array_1d.vhd", 164, 71); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("array_1d.vhd", 182, 143); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 251, 73); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 221, 72); // cd (w, ch)
+// Elapsed time: 75 seconds
+selectCodeEditor("array_1d.vhd", 92, 92); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("array_1d.vhd", 28, 150); // cd (w, ch)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// Elapsed time: 706 seconds
+selectCodeEditor("array_1d.vhd", 264, 171); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 263, 204); // cd (w, ch)
+// Elapsed time: 147 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "synth_1 ; constrs_1 ; Synthesis Out-of-date ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Mon Jun 17 13:51:15 CEST 2019 ; 00:02:05 ; Vivado Synthesis Defaults (Vivado Synthesis 2018) ; Vivado Synthesis Default Reports (Vivado Synthesis 2018) ; xc7z020clg400-1 ; Vivado Synthesis Defaults", 0, "0", 3, true); // ax (O, ch) - Node
+// PAPropertyPanels.initPanels (synth_1) elapsed time: 8.3s
+// Elapsed time: 486 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7z020clg400-1 ; Default settings for Implementation.", 1, (String) null, 8, false); // ax (O, ch)
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 1s
+// Tcl Message: current_project array_1d 
+selectCodeEditor("array_1d.vhd", 122, 238); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 202, 272); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 288, 231); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 61 MB. Current time: 6/21/19 5:26:55 PM CEST
+// Elapsed time: 1274 seconds
+selectCodeEditor("array_1d.vhd", 261, 225); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 86, 76); // cd (w, ch)
+// Elapsed time: 212 seconds
+selectCodeEditor("array_1d.vhd", 96, 283); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 98, 180); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 127, 57); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 201, 178); // cd (w, ch)
+// Elapsed time: 294 seconds
+selectCodeEditor("array_1d.vhd", 181, 193); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("array_1d.vhd", 216, 249); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 4, 227); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 4, 228, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 4, 227); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 4, 227, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 3, 231); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 61 MB. Current time: 6/21/19 5:56:54 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 53 MB. Current time: 6/22/19 1:59:27 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 30088 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_1 ; constrs_1 ; Not started ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; Vivado Implementation Defaults (Vivado Implementation 2018) ; Vivado Implementation Default Reports (Vivado Implementation 2018) ; xc7z020clg400-1 ; Default settings for Implementation.", 1, (String) null, 8, false); // ax (O, ch)
+selectCodeEditor("array_1d.vhd", 19, 252); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 55 MB. Current time: 6/22/19 2:29:28 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 56 MB. Current time: 6/22/19 12:01:47 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 54 MB. Current time: 6/22/19 12:31:46 PM CEST
+// Elapsed time: 37279 seconds
+selectCodeEditor("array_1d.vhd", 91, 61); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 91, 77); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 87, 81); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 94, 81); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 94, 81, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 100, 79); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 43, 115); // cd (w, ch)
+// Elapsed time: 271 seconds
+selectCodeEditor("array_1d.vhd", 151, 237); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 507 seconds
+selectCodeEditor("array_1d.vhd", 21, 117); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 168, 128); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 109, 112); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 196, 113); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 216, 113); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 221, 113); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 215, 157); // cd (w, ch)
+// Elapsed time: 78 seconds
+selectCodeEditor("array_1d.vhd", 604, 113); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 578, 155); // cd (w, ch)
+// Elapsed time: 248 seconds
+selectCodeEditor("array_1d.vhd", 98, 78); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 186, 78); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 175, 91); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 248, 99); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 300, 107); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 397, 104); // cd (w, ch)
+// Elapsed time: 87 seconds
+selectCodeEditor("array_1d.vhd", 528, 219); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 102, 145); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 262, 137); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 263, 141, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 295, 147); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 103, 44); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 232, 45); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("array_1d.vhd", 222, 212); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 86, 94); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 32, 95); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 15, 96); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 253, 187); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 369, 214); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 104, 75); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 425, 111); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 330, 219); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 324, 219); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 220, 214); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 326, 231); // cd (w, ch)
+// Elapsed time: 126 seconds
+selectCodeEditor("array_1d.vhd", 101, 40); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 102, 66); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 99, 77); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 101, 90); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 129, 224); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 76, 250); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("array_1d.vhd", 162, 244); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 57 MB. Current time: 6/22/19 1:01:45 PM CEST
+// Elapsed time: 91 seconds
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 256, 102); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// PAPropertyPanels.initPanels (impl_1) elapsed time: 0.2s
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 22 seconds
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 55 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jun 22 13:03:50 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/synth_1/runme.log 
+// Tcl Message: launch_runs: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 897.527 ; gain = 8.285 
+// 'k' command handler elapsed time: 62 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 167 seconds
+selectCheckBox(PAResourceCommand.PACommandNames_MESSAGE_WINDOW, "View Messages", true); // g (Q, ah): TRUE
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-318] illegal unconstrained array declaration 'address' [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:10]. ]", 1, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;10;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 13 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-318] illegal unconstrained array declaration 'address' [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:10]. ]", 1, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;10;-;;-;16;-;"); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-318] illegal unconstrained array declaration 'address' [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:10]. ]", 1, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-318] illegal unconstrained array declaration 'address' [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:10]. ]", 1, false); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-318] illegal unconstrained array declaration 'address' [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:10]. ]", 1, false, false, false, false, false, true); // ah (O, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("array_1d.vhd", 257, 145); // cd (w, ch)
+// Elapsed time: 98 seconds
+selectCodeEditor("array_1d.vhd", 259, 163); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("array_1d.vhd", 382, 130); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 371, 180); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 245, 97); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 371, 231); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 528, 277); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 477, 230); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 556, 270); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 158, 267); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("array_1d.vhd", 432, 256); // cd (w, ch)
+// Elapsed time: 99 seconds
+selectCodeEditor("array_1d.vhd", 64, 129); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("array_1d.vhd", 255, 160); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("array_1d.vhd", 59, 82); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 302, 147); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 103, 94); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 130, 229); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 195, 263); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 140, 263); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 581, 233); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("array_1d.vhd", 235, 197); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 435, 219); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("array_1d.vhd", 156, 231); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 120, 261); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 154, 233); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 91, 234); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 91, 213); // cd (w, ch)
+// Elapsed time: 74 seconds
+selectCodeEditor("array_1d.vhd", 166, 198); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 296, 192); // cd (w, ch)
+// Elapsed time: 55 seconds
+selectButton(RDIResource.AbstractSearchablePanel_SHOW_SEARCH, "Sources_search"); // u (f, ch): TRUE
+selectMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_DESIGN_HUBS, "Design Hubs"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_HELP, "Help"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_VIEW, "View"); // U (q, ch)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+selectMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+dismissMenu(RDIResource.MainWinMenuMgr_LAYOUT, "Layout"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_WINDOW, "Window"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_REPORTS, "Reports"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, "Language Templates"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (ch): Language Templates: addNotify
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+// Elapsed time: 19 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs]", 7, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs]", 7, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples]", 10, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Decoders]", 17, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+// Elapsed time: 35 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 25, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 25, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+// Elapsed time: 25 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port]", 28, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port]", 28, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port]", 37, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port]", 37, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 40, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 40, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, UltraRAM]", 42, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, UltraRAM]", 42, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+// Elapsed time: 18 seconds
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port]", 32); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port]", 33); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 34); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, UltraRAM]", 35); // i (O, a)
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, UltraRAM]", 35); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 25); // i (O, a)
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM]", 24, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, UltraRAM]", 27); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 25, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM]", 25, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port]", 27, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port, 1 Clock w/ Byte-write]", 29, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port, 1 Clock w/ Byte-write]", 29, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port, 1 Clock]", 28, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Simple Dual Port, 2 Clock w/ Byte-write]", 31, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port]", 32, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port]", 32, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Read First Mode]", 35, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Read First Mode]", 35, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, No Change Mode]", 34, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, No Change Mode]", 34, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Write First Mode]", 36, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Write First Mode]", 36, false, false, false, false, false, true); // i (O, a) - Double Click
+// Elapsed time: 18 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Read First Mode]", 35, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, Single Port, Read First Mode]", 35, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port]", 37, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port]", 37, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 2 Clock]", 39, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 2 Clock]", 39, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 2 Clock]", 39, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 1 Clock]", 38, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 1 Clock]", 38, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, BlockRAM, True Dual Port, 1 Clock]", 38, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 48, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 48, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM]", 48, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM, Example Code]", 49, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, RAM, Distributed RAM, Example Code]", 49, false, false, false, false, false, true); // i (O, a) - Double Click
+// Elapsed time: 34 seconds
+selectMenuItem(PAResourceItoN.LanguageTemplatesDialog_COPY, "Copy"); // ac (ai)
+dismissDialog("Language Templates"); // a (ch)
+selectCodeEditor("array_1d.vhd", 190, 266); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 361, 184); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 60 MB. Current time: 6/22/19 1:31:45 PM CEST
+// Elapsed time: 829 seconds
+selectCodeEditor("array_1d.vhd", 242, 166); // cd (w, ch)
+// Elapsed time: 60 seconds
+selectCodeEditor("array_1d.vhd", 26, 104); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 163, 225); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 154, 184); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 18, 145); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 56, 201); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 49, 124); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 84, 245); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 82, 245, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("array_1d.vhd", 331, 219); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("array_1d.vhd", 103, 232); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 204, 229); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 131, 193); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 124, 186); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 131, 197); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 126, 198); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 356, 147); // cd (w, ch)
+// Elapsed time: 122 seconds
+selectCodeEditor("array_1d.vhd", 106, 212); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 166, 214); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 321, 212); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("array_1d.vhd", 254, 261); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 28, 43); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 123, 116); // cd (w, ch)
+// Elapsed time: 65 seconds
+selectCodeEditor("array_1d.vhd", 79, 114); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 71, 105, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("array_1d.vhd", 351, 267); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 439, 203); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 106, 285); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 372, 152); // cd (w, ch)
+// Elapsed time: 71 seconds
+selectCodeEditor("array_1d.vhd", 432, 166); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("array_1d.vhd", 83, 204); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 68, 204); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 25, 194); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 71, 196); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 92, 196); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 83, 193); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 50, 197, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("array_1d.vhd", 128, 154); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 87, 161); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("array_1d.vhd", 184, 155); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 237, 184); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 145, 231); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 217, 273); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 188, 265); // cd (w, ch)
+// Elapsed time: 38 seconds
+selectCodeEditor("array_1d.vhd", 151, 233); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 199, 237); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 149, 232); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 253, 234, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("array_1d.vhd", 258, 271); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 238, 264); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 440, 276); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 104, 216); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 417, 223); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 510, 204); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 520, 200); // cd (w, ch)
+// [GUI Memory]: 126 MB (+305kb) [70:56:20]
+// Elapsed time: 141 seconds
+selectCodeEditor("array_1d.vhd", 227, 260); // cd (w, ch)
+// Elapsed time: 418 seconds
+selectCodeEditor("array_1d.vhd", 153, 236); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("array_1d.vhd", 393, 215); // cd (w, ch)
+// Elapsed time: 134 seconds
+selectCodeEditor("array_1d.vhd", 83, 268); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 533, 246); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 135, 230); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 21, 78); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 6, 46); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 109, 224); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 14, 114); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 99, 180); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 103, 275); // cd (w, ch)
+// Elapsed time: 53 seconds
+selectCodeEditor("array_1d.vhd", 284, 244); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 78, 202); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 73, 206); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 53, 218); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 16, 232); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 159, 242); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 261, 262); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 296, 238); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 58 MB. Current time: 6/22/19 2:01:49 PM CEST
+// Elapsed time: 355 seconds
+selectCodeEditor("array_1d.vhd", 109, 238); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 108, 237); // cd (w, ch)
+// Elapsed time: 80 seconds
+selectCodeEditor("array_1d.vhd", 110, 163); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sat Jun 22 14:07:00 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Failed: addNotify
+// Elapsed time: 153 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true, false, false, false, false, true); // ah (O, ch) - Double Click - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah (O, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true, false, false, false, false, true); // ah (O, ch) - Double Click - Node
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 136, 144); // cd (w, ch)
+// Elapsed time: 246 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true, false, false, false, false, true); // ah (O, ch) - Double Click - Node
+// Elapsed time: 166 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-1031] conv_integer is not declared [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd:26]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\array_1d.vhd;-;;-;16;-;line;-;26;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("array_1d.vhd", 93, 156); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 300, 143); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 58 MB. Current time: 6/22/19 2:31:46 PM CEST
+// Elapsed time: 1092 seconds
+selectCodeEditor("Update_Velocity.vhd", 220, 80); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 91, 31, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("array_1d.vhd", 193, 69); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 22, 33); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 192, 70); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 465, 112); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 15, 79); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 355, 88); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 4, 95); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 548, 144); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("array_1d.vhd", 212, 81); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 500, 121); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 128 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 17 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Sat Jun 22 14:38:08 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 18 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 4000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 433 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectRadioButton(PAResourceAtoD.AddSrcWizard_SPECIFY_SIMULATION_SPECIFIC_HDL_FILES, "Add or create simulation sources"); // a (o, c)
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_TYPE, "VHDL", 3); // cm (Q, F)
+// Elapsed time: 11 seconds
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "tb_memory"); // X (Q, F)
+selectComboBox(PAResourceAtoD.CreateSrcFileDialog_FILE_LOCATION, "Choose Location...", 1); // e (Q, F)
+// Elapsed time: 36 seconds
+setFolderChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d");
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+dismissDialog("Create Source File"); // F (c)
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 60 seconds
+dismissDialog("Add Sources"); // c (ch)
+// bv (ch):  Add Simulation Sources  : addNotify
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: close [ open C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd 
+// I (ch): Define Module: addNotify
+dismissDialog("Add Simulation Sources"); // bv (ch)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 53 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+// PAPropertyPanels.initPanels (sim_1) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory(Behavioral) (tb_memory.vhd)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory(Behavioral) (tb_memory.vhd)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_memory(Behavioral) (tb_memory.vhd)]", 6, false); // B (D, ch)
+// Elapsed time: 272 seconds
+selectCodeEditor("tb_memory.vhd", 100, 253); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 12, 251); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 115, 219); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 120, 249); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 310, 221); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("tb_memory.vhd", 292, 285); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 1); // k (j, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("array_1d.vhd", 46, 114); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 46, 122); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 48, 109); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 75, 193, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 2); // k (j, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 3:01:49 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 3:31:47 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 4:01:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 4:31:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 5:01:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 5:31:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 6:01:48 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 6:31:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 7:01:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 7:31:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 8:01:50 PM CEST
+// Elapsed time: 18600 seconds
+selectCodeEditor("tb_memory.vhd", 43, 236); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 43, 236, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 50, 242); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 8:31:50 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 9:01:50 PM CEST
+// Elapsed time: 3718 seconds
+selectCodeEditor("tb_memory.vhd", 120, 279); // cd (w, ch)
+// Elapsed time: 51 seconds
+selectCodeEditor("tb_memory.vhd", 87, 137); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 150, 133); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 158, 131); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 173, 130); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 204, 123); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 224, 123); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 215, 128); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 103, 118); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 96, 113); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 92, 103); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 213, 246); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("tb_memory.vhd", 168, 249); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("tb_memory.vhd", 19, 147); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 287, 144, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 48, 279); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("tb_memory.vhd", 379, 281); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("tb_memory.vhd", 667, 231); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("tb_memory.vhd", 140, 283); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("tb_memory.vhd", 27, 168); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 341, 168); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 334, 164); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 352, 160); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 353, 160, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 365, 169); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 361, 159); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 66, 155, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 447, 277); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 1, 296); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 111, 298); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 141, 297); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 137, 297); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 114, 296); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 334, 303); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 333, 277); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 502, 292); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 480, 283); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 348, 281, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 352, 297); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 512, 199); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 454, 250); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_memory.vhd", 25, 130); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 300, 124, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 65, 282); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 144, 282); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 129, 283); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 323, 273); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 361, 281); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 360, 280, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 359, 282); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("tb_memory.vhd", 128, 299); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_memory.vhd", 215, 220); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 9:31:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 10:01:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 10:31:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 62 MB. Current time: 6/22/19 11:01:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/22/19 11:31:52 PM CEST
+// Elapsed time: 8875 seconds
+selectCodeEditor("tb_memory.vhd", 67, 260); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 64, 275); // cd (w, ch)
+// Elapsed time: 54 seconds
+selectCodeEditor("tb_memory.vhd", 150, 241); // cd (w, ch)
+// Elapsed time: 112 seconds
+selectCodeEditor("tb_memory.vhd", 109, 234); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 30, 298); // cd (w, ch)
+// Elapsed time: 92 seconds
+selectCodeEditor("tb_memory.vhd", 136, 261); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 158, 246); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 6, 231); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 58, 252); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 153, 260); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 164, 246); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 79, 245); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 59, 241); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 58, 241, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 107, 264); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 157, 250); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 32, 232, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 178, 244); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 56, 265); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 161, 252); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 173, 279); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_memory.vhd", 212, 249); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 9, 164); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 6, 182); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("tb_memory.vhd", 11, 245); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 3, 162); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 318, 272); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 8, 268); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 167, 250); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 159, 271); // cd (w, ch)
+// Elapsed time: 46 seconds
+selectCodeEditor("tb_memory.vhd", 9, 287); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 66 MB. Current time: 6/23/19 12:01:51 AM CEST
+// Elapsed time: 1747 seconds
+selectCodeEditor("tb_memory.vhd", 69, 264); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("tb_memory.vhd", 172, 253); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 177, 233); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 172, 259); // cd (w, ch)
+// Elapsed time: 153 seconds
+selectCodeEditor("tb_memory.vhd", 42, 267); // cd (w, ch)
+// Elapsed time: 155 seconds
+selectCodeEditor("tb_memory.vhd", 63, 43); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 27, 48, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 87, 215); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 205, 307); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_memory.vhd", 113, 212); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("tb_memory.vhd", 17, 61); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 51, 61, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 164, 185); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 167, 199); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 191 seconds
+selectCodeEditor("tb_memory.vhd", 220, 160); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 22, 194); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 28, 181); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 229, 206); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectCodeEditor("tb_memory.vhd", 32, 161); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 156, 178); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 161, 184); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 35, 167); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 160, 176); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 37, 168); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 159, 177); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 32, 166); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 39, 163); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 133, 174); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 148, 176); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 148, 176, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 233, 152); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 155, 177); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 76, 160, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+// Elapsed time: 16 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 205, 217); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 54, 252); // cd (w, ch)
+// Elapsed time: 269 seconds
+selectCodeEditor("tb_memory.vhd", 183, 211); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 50 seconds
+selectCodeEditor("tb_memory.vhd", 89, 176, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 30 seconds
+selectCodeEditor("tb_memory.vhd", 176, 209); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 28, 211); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 27, 251); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 27, 236); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 34, 231); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 57, 266); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 49, 286); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 56, 284); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 46, 298); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 63 MB. Current time: 6/23/19 12:31:52 AM CEST
+// Elapsed time: 31 seconds
+selectCodeEditor("tb_memory.vhd", 133, 265); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 114, 266); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("tb_memory.vhd", 148, 180); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("tb_memory.vhd", 25, 111); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("tb_memory.vhd", 38, 279); // cd (w, ch)
+// Elapsed time: 32 seconds
+selectCodeEditor("tb_memory.vhd", 33, 214); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 191, 226); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 177, 215); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 73, 219, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 188, 279); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("tb_memory.vhd", 175, 279); // cd (w, ch)
+// Elapsed time: 101 seconds
+selectCodeEditor("tb_memory.vhd", 38, 175); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 38, 179, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 208, 221); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 114, 201, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("tb_memory.vhd", 35, 215); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 44, 178); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 75, 186); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 208, 225); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 204, 213); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 87, 188, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 225, 221); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("tb_memory.vhd", 146, 263); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 115, 264); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 115, 264, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 115, 264); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 126, 265); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 126, 265, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 167, 274); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 147, 260); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("tb_memory.vhd", 199, 232); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 71, 201, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 205, 242); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 82, 282); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("tb_memory.vhd", 133, 277); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("tb_memory.vhd", 161, 162); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 136, 161, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("tb_memory.vhd", 136, 161, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("tb_memory.vhd", 136, 268); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 96, 281); // cd (w, ch)
+typeControlKey((HResource) null, "tb_memory.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 198, 238); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 155, 226); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("tb_memory.vhd", 44, 189); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 139, 188); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 173, 260); // cd (w, ch)
+// Elapsed time: 64 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [GUI Memory]: 133 MB (+533kb) [81:48:57]
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+selectButton("PAResourceQtoS.RunRun_TASK_HAS_ALREADY_COMPLETED_AND_UP_TO_DATE_OK", "OK"); // JButton (A, G)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+// Elapsed time: 13 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jun 23 00:40:31 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 15 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 104 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs impl_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jun 23 00:42:19 2019] Launched impl_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/impl_1/runme.log 
+// 'c' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sim_1, [HDL 9-806] Syntax error near Behavioral. [C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd:101]. ]", 2, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\RNG4\array_1d\tb_memory.vhd;-;;-;16;-;line;-;101;-;;-;16;-;"); // ah (O, ch)
+// TclEventType: RUN_STEP_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 5000 ms.
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 217 seconds
+dismissDialog("Implementation Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// 'k' command handler elapsed time: 5 seconds
+// Elapsed time: 11 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'RAM1' in fileset 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj RAM1_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity RAM1 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:07 . Memory (MB): peak = 927.852 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '7' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot RAM1_behav 
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim/xsim.dir/RAM1_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim/xsim.dir/RAM1_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Sun Jun 23 00:46:50 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html. webtalk_transmit: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 54.160 ; gain = 1.277 INFO: [Common 17-206] Exiting Webtalk at Sun Jun 23 00:46:50 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:17 . Memory (MB): peak = 927.852 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '17' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "RAM1_behav -key {Behavioral:sim_1:Functional:RAM1} -tclbatch {RAM1.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// PAPropertyPanels.initPanels (tb_memory.vhd) elapsed time: 0.2s
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: source RAM1.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 12:47:01 AM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 948.258 ; gain = 20.406 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'RAM1_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:42 . Memory (MB): peak = 948.258 ; gain = 20.406 
+// 'd' command handler elapsed time: 42 seconds
+// Elapsed time: 43 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:47:11 AM CEST
+// Elapsed time: 17 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:47:33 AM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 83, 29); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 88, 57); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:47:37 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:47:39 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 12:47:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 27, 130); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 174, 131); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 47, 147); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 72, 205); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 82, 192); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 160, 164); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 222, 189); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 99, 133); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 159, 160); // cd (w, ch)
+// Elapsed time: 40 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:48:53 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:48:55 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 91, 51); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:48:56 AM CEST
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 94, 51, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 156, 99); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 156, 99, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:48:57 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 345, 133); // n (o, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:48:58 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 349, 142); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 344, 145, false, false, false, false, true); // n (o, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:48:58 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 349, 148); // n (o, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:00 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:01 AM CEST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, myRam[15:0][7:0]]", 5, true); // a (s, ch) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, data_out[7:0]]", 4, true); // a (s, ch) - Node
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 12:49:04 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 12:49:12 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:12 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:12 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:13 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:13 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:13 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:15 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 12:49:18 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 12:49:18 AM CEST
+// Elapsed time: 17 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, clk]", 0, false); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, WR]", 1, false); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/23/19 1:19:23 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 12:54:27 PM CEST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 65 MB. Current time: 6/23/19 1:24:28 PM CEST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 46082 seconds
+selectCodeEditor("array_1d.vhd", 449, 184); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 579, 64); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 275, 12); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 276, 9, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 217, 175); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 595, 107); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_COPY, (String) null); // B (f, ch)
+selectCodeEditor("tb_memory.vhd", 0, 43); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 224, 204); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 375, 122); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 300, 165, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("tb_memory.vhd", 300, 165, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("tb_memory.vhd", 300, 165, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResource.HInputHandler_REPLACE_TEXT, "Replace..."); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 16 seconds
+selectCodeEditor("tb_memory.vhd", 266, 192); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 229, 230); // cd (w, ch)
+// [GUI Memory]: 144 MB (+4980kb) [94:48:22]
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 66 MB. Current time: 6/23/19 1:54:28 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 65 MB. Current time: 6/23/19 2:24:28 PM CEST
+// Elapsed time: 3451 seconds
+selectCodeEditor(RDIResource.TclConsoleView_TCL_CONSOLE_CODE_EDITOR, 464, 79); // dn (ae, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 2:54:29 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 3:24:29 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 3:54:29 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 4:24:29 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 4:54:30 PM CEST
+// Elapsed time: 9857 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+selectCodeEditor("array_1d.vhd", 271, 72); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 103, 177); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 222, 178); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 387, 170); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 5:24:30 PM CEST
+// Elapsed time: 276 seconds
+selectCodeEditor("array_1d.vhd", 90, 130); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 146, 155); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 188, 167); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 289, 163); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 279, 181); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 55, 165); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 85, 165); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 198, 170); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 181, 153); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 328, 187); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 523, 150); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("array_1d.vhd", 111, 175); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 195, 85); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 89, 83); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 107, 116); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 5:54:30 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 6:24:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 6:54:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 7:24:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 7:54:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 8:24:31 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 8:54:32 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 9:24:32 PM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/23/19 9:54:34 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 10:24:32 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 10:54:34 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/23/19 11:24:33 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/23/19 11:54:34 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 12:24:35 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 12:54:35 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 1:24:35 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 1:54:35 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 2:24:35 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 2:54:36 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 3:24:37 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 3:54:37 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 4:24:39 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 4:54:39 AM CEST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 5:24:40 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 5:54:41 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 6:24:42 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 6:54:42 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 7:24:42 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 7:54:43 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 11:03:34 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 11:33:36 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 12:03:34 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 12:33:36 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 1:03:35 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 1:33:35 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 2:03:35 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 2:33:36 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 3:03:36 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 64 MB. Current time: 6/24/19 3:47:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 65 MB. Current time: 6/24/19 4:17:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 4:47:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 5:17:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 5:47:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 6:17:06 PM CEST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 6:47:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 7:17:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 7:47:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 8:17:08 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 10:02:01 PM CEST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 103586 seconds
+selectCodeEditor("array_1d.vhd", 72, 217); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 63, 231); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/24/19 10:32:01 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/24/19 11:02:02 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/24/19 11:32:02 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 12:02:02 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/25/19 12:32:03 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 1:02:03 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 1:32:03 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 10:25:58 AM CEST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 10:56:05 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 11:25:56 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 11:55:56 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/25/19 12:25:56 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 12:55:57 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 1:25:57 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 1:55:57 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 67 MB. Current time: 6/25/19 2:25:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 2:55:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 3:25:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 3:55:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/25/19 4:25:58 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 68 MB. Current time: 6/25/19 4:55:59 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 65 MB. Current time: 6/25/19 5:26:01 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 64 MB. Current time: 6/25/19 5:56:02 PM CEST
+// Elapsed time: 71406 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 99, 99); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 180, 102); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 90 MB. Current time: 6/26/19 9:47:36 AM CEST
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 153 MB (+1836kb) [163:01:33]
+// Elapsed time: 57060 seconds
+selectCodeEditor("tb_memory.vhd", 86, 179); // cd (w, ch)
+// Elapsed time: 38 seconds
+selectCodeEditor("tb_memory.vhd", 142, 193); // cd (w, ch)
+// Elapsed time: 126 seconds
+selectCodeEditor("tb_memory.vhd", 81, 178); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 139, 193); // cd (w, ch)
+// Elapsed time: 865 seconds
+selectCodeEditor("tb_memory.vhd", 241, 179); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 42, 202); // cd (w, ch)
+// Elapsed time: 53 seconds
+selectCodeEditor("tb_memory.vhd", 111, 201); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 115, 182); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 99, 239); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 268, 98); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 5000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// PAPropertyPanels.initPanels (tb_memory.vhd) elapsed time: 0.6s
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// A (ch): Run Synthesis: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// an (ch): Save Project: addNotify
+dismissDialog("Run Synthesis"); // A (ch)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:05 . Memory (MB): peak = 1004.406 ; gain = 0.059 
+// f (ch): Launch Runs: addNotify
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 91 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Wed Jun 26 10:14:28 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 98 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1*", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 70 MB. Current time: 6/26/19 10:15:05 AM CEST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_CLOSE_WCFG
+selectButton("RDIResource.WaveformUtils_WAVEFORM_CONFIGURATION_HAS_BEEN_MODIFIED_Discard", "Discard"); // JButton (A, G)
+closeView(RDIResource.RDIViews_WAVEFORM_VIEWER, "Untitled 1*"); // w
+// Elapsed time: 43 seconds
+selectCodeEditor("tb_memory.vhd", 36, 96); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 87, 149); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 112, 107); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 192, 120); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 118, 123); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 188, 133); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 252, 136); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 111, 106); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 118, 123); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 210, 135); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 83, 161); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 122, 175); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 220, 182); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 98, 199); // cd (w, ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 80 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// Tcl Message: launch_simulation 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_memory' in fileset 'sim_1'... 
+// Tcl Message: INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_memory_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity RAM1 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/tb_memory.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity tb_memory 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot tb_memory_behav 
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim/xsim.dir/tb_memory_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-186] 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim/xsim.dir/tb_memory_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Wed Jun 26 10:18:15 2019. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Wed Jun 26 10:18:15 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:13 . Memory (MB): peak = 1008.863 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '13' seconds 
+// Tcl Message: INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/array_1d/array_1d.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_memory_behav -key {Behavioral:sim_1:Functional:tb_memory} -tclbatch {tb_memory.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// Waveform: addNotify
+// Tcl Message: source tb_memory.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:18:22 AM CEST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: xsim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:06 . Memory (MB): peak = 1014.703 ; gain = 5.840 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_memory_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:27 . Memory (MB): peak = 1014.703 ; gain = 5.840 
+// 'd' command handler elapsed time: 27 seconds
+// Elapsed time: 28 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:18:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:18:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 26 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:18:53 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:18:55 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:19:05 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:19:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 35 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:19:25 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:19:27 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:19:27 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:19:29 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:19:31 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 71 MB. Current time: 6/26/19 10:23:39 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:23:39 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 71 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:23:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 71 MB. Current time: 6/26/19 10:23:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 256 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, WR]", 1, false); // a (s, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:23:45 AM CEST
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, WR]", 1, false); // a (s, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 107 seconds
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:25:36 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:36 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:38 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:25:40 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:25:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:42 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:25:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:25:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:27:12 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:30:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 71 MB. Current time: 6/26/19 10:30:17 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:30:17 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:30:17 AM CEST
+// Elapsed time: 287 seconds
+selectTree(RDIResource.WaveformNameTree_WAVEFORM_NAME_TREE, "[true, address[3:0]]", 2, true); // a (s, ch) - Node
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 48, 72); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 224, 85); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1, false, true); // k (j, ch) - Double Click
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+selectCodeEditor("tb_memory.vhd", 152, 129); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 140, 127); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 193, 155); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 10:31:14 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:31:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:31:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:31:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:31:16 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:31:17 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 964 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_memory.vhd", 1); // k (j, ch)
+selectCodeEditor("tb_memory.vhd", 218, 155); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 182, 143); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 129, 164); // cd (w, ch)
+selectCodeEditor("tb_memory.vhd", 129, 164, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("tb_memory.vhd", 179, 182); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 2", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:44 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:46 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:47 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:48 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:48 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:48 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:48 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:48 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 10:52:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 10:52:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 10:52:49 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 329 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "array_1d.vhd", 0); // k (j, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("array_1d.vhd", 246, 197); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 379, 209); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 354, 219); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 306, 281); // cd (w, ch)
+// Elapsed time: 79 seconds
+selectCodeEditor("Update_Velocity.vhd", 112, 125); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 46, 164); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 103, 168); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 53, 199); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 164, 151); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 61, 192); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 38, 210); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 278, 252); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 305, 213); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 418, 222); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 377, 209); // cd (w, ch)
+// Elapsed time: 511 seconds
+selectCodeEditor("Update_Velocity.vhd", 81, 186); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 179, 133); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("Update_Velocity.vhd", 176, 264); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Velocity.vhd", 136, 264); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 142, 267); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 162, 242); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 304, 203); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 342, 249); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 180, 107); // cd (w, ch)
+// Elapsed time: 726 seconds
+selectCodeEditor("Update_Velocity.vhd", 72, 203); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 11:22:54 AM CEST
+// Elapsed time: 904 seconds
+selectCodeEditor("array_1d.vhd", 269, 67); // cd (w, ch)
+typeControlKey((HResource) null, "array_1d.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 229, 78); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 519 seconds
+selectCodeEditor("Update_Velocity.vhd", 160, 197); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_Velocity.vhd", 138, 180); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_Velocity.vhd", 283, 236); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("Update_Velocity.vhd", 147, 174); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity.vhd", 564, 207); // cd (w, ch)
+// Elapsed time: 344 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+selectMenu(RDIResourceCommand.RDICommands_CUSTOM_COMMANDS, "Custom Commands"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES, "Language Templates"); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_TOOLS, "Tools"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_LANGUAGE_TEMPLATES
+// a (ch): Language Templates: addNotify
+// 'bd' command handler elapsed time: 4 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Arithmetic]", 12, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Arithmetic]", 12, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Arithmetic]", 12, true); // i (O, a) - Node
+expandTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Arithmetic]", 12); // i (O, a)
+// Elapsed time: 47 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs]", 2, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs]", 2, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 11:52:53 AM CEST
+// Elapsed time: 352 seconds
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers]", 36, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Multiplexers]", 36, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Misc]", 35, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Misc, Barrel Shifter]", 38, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops]", 33, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops]", 33, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops]", 33, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops]", 33, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, Coding Example]", 34, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, Coding Example]", 34, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, D Flip Flop]", 35, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, D Flip Flop]", 35, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, D Flip Flop, Negedge]", 36, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, Flip Flops, D Flip Flop, Negedge]", 36, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, DSP]", 31, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Synthesis Constructs, Coding Examples, DSP, Complex Multiplier]", 32, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL]", 1, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs]", 2, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs]", 2, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs]", 2, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity]", 3, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity, Architecture Declaration]", 4, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity, Component Declaration]", 5, false); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity, Component Declaration]", 5, false, false, false, false, false, true); // i (O, a) - Double Click
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity, Component Instantiation]", 6, false); // i (O, a)
+collapseTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Architecture, Component & Entity]", 3); // i (O, a)
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Comments]", 4, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Conversion Functions]", 5, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Conversion Functions]", 5, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Conversion Functions, IEEE-NUMERIC_STD]", 6, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Library Declarations/Use]", 13, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Ports]", 18, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Ports]", 18, true, false, false, false, false, true); // i (O, a) - Double Click - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Ports]", 18, true); // i (O, a) - Node
+selectTree(PAResourceItoN.LanguageTemplatesDialog_TEMPLATES_TREE, "[Templates, VHDL, Common Constructs, Operators]", 17, true); // i (O, a) - Node
+dismissDialog("Language Templates"); // a (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 12:22:54 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 12:52:59 PM CEST
+// Elapsed time: 4103 seconds
+selectCodeEditor("Update_Velocity.vhd", 243, 151); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 235, 177); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 242, 162); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Velocity.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 327, 258); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 473, 180); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 473, 216); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 0, 209); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 2, 211); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 259, 253); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_Velocity.vhd", 78, 220); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 78, 220, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 281, 241); // cd (w, ch)
+// Elapsed time: 356 seconds
+selectCodeEditor("Update_Velocity.vhd", 256, 234); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 1:22:55 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 1:52:59 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 2:22:56 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 2:52:59 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 3:23:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 3:54:24 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 4:23:01 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 109 MB. Current time: 6/26/19 4:53:00 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 5:23:01 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 75 MB. Current time: 6/26/19 5:53:01 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/26/19 6:23:02 PM CEST
+// Elapsed time: 18740 seconds
+selectCodeEditor("Update_Velocity.vhd", 178, 126); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 165, 148); // cd (w, ch)
+selectCodeEditor("Update_Velocity.vhd", 179, 161); // cd (w, ch)
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/26/19 11:27:55 PM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/26/19 11:57:47 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 12:27:48 AM CEST
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 12:57:48 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 1:27:49 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 1:57:50 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 2:27:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 2:57:51 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/27/19 3:27:51 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/27/19 3:57:51 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/27/19 4:27:51 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 4:57:52 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 5:27:51 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/27/19 5:57:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 6:27:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 6:57:54 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 7:27:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 7:57:55 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 8:27:54 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 11:45:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 12:15:44 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 74 MB. Current time: 6/27/19 12:45:41 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 1:15:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 1:45:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 73 MB. Current time: 6/27/19 2:15:42 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 72 MB. Current time: 6/27/19 2:45:58 PM CEST
+// Elapsed time: 73849 seconds
+selectCodeEditor("array_1d.vhd", 52, 343); // cd (w, ch)
+selectCodeEditor("array_1d.vhd", 272, 351, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenu(RDIResource.HCodeEditor_DIFF_WITH, "Diff with"); // U (ai, Popup.HeavyWeightWindow)
+selectMenu(RDIResource.HCodeEditor_BLANK_OPERATIONS, "Blank Operations"); // U (ai, Popup.HeavyWeightWindow)
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 34 seconds
+selectCodeEditor("array_1d.vhd", 150, 360); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/27/19 3:15:50 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 598 MB. GUI used memory: 69 MB. Current time: 6/27/19 3:49:44 PM CEST
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ExpRunPropPanels Refresh Status Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 10000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HTimer (ExpRunPropPanels Refresh Status Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 8000 ms.

@@ -1,0 +1,253 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 14392
+License: Customer
+
+Current time: 	Thu Jul 04 17:10:44 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 26 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/.Xil/Vivado-14392-DESKTOP-SFCC8J7
+
+GUI allocated memory:	152 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 492 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 53 MB (+53117kb) [00:00:36]
+// [Engine Memory]: 492 MB (+364476kb) [00:00:36]
+// Tcl Message: start_gui 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 492 MB. GUI used memory: 33 MB. Current time: 7/4/19 5:10:46 PM CEST
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Fitness_module\Fitness_module.xpr. Version: Vivado v2018.1 
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 519 MB (+2258kb) [00:01:00]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 59 MB (+3053kb) [00:01:53]
+// Project name: Fitness_module; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:01:08 . Memory (MB): peak = 802.613 ; gain = 118.688 
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 33 MB. Current time: 7/4/19 9:14:51 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 62 MB (+471kb) [04:06:35]
+// [GUI Memory]: 65 MB (+377kb) [04:08:20]
+// [GUI Memory]: 69 MB (+598kb) [04:08:40]
+// [GUI Memory]: 73 MB (+347kb) [04:11:05]
+// [GUI Memory]: 78 MB (+1341kb) [04:16:16]
+// [GUI Memory]: 82 MB (+369kb) [04:27:36]
+// WARNING: updateGUI() is taking  1187 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 34 MB. Current time: 7/4/19 9:44:49 PM CEST
+// PAPropertyPanels.initPanels (fitness_module.vhd) elapsed time: 0.3s
+// Elapsed time: 16593 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, safa(Behavioral) (fitness_module.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, safa(Behavioral) (fitness_module.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 45 seconds
+selectCodeEditor("fitness_module.vhd", 3, 10); // cd (w, ch)
+// Elapsed time: 82 seconds
+selectCodeEditor("fitness_module.vhd", 224, 256); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 221, 257, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 82, 270); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 75, 268); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 121 seconds
+selectCodeEditor("fitness_module.vhd", 66, 171); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 66, 171, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 182, 215); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 182, 215, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 144, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 146, 92, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 18 seconds
+selectCodeEditor("fitness_module.vhd", 25, 180); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 49, 179, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 152 seconds
+selectCodeEditor("fitness_module.vhd", 124, 213); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 377, 217); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 275, 212); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 276, 213, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 276, 213); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 159, 207); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 127, 214); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 314, 210, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 916 seconds
+selectCodeEditor("fitness_module.vhd", 227, 156); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 292, 162); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 120, 155); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 153, 155); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 252, 160); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 356, 157); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 40 MB. Current time: 7/4/19 10:14:48 PM CEST
+// [GUI Memory]: 88 MB (+993kb) [05:30:49]
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 47 MB. Current time: 7/4/19 10:44:48 PM CEST
+// [GUI Memory]: 94 MB (+1787kb) [05:51:38]
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/4/19 11:14:49 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/4/19 11:44:49 PM CEST
+// Elapsed time: 5696 seconds
+selectCodeEditor("fitness_module.vhd", 124, 124); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 189, 129); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 194, 131); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 387, 129); // cd (w, ch)
+typeControlKey((HResource) null, "fitness_module.vhd", 'c'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 12:14:49 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 40 MB. Current time: 7/5/19 12:44:52 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 40 MB. Current time: 7/5/19 1:14:50 AM CEST
+// Elapsed time: 5843 seconds
+selectCodeEditor("fitness_module.vhd", 175, 215); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 124, 182); // cd (w, ch)
+// Elapsed time: 138 seconds
+selectCodeEditor("fitness_module.vhd", 227, 196); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 218, 233); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 295, 225); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 345, 238); // cd (w, ch)
+// Elapsed time: 498 seconds
+selectCodeEditor("fitness_module.vhd", 73, 75, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+// [GUI Memory]: 99 MB (+902kb) [08:27:07]
+// Elapsed time: 169 seconds
+selectCodeEditor("fitness_module.vhd", 683, 46); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 40 MB. Current time: 7/5/19 1:44:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 40 MB. Current time: 7/5/19 2:14:50 AM CEST
+// Elapsed time: 3179 seconds
+selectCodeEditor("fitness_module.vhd", 113, 128); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 405, 127, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 19 seconds
+selectCodeEditor("fitness_module.vhd", 113, 196); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 209, 200, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 2:44:51 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 9:54:27 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 10:24:08 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 10:54:04 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 11:24:04 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 11:54:04 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 12:24:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 36 MB. Current time: 7/5/19 12:54:05 PM CEST
+// Elapsed time: 38666 seconds
+selectCodeEditor("fitness_module.vhd", 356, 250); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 356, 250, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 263, 219); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("fitness_module.vhd", 236, 127); // cd (w, ch)
+// WARNING: updateGUI() is taking  1534 ms.
+selectCodeEditor("fitness_module.vhd", 249, 151); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 249, 151, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("fitness_module.vhd", 231, 130); // cd (w, ch)
+selectCodeEditor("fitness_module.vhd", 236, 130); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("fitness_module.vhd", 291, 228); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/5/19 1:24:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/5/19 1:54:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 2:24:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 2:54:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 3:24:06 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/5/19 3:54:07 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 37 MB. Current time: 7/5/19 4:24:52 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 35 MB. Current time: 7/5/19 4:54:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 35 MB. Current time: 7/5/19 5:24:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 34 MB. Current time: 7/7/19 11:12:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/7/19 11:42:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 12:12:21 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 12:42:26 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 1:12:21 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 37 MB. Current time: 7/8/19 1:42:22 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/8/19 2:12:23 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 9:29:52 AM CEST
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 10:01:05 AM CEST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 38 MB. Current time: 7/8/19 10:32:22 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 39 MB. Current time: 7/8/19 11:00:14 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 9000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 35 MB. Current time: 7/8/19 11:30:20 AM CEST
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 8000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 34 MB. Current time: 7/8/19 11:58:46 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 525 MB. GUI used memory: 33 MB. Current time: 7/8/19 12:28:38 PM CEST

@@ -1,0 +1,338 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 13336
+License: Customer
+
+Current time: 	Thu Jul 04 22:18:53 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 26 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/.Xil/Vivado-13336-DESKTOP-SFCC8J7
+
+GUI allocated memory:	171 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 515 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 57 MB (+56827kb) [00:00:16]
+// [Engine Memory]: 509 MB (+382003kb) [00:00:16]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 67 MB (+7490kb) [00:00:16]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_G\Update_G.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.xpr} 
+// HMemoryUtils.trashcanNow. Engine heap size: 531 MB. GUI used memory: 33 MB. Current time: 7/4/19 10:18:55 PM CEST
+// [Engine Memory]: 540 MB (+5609kb) [00:00:26]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 620 MB (+55975kb) [00:00:51]
+// HMemoryUtils.trashcanNow. Engine heap size: 638 MB. GUI used memory: 37 MB. Current time: 7/4/19 10:19:29 PM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:24 ; elapsed = 00:00:38 . Memory (MB): peak = 819.910 ; gain = 111.004 
+// Project name: Update_G; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 664 MB (+13578kb) [00:00:57]
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_G.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Update_G.vhd", 142, 124); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 143, 147); // cd (w, ch)
+// [GUI Memory]: 71 MB (+662kb) [00:03:55]
+// [GUI Memory]: 75 MB (+1070kb) [00:05:25]
+// [GUI Memory]: 79 MB (+481kb) [00:11:24]
+// [GUI Memory]: 84 MB (+1206kb) [00:20:20]
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/4/19 10:49:30 PM CEST
+// [GUI Memory]: 89 MB (+272kb) [00:47:16]
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 35 MB. Current time: 7/4/19 11:19:31 PM CEST
+// Elapsed time: 5385 seconds
+selectCodeEditor("Update_G.vhd", 120, 146); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 89, 148); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 37 MB. Current time: 7/4/19 11:49:31 PM CEST
+selectCodeEditor("Update_G.vhd", 94, 129); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 75, 96); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 78, 113); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 160, 126); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 164, 121); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 152, 127); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 369, 131); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 360, 129); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 365, 125); // cd (w, ch)
+typeControlKey((HResource) null, "Update_G.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 89 seconds
+selectCodeEditor("Update_G.vhd", 100, 171); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_G.vhd", 28, 193); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey((HResource) null, "Update_G.vhd", 'c'); // cd (w, ch)
+// Elapsed time: 786 seconds
+selectCodeEditor("Update_G.vhd", 170, 94); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 37 MB. Current time: 7/5/19 12:19:31 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 37 MB. Current time: 7/5/19 12:49:31 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 37 MB. Current time: 7/5/19 1:19:32 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 36 MB. Current time: 7/5/19 1:49:35 AM CEST
+// [GUI Memory]: 94 MB (+99kb) [03:35:24]
+// Elapsed time: 7403 seconds
+selectCodeEditor("Update_G.vhd", 84, 246); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 93, 241); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 107, 140, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 125 seconds
+selectCodeEditor("Update_G.vhd", 282, 190); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 1, 163); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 337, 212, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 96 seconds
+selectCodeEditor("Update_G.vhd", 220, 230); // cd (w, ch)
+// Elapsed time: 237 seconds
+selectCodeEditor("Update_G.vhd", 73, 109); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 128, 109, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 40 MB. Current time: 7/5/19 2:19:32 AM CEST
+// Elapsed time: 1325 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 26 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/vhdl.tibou/FPGA_Serie/FPGA_Project/interface_port_serie.vhd");
+// 'e' command handler elapsed time: 26 seconds
+selectCodeEditor("interface_port_serie.vhd", 62, 113); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("interface_port_serie.vhd", 65, 182); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 113, 181, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// [GUI Memory]: 102 MB (+3734kb) [04:20:39]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_G.vhd", 189, 184); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_CODE, "Code"); // B
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 1); // k (j, ch)
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 9:58:48 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 37 MB. Current time: 7/5/19 10:24:11 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 10:54:01 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 11:24:02 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 11:54:02 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 12:24:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 12:54:02 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 1:24:03 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/5/19 1:54:03 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/5/19 2:24:04 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/5/19 2:54:03 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/5/19 3:24:04 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/5/19 3:54:04 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/5/19 4:24:05 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 34 MB. Current time: 7/5/19 4:54:04 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 35 MB. Current time: 7/5/19 5:24:05 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 35 MB. Current time: 7/7/19 11:12:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/7/19 11:42:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/8/19 12:12:19 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 38 MB. Current time: 7/8/19 12:42:21 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 1:12:16 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 1:42:17 AM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 2:12:19 AM CEST
+// Elapsed time: 257885 seconds
+selectCodeEditor("Update_G.vhd", 386, 249); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 382, 275); // cd (w, ch)
+// Elapsed time: 33 seconds
+selectCodeEditor("Update_G.vhd", 98, 256); // cd (w, ch)
+// Elapsed time: 11 seconds
+typeControlKey((HResource) null, "Update_G.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 234, 144); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 52, 74); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 56, 78); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 57, 78); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 503, 194); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 194, 164); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 431, 184); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 91, 180); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 159, 196); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 358, 215); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 239, 214); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 448, 237); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 302, 229); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 325, 279); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 66, 230); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 75, 227); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 438, 235); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 65, 199); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 198, 255); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 239, 249); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 597, 242); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 49, 92); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 593, 172); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("Update_G.vhd", 251, 286); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 143, 269); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 368, 262); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 425, 240); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 345, 223); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 381, 264); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 449, 270); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 247, 255); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 84, 227); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 55, 244); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_G.vhd", 142, 123); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 107, 95); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("Update_G.vhd", 56, 148); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("Update_G.vhd", 113, 197); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 62, 147); // cd (w, ch)
+// Elapsed time: 94 seconds
+selectCodeEditor("Update_G.vhd", 364, 102); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 353, 168); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_G.vhd", 104, 162); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 116, 183); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 118, 192); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 122, 207); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 150, 112); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 317, 195); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 327, 196); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 324, 197); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 168, 244); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 308, 215); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectCodeEditor("Update_G.vhd", 125, 159); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 126, 193); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_G.vhd", 172, 60); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 209, 77); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 241, 127); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 294, 132); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 265, 143); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_G.vhd", 179, 231); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 164, 228); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 181, 232); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 335, 287); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 321, 113); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 396, 119); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul  8 02:26:46 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 12 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// PAPropertyPanels.initPanels (Update_G.vhd) elapsed time: 0.2s
+// WARNING: updateGUI() is taking  1511 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 9:29:20 AM CEST
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 25486 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 10:01:21 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 10:31:33 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 39 MB. Current time: 7/8/19 10:59:21 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 35 MB. Current time: 7/8/19 11:32:15 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 36 MB. Current time: 7/8/19 11:58:17 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 35 MB. Current time: 7/8/19 12:28:18 PM CEST
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 9000 ms.

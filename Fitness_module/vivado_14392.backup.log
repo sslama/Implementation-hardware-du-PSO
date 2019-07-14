@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul  4 17:09:25 2019
+# Process ID: 14392
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12416 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Fitness_module\Fitness_module.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:36 ; elapsed = 00:01:08 . Memory (MB): peak = 802.613 ; gain = 118.688
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Jul  4 21:58:11 2019...

@@ -1,0 +1,132 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7164
+License: Customer
+
+Current time: 	Mon Jul 08 02:30:19 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/.Xil/Vivado-7164-DESKTOP-SFCC8J7
+
+GUI allocated memory:	116 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 438 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 44 MB (+44141kb) [00:00:05]
+// [Engine Memory]: 355 MB (+220269kb) [00:00:05]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Tcl Message: start_gui 
+// [GUI Memory]: 49 MB (+2913kb) [00:02:29]
+// [Engine Memory]: 438 MB (+68676kb) [00:02:29]
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: PROJECT_OPEN_DIALOG
+// TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 438 MB. GUI used memory: 32 MB. Current time: 7/8/19 2:30:24 AM CEST
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Velocity\Update_Velocity.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr} 
+// [Engine Memory]: 478 MB (+19386kb) [00:02:44]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// HMemoryUtils.trashcanNow. Engine heap size: 495 MB. GUI used memory: 33 MB. Current time: 7/8/19 2:30:40 AM CEST
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 509 MB (+7086kb) [00:02:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 32 MB. Current time: 7/8/19 2:31:00 AM CEST
+// [GUI Memory]: 52 MB (+101kb) [00:03:54]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 55 MB (+679kb) [00:05:22]
+// Project name: Update_Velocity; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:02:56 . Memory (MB): peak = 771.410 ; gain = 138.398 
+// [GUI Memory]: 59 MB (+821kb) [00:05:34]
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 42 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+// PAPropertyPanels.initPanels (Update_Velocity.vhd) elapsed time: 1.1s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, velocity(arch) (Update_Velocity.vhd)]", 5, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+collapseTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+// [GUI Memory]: 64 MB (+1926kb) [00:06:33]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, velocity(arch) (Update_Velocity.vhd)]", 5, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, velocity(arch) (Update_Velocity.vhd)]", 5, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("Update_Velocity.vhd", 162, 158); // cd (w, ch)
+// [GUI Memory]: 70 MB (+3478kb) [00:06:52]
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 36 MB. Current time: 7/8/19 9:28:09 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// [GUI Memory]: 74 MB (+284kb) [07:08:56]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// [GUI Memory]: 80 MB (+1835kb) [07:27:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 36 MB. Current time: 7/8/19 10:00:47 AM CEST
+// [GUI Memory]: 85 MB (+1766kb) [07:46:10]
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 37 MB. Current time: 7/8/19 10:32:13 AM CEST
+// [GUI Memory]: 90 MB (+276kb) [08:12:49]
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 37 MB. Current time: 7/8/19 11:00:21 AM CEST
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 33 MB. Current time: 7/8/19 11:29:37 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 32 MB. Current time: 7/8/19 11:58:14 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 514 MB. GUI used memory: 33 MB. Current time: 7/8/19 12:30:53 PM CEST
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 4000 ms.

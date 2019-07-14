@@ -1,0 +1,14 @@
+library IEEE ;
+Use ieee.std_logic_1164.all;
+Use ieee.numeric_std.all;
+Use ieee.std_logic_signed.all;
+entity position is
+port(x:in std_logic_vector(7 downto 0);
+v:in std_logic_vector(7 downto 0);
+xf:out std_logic_vector(7 downto 0));
+
+end position;
+architecture best of position is
+begin 
+xf <= x +v ;
+end best ;

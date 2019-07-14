@@ -1,0 +1,545 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 1112
+License: Customer
+
+Current time: 	Fri Jul 05 01:44:15 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 26 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/.Xil/Vivado-1112-DESKTOP-SFCC8J7
+
+GUI allocated memory:	147 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 507 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+53957kb) [00:00:24]
+// [Engine Memory]: 496 MB (+368761kb) [00:00:24]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_PBest\Update_P.xpr. Version: Vivado v2018.1 
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 507 MB. GUI used memory: 33 MB. Current time: 7/5/19 1:44:16 AM CEST
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 554 MB. GUI used memory: 32 MB. Current time: 7/5/19 1:44:31 AM CEST
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/RNG4/Update_P' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 555 MB (+35258kb) [00:00:50]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 608 MB (+27069kb) [00:01:21]
+// HMemoryUtils.trashcanNow. Engine heap size: 608 MB. GUI used memory: 37 MB. Current time: 7/5/19 1:45:11 AM CEST
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:56 . Memory (MB): peak = 805.969 ; gain = 124.523 
+// Project name: Update_P; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest; part: xc7z020clg400-1
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_P.vhd) elapsed time: 0.5s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Update_P(Behavioral) (Update_P.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Update_P(Behavioral) (Update_P.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Update_P(Behavioral) (Update_P.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Update_P(Behavioral) (Update_P.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+// [GUI Memory]: 63 MB (+6863kb) [00:01:41]
+// [GUI Memory]: 67 MB (+762kb) [00:02:00]
+// [GUI Memory]: 72 MB (+1663kb) [00:04:20]
+// [GUI Memory]: 77 MB (+1572kb) [00:07:01]
+// [GUI Memory]: 83 MB (+1993kb) [00:16:11]
+// Elapsed time: 1351 seconds
+selectCodeEditor("Update_P.vhd", 144, 277); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 232, 177); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 107, 283); // cd (w, ch)
+// Elapsed time: 28 seconds
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 38, 91); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_P.vhd", 98, 207); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 371, 170); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 101, 249); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 110, 246); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 112, 282); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 104, 262); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_P.vhd", 149, 287); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 222, 229); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 95, 212); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 83, 229); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 83, 207); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 112, 247); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 324, 306); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 201, 248); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_P.vhd", 103, 283); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 119, 217); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_P.vhd", 194, 210); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 163, 272); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 538, 277); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("Update_P.vhd", 489, 268); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 34, 178); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 393, 185); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 56, 56); // cd (w, ch)
+// [GUI Memory]: 88 MB (+1403kb) [00:28:13]
+selectCodeEditor("Update_P.vhd", 393, 217); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 409, 267); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 147, 219); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 147, 235); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 182, 251); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 178, 270); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_P.vhd", 160, 127); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 181, 237); // cd (w, ch)
+// Elapsed time: 150 seconds
+selectCodeEditor("Update_P.vhd", 175, 93); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/5/19 2:15:12 AM CEST
+// Elapsed time: 38 seconds
+selectCodeEditor("Update_P.vhd", 542, 194); // cd (w, ch)
+// Elapsed time: 43 seconds
+selectCodeEditor("Update_P.vhd", 115, 255); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("Update_P.vhd", 319, 228); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_P.vhd", 217, 264); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_P.vhd", 328, 199); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("Update_P.vhd", 70, 92); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 208, 141); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 71, 211); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 208, 208); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 79 seconds
+selectCodeEditor("Update_P.vhd", 625, 209); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 29, 161); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 337, 148); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 139, 159); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 139, 159, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 140, 161); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 140, 161, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_P.vhd", 151, 166); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 151, 166, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 151, 166); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 49, 144); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 430, 144); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 82, 162); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 82, 162, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 184, 164); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 253, 142); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 150, 199); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_P.vhd", 179, 106); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 636, 68); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_P.vhd", 397, 189); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 236, 97); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_P.vhd", 315, 199); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("Update_P.vhd", 92, 228); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 275, 222); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 158, 248); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 103, 56); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 103, 56, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 103, 56); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+typeControlKey(null, null, 'z');
+selectCodeEditor("Update_P.vhd", 256, 43); // cd (w, ch)
+// [GUI Memory]: 94 MB (+1350kb) [00:38:57]
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_P.vhd", 245, 247); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("Update_P.vhd", 323, 179); // cd (w, ch)
+// Elapsed time: 85 seconds
+selectCodeEditor("Update_P.vhd", 378, 54); // cd (w, ch)
+// Elapsed time: 54 seconds
+selectCodeEditor("Update_P.vhd", 195, 229); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_P.vhd", 336, 266); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_P.vhd", 238, 236); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 215, 275); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 184, 252); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 187, 210); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 187, 210, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 209, 209); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("Update_P.vhd", 196, 130); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 125, 97); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 167, 91); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 113, 113); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 113, 113, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey((HResource) null, "Update_P.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 163, 178); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 163, 178, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 163, 178, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("Update_P.vhd", 83, 160); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 200, 177); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 200, 177, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_P.vhd", 340, 206); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 423, 179); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 361, 177); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("Update_P.vhd", 264, 180); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 299, 189); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 327, 182); // cd (w, ch)
+// Elapsed time: 176 seconds
+selectCodeEditor("Update_P.vhd", 172, 109); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 355, 116, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 18 seconds
+selectCodeEditor("Update_P.vhd", 175, 245); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 201, 244, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 218 seconds
+selectCodeEditor("Update_P.vhd", 149, 92); // cd (w, ch)
+// Elapsed time: 309 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// Elapsed time: 11 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/vhdl.tibou/FPGA_Serie/FPGA_Project/interface_port_serie.vhd");
+// 'e' command handler elapsed time: 11 seconds
+selectCodeEditor("interface_port_serie.vhd", 164, 92); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 61, 178); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 125, 192, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("interface_port_serie.vhd", 145, 204); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_P.vhd", 176, 112); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 475, 114, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_PASTE, "Paste"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_P.vhd", 225, 114); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 225, 114, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 270, 231); // cd (w, ch)
+// Elapsed time: 196 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 37 MB. Current time: 7/5/19 2:45:12 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 36 MB. Current time: 7/5/19 9:54:01 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 38 MB. Current time: 7/5/19 10:24:17 AM CEST
+// Elapsed time: 28955 seconds
+selectCodeEditor("Update_P.vhd", 289, 133); // cd (w, ch)
+// Elapsed time: 34 seconds
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P.vhd", 1, true, false); // k (j, ch) - Popup Trigger
+// Elapsed time: 16 seconds
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 10:54:07 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 11:24:08 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/5/19 11:54:08 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 12:24:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 12:54:08 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 1:24:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 1:54:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 2:24:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 2:54:09 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 38 MB. Current time: 7/5/19 3:24:10 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 3:54:11 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/5/19 4:24:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 35 MB. Current time: 7/5/19 4:54:11 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 34 MB. Current time: 7/5/19 5:24:11 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 36 MB. Current time: 7/7/19 11:12:18 PM CEST
+// [GUI Memory]: 101 MB (+1777kb) [69:42:01]
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/7/19 11:42:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/8/19 12:12:19 AM CEST
+// Elapsed time: 222155 seconds
+selectCodeEditor("Update_P.vhd", 201, 78); // cd (w, ch)
+// WARNING: updateGUI() is taking  1477 ms.
+// Elapsed time: 50 seconds
+selectCodeEditor("Update_P.vhd", 721, 359); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/8/19 12:42:17 AM CEST
+// Elapsed time: 789 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 105, 24); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 105, 24, false, false, false, false, true); // cd (w, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_P.vhd", 257, 198); // cd (w, ch)
+// Elapsed time: 170 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+// Elapsed time: 121 seconds
+selectCodeEditor("interface_port_serie.vhd", 125, 291); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_P.vhd", 278, 217); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 288, 209); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 328, 210); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 397, 227); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 211, 227); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "interface_port_serie.vhd", 2); // k (j, ch)
+selectCodeEditor("interface_port_serie.vhd", 140, 293); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 140, 293, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 134, 300); // cd (w, ch)
+selectCodeEditor("interface_port_serie.vhd", 134, 300, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("interface_port_serie.vhd", 125, 292); // cd (w, ch)
+typeControlKey((HResource) null, "interface_port_serie.vhd", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_P.vhd", 268, 110); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("Update_P.vhd", 270, 225); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 215, 256); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 217, 248); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 321, 263); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 348, 267); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 348, 267, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 348, 267); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 278, 277); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_P.vhd", 176, 245); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 182, 242); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 275, 227); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 231, 113); // cd (w, ch)
+// Elapsed time: 152 seconds
+selectCodeEditor("Update_P.vhd", 207, 177); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 207, 177, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 207, 177); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 190, 237); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 195, 251); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_P.vhd", 381, 246); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 381, 246, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 381, 246); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 339, 215); // cd (w, ch)
+typeControlKey((HResource) null, "Update_P.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 254, 246); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("Update_P.vhd", 313, 323); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 179, 349); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("Update_P.vhd", 224, 178); // cd (w, ch)
+// Elapsed time: 58 seconds
+selectCodeEditor("Update_P.vhd", 504, 185); // cd (w, ch)
+// Elapsed time: 902 seconds
+selectCodeEditor("Update_P.vhd", 342, 303); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("Update_P.vhd", 341, 198); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_P.vhd", 377, 148); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 39 MB. Current time: 7/8/19 1:12:16 AM CEST
+// Elapsed time: 20 seconds
+selectCodeEditor("Update_P.vhd", 276, 91); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 349, 129); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 380, 141); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_P.vhd", 279, 150); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 279, 150, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 281, 156); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 281, 156, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 470, 137); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 312, 174); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 312, 174, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 318, 193); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 318, 193, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 317, 202); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 308, 206); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_P.vhd", 208, 255); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 208, 255, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 205, 251); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 205, 251); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 199, 264); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 199, 264, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 211, 253); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 211, 253, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 245, 253); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 250, 69); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 319, 78); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Update_P.vhd", 188, 240); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 188, 240, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_P.vhd", 280, 78); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 443, 268); // cd (w, ch)
+// Elapsed time: 49 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("Update_P.vhd", 479, 337); // cd (w, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// bv (ch):  Resetting Runs : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul  8 01:15:20 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 13 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 159 seconds
+dismissDialog("Synthesis Completed"); // ah (ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/8/19 1:42:17 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/8/19 2:12:16 AM CEST
+// Elapsed time: 3607 seconds
+selectCodeEditor("Update_P.vhd", 158, 279); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 236, 274); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 181, 283); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 124, 55, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 192 seconds
+selectCodeEditor("Update_P.vhd", 206, 226); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 181, 241); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 102, 197); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/8/19 9:29:46 AM CEST
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 41 MB. Current time: 7/8/19 10:00:29 AM CEST
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 6000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 40 MB. Current time: 7/8/19 10:29:57 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 41 MB. Current time: 7/8/19 11:00:07 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (HMemoryUtils Timer) is taking too long to process. Increasing delay to 9000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 7000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 36 MB. Current time: 7/8/19 11:31:01 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 35 MB. Current time: 7/8/19 11:58:57 AM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 625 MB. GUI used memory: 36 MB. Current time: 7/8/19 12:28:33 PM CEST

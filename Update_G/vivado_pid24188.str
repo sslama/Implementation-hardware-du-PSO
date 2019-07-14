@@ -1,0 +1,358 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 24188
+License: Customer
+
+Current time: 	Thu Jun 27 00:23:22 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 18 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/.Xil/Vivado-24188-DESKTOP-SFCC8J7
+
+GUI allocated memory:	145 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 512 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// [GUI Memory]: 54 MB (+54083kb) [00:00:27]
+// [Engine Memory]: 500 MB (+372890kb) [00:00:27]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\RNG4\Update_G\Update_G.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// Tcl Message: open_project C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.xpr 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 512 MB. GUI used memory: 33 MB. Current time: 6/27/19 12:23:24 AM CEST
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 548 MB (+23616kb) [00:00:43]
+// Tcl Message: open_project C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 580 MB. GUI used memory: 32 MB. Current time: 6/27/19 12:23:59 AM CEST
+// [Engine Memory]: 580 MB (+5447kb) [00:01:08]
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 647 MB (+39689kb) [00:01:12]
+// Project name: Update_G; location: C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:32 ; elapsed = 00:00:46 . Memory (MB): peak = 810.992 ; gain = 136.645 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (Update_G.vhd) elapsed time: 0.3s
+// Elapsed time: 19 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, g_best(best) (Update_G.vhd)]", 1, false); // B (D, ch)
+// [GUI Memory]: 63 MB (+7029kb) [00:01:36]
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+// [GUI Memory]: 67 MB (+922kb) [00:02:18]
+// Elapsed time: 27 seconds
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G_Test.vhd");
+// 'e' command handler elapsed time: 27 seconds
+// [GUI Memory]: 78 MB (+7229kb) [00:02:29]
+// Elapsed time: 11 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_CHECKPOINT, "Checkpoint"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EXPORT, "Export"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_IP, "IP"); // Z (ch)
+selectMenu(PAResourceItoN.MainMenuMgr_TEXT_EDITOR, "Text Editor"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_FILE, "Open File..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_FILE
+setFileChooser("C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/test_g_best_behav.wcfg");
+// 'e' command handler elapsed time: 5 seconds
+// Run Command: RDIResourceCommand.RDICommands_SAVE_LAYOUT_AS
+// D (ch): Save Layout As: addNotify
+// Elapsed time: 15 seconds
+dismissDialog("Save Layout As"); // D (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'test_g_best' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj test_g_best_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity g_best INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G_Test.vhd" into library xil_defaultlib INFO: [VRFC 10-307] analyzing entity test_g_best 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '4' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.sim/sim_1/behav/xsim' 
+// Tcl Message: Built simulation snapshot test_g_best_behav 
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.sim/sim_1/behav/xsim/xsim.dir/test_g_best_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Thu Jun 27 00:26:16 2019... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:01 ; elapsed = 00:00:10 . Memory (MB): peak = 829.473 ; gain = 0.141 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '10' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/Update_G.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "test_g_best_behav -key {Behavioral:sim_1:Functional:test_g_best} -tclbatch {test_g_best.tcl} -view {C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/test_g_best_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// TclEventType: LOAD_FEATURE
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// Tcl Message: open_wave_config C:/Users/IDEAL-INFO/Desktop/RNG4/Update_G/test_g_best_behav.wcfg 
+// Waveform: addNotify
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 49 MB. Current time: 6/27/19 12:26:28 AM CEST
+// Tcl Message: source test_g_best.tcl 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } # run 1000ns 
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: xsim: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 846.629 ; gain = 15.516 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'test_g_best_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:10 ; elapsed = 00:00:28 . Memory (MB): peak = 846.629 ; gain = 18.645 
+// 'd' command handler elapsed time: 28 seconds
+// Elapsed time: 28 seconds
+dismissDialog("Run Simulation"); // e (ch)
+selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 48 MB. Current time: 6/27/19 12:26:35 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 49 MB. Current time: 6/27/19 12:26:37 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 48 MB. Current time: 6/27/19 12:26:39 AM CEST
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectButton(RDIResource.GraphicalView_ZOOM_IN, "Waveform Viewer_zoom_in"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 48 MB. Current time: 6/27/19 12:26:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 48 MB. Current time: 6/27/19 12:26:41 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 49 MB. Current time: 6/27/19 12:26:45 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 0); // k (j, ch)
+// [GUI Memory]: 84 MB (+2030kb) [00:05:42]
+// [GUI Memory]: 88 MB (+260kb) [00:11:18]
+// [GUI Memory]: 93 MB (+236kb) [00:17:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 49 MB. Current time: 6/27/19 12:56:49 AM CEST
+// [GUI Memory]: 97 MB (+115kb) [00:54:40]
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 1:26:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 1:56:50 AM CEST
+// [GUI Memory]: 102 MB (+136kb) [02:03:08]
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 2:26:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 2:56:50 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 3:26:51 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 3:56:51 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 46 MB. Current time: 6/27/19 4:26:51 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 46 MB. Current time: 6/27/19 4:56:52 AM CEST
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 5:26:52 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 5:56:52 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 6:26:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 46 MB. Current time: 6/27/19 6:56:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 7:26:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 7:56:53 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 8:26:54 AM CEST
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 46 MB. Current time: 6/27/19 11:45:43 AM CEST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 12:15:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 12:45:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 45 MB. Current time: 6/27/19 1:15:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 1:45:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 2:15:39 PM CEST
+// Elapsed time: 50517 seconds
+selectCodeEditor("Update_G.vhd", 74, 89); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 155, 105); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 218, 98); // cd (w, ch)
+// Elapsed time: 99 seconds
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+selectButton(RDIResourceCommand.RDICommands_UNDO, "undo"); // B (f, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 46 MB. Current time: 6/27/19 2:45:47 PM CEST
+// Elapsed time: 1152 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_g_best_behav.wcfg", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 0); // k (j, ch)
+// [GUI Memory]: 108 MB (+432kb) [14:47:48]
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 3:15:43 PM CEST
+// Elapsed time: 2696 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G_Test.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_G_Test.vhd", 113, 145); // cd (w, ch)
+selectCodeEditor("Update_G_Test.vhd", 282, 143); // cd (w, ch)
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 661 MB. GUI used memory: 47 MB. Current time: 6/27/19 3:46:47 PM CEST
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HTimer (HSTRUtils Dump STR Log Timer) is taking too long to process. Increasing delay to 5000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HTimer (a Update Status Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (ExpRunMonitor Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HTimer (MainWindowUtils Timer) is taking too long to process. Increasing delay to 11000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 6000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (ExpRunMonitor Open Timer) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 7000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 8000 ms.
+// WARNING: HTimer (StateMonitor Timer) is taking too long to process. Increasing delay to 9000 ms.

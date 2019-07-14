@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jul  8 02:27:33 2019
+# Process ID: 7164
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14068 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_Velocity\Update_Velocity.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:30 ; elapsed = 00:02:56 . Memory (MB): peak = 771.410 ; gain = 138.398
+update_compile_order -fileset sources_1

@@ -1,0 +1,84 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jul 10 00:13:19 2019
+# Process ID: 2416
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3228 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_G\Update_G.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.xpr}
+update_compile_order -fileset sources_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G_tb.vhd}}
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+export_ip_user_files -of_objects  [get_files {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G_Test.vhd}}] -no_script -reset -force -quiet
+remove_files  -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G_Test.vhd}}
+update_compile_order -fileset sim_1
+launch_simulation
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+source Update_G_tb.tcl
+run all
+add_bp {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.vhd} 41
+remove_bps -file {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.vhd} -line 41
+run 10 us
+run 10 us
+run all
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+close_sim
+launch_simulation
+open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+source Update_G_tb.tcl
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}

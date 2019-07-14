@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../position_memory.vhd" \
+"../../../../Position_memory_tb.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../fitness_module.vhd" \
+"../../../../Fitness_module_tb.vhd" \
+
+# Do not sort compile order
+nosort

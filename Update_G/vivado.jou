@@ -1,0 +1,35 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Jul 14 19:22:58 2019
+# Process ID: 8252
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7284 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Update_G\Update_G.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+source Update_G_tb.tcl
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/test_g_best_behav.wcfg}
+close_sim
