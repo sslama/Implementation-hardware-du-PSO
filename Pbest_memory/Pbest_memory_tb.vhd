@@ -15,10 +15,10 @@ end velocity_memory_tb ;
 architecture Behavioral of velocity_memory_tb is
  component PBM
     port
-        (        clk     : in  std_logic;
-                 WR      : in  std_logic;
-                 address : in  std_logic_vector (3 downto 0);
-                 particule_in  : in array8;
+        (        clk     : in  std_logic;   
+                 WR      : in  std_logic;                     -- write/read 
+                 address : in  std_logic_vector (8 downto 0); -- adress dans la memoire 
+                 particule_in  : in array8;                    
                  particule_out : out array8;
                  fitness_in : in std_logic_vector(17 downto 0);
                  fitness_out : out std_logic_vector(17 downto 0));
@@ -26,7 +26,7 @@ architecture Behavioral of velocity_memory_tb is
    --Inputs
     signal  clk: std_logic := '0';
     signal  WR: std_logic := '0';
-    signal  address:  std_logic_vector (3 downto 0);
+    signal  address:  std_logic_vector (8 downto 0);
     signal  particule_in : array8 ;
     signal  fitness_in: std_logic_vector (17 downto 0);
     --outputs 
@@ -61,7 +61,7 @@ architecture Behavioral of velocity_memory_tb is
 stim_proc: process
         begin        
             WR <= '1'; 
-            address <= "0010";
+            address <= "000000010";
             particule_in(0)<= "00010000";
             particule_in(1)<= "00000010";
             particule_in(2)<= "01000000";
@@ -70,7 +70,7 @@ stim_proc: process
             
             
             WR <= '1'; 
-            address <= "0110";
+            address <= "000000110";
             particule_in(0)<= "00010010";
             particule_in(1)<= "00000011";
             particule_in(2)<= "01000011";
@@ -80,11 +80,11 @@ stim_proc: process
            wait for 100 ns;
            
             WR <= '0'; 
-            address <= "0010";
+            address <= "000000010";
             wait for 100 ns;
            
              WR <= '0'; 
-             address <= "0110";
+             address <= "000000110";
              wait for 100 ns;
                        
            wait;
