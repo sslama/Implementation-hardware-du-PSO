@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Mon Jul 15 13:49:25 2019
+# Process ID: 5984
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1536 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\final_code\final_code.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/final_code' since last save.
+Scanning sources...
+Finished scanning sources
+WARNING: [filemgmt 56-2] IPUserFilesDir: Could not find the directory 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.ip_user_files', nor could it be found using path 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/final_code/final_code.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:15 . Memory (MB): peak = 806.598 ; gain = 128.059
+update_compile_order -fileset sources_1

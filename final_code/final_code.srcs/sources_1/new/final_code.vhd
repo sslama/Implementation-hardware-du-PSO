@@ -89,11 +89,11 @@ component position                           --Update Position
 end component;
 
 component PM                                 --Update Position Memory 
-        port (     clk     : in  std_logic;
-                   WR      : in  std_logic;
-                   address : in  std_logic_vector (3 downto 0);
-                   particule_in  : in array8;
-                   particule_out : out array8); 
+        port (    clk     : in  std_logic;
+                  WR      : in  std_logic;
+                  address : in  std_logic_vector (3 downto 0);
+                  particule_in  : in array8;
+                  particule_out : out array8); 
 end component;
  
 begin 

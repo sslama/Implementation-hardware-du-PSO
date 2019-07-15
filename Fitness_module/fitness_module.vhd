@@ -36,7 +36,7 @@ begin
         if (first_time = '1') then                  --Actions a effectuer a la naissance du bloc
             first_time <= '0';
         else                                        --Actions a effectuer pendant le vie du bloc
-            if (array_i(1) /= array_sig(1)) then    --Si une nouvelle valeur est presente en entree
+            if (array_i /= array_sig) then    --Si une nouvelle valeur est presente en entree
                 array_sig <= array_i;
                 F <= "00" & ((array_i(0) * array_i(0)) + (array_i(1) * array_i(1)) + (array_i(2) * array_i(2))); --formule de la fonction de sphere dans la sortie
             end if;
