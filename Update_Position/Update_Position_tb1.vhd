@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;    --used to do operations on vectors
-use IEEE.std_logic_misc.all;        --maybe not necessary
+use IEEE.std_logic_misc.all;      
 USE IEEE.numeric_std.ALL;
 use IEEE.std_logic_arith.all;
 library work;
@@ -16,17 +16,17 @@ architecture Behavioral of Update_P_tb is
  component position
     port
         (    clk: in std_logic; 
-             x_in: in array8(0 to 2);
-             v_in : in array8(0 to 2);
-             x_f: out array8(0 to 2));
+             x_in: in array8;
+             v_in : in array8;
+             x_f: out array8);
   end component; 
    --Inputs
     signal  clk: std_logic := '0';
-    signal  x_in: array8(0 to 2) ;
-    signal  v_in: array8(0 to 2) ;
+    signal  x_in: array8 ;
+    signal  v_in: array8 ;
    
     --outputs
-    signal  x_f: array8(0 to 2); 
+    signal  x_f: array8 ; 
        
     
   -- Clock period definitions

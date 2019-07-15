@@ -9,35 +9,37 @@
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
 source position.tcl -notrace
-create_project: Time (s): cpu = 00:00:03 ; elapsed = 00:00:23 . Memory (MB): peak = 300.555 ; gain = 67.109
 Command: synth_design -top position -part xc7z020clg400-2
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12876 
+INFO: Helper process launched with PID 8720 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 410.594 ; gain = 97.031
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 409.852 ; gain = 100.098
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'position' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd:30]
-	Parameter num_particules bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'position' (1#1) [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.vhd:30]
+INFO: [Synth 8-638] synthesizing module 'position' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:28]
+WARNING: [Synth 8-6014] Unused sequential element array_x_in_reg[0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element array_x_in_reg[2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element array_v_in_reg[0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:43]
+WARNING: [Synth 8-6014] Unused sequential element array_v_in_reg[2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:43]
+INFO: [Synth 8-256] done synthesizing module 'position' (1#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.vhd:28]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 465.828 ; gain = 152.266
+Finished Synthesize : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 460.352 ; gain = 150.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 465.828 ; gain = 152.266
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 460.352 ; gain = 150.598
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 465.828 ; gain = 152.266
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 460.352 ; gain = 150.598
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-2
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:17 . Memory (MB): peak = 465.828 ; gain = 152.266
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 469.332 ; gain = 159.578
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -53,7 +55,7 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input      8 Bit       Adders := 3     
 +---Registers : 
-	                8 Bit    Registers := 12    
+	                8 Bit    Registers := 5     
 	                1 Bit    Registers := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
@@ -67,7 +69,7 @@ Detailed RTL Component Info :
 +---Adders : 
 	   2 Input      8 Bit       Adders := 3     
 +---Registers : 
-	                8 Bit    Registers := 12    
+	                8 Bit    Registers := 5     
 	                1 Bit    Registers := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
@@ -87,7 +89,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:29 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -100,7 +102,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:29 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -112,7 +114,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:29 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -136,7 +138,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -149,7 +151,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,25 +163,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -197,27 +199,26 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     6|
-|3     |LUT2   |    25|
-|4     |LUT4   |     2|
-|5     |LUT6   |     5|
-|6     |FDRE   |    91|
-|7     |FDSE   |     6|
-|8     |IBUF   |    49|
-|9     |OBUF   |    24|
+|3     |LUT2   |    24|
+|4     |LUT3   |     1|
+|5     |LUT6   |     6|
+|6     |FDRE   |    41|
+|7     |IBUF   |    49|
+|8     |OBUF   |    24|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |   209|
+|1     |top      |       |   152|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:31 . Memory (MB): peak = 619.230 ; gain = 305.668
+Synthesis finished with 0 errors, 0 critical warnings and 4 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 620.047 ; gain = 310.293
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 55 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -227,11 +228,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-11 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+11 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:01:24 . Memory (MB): peak = 725.613 ; gain = 425.059
-INFO: [Common 17-1381] The checkpoint 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Position/Update_Position.runs/synth_1/position.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:00 ; elapsed = 00:00:09 . Memory (MB): peak = 725.613 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 714.914 ; gain = 418.066
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_Position.runs/synth_1/position.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file position_utilization_synth.rpt -pb position_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 725.613 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Thu Jul 11 17:47:24 2019...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.048 . Memory (MB): peak = 715.250 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 02:35:43 2019...

@@ -118,3 +118,12 @@ selectCodeEditor("pbest_memory.vhd", 418, 115); // cd (w, ch)
 selectCodeEditor("pbest_memory.vhd", 418, 115, false, false, false, false, true); // cd (w, ch) - Double Click
 selectCodeEditor("pbest_memory.vhd", 489, 113); // cd (w, ch)
 selectCodeEditor("pbest_memory.vhd", 312, 108, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 991 seconds
+selectCodeEditor("pbest_memory.vhd", 311, 57); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("pbest_memory.vhd", 462, 78); // cd (w, ch)
+selectCodeEditor("pbest_memory.vhd", 911, 98); // cd (w, ch)
+selectCodeEditor("pbest_memory.vhd", 942, 71); // cd (w, ch)
+selectCodeEditor("pbest_memory.vhd", 551, 74, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
