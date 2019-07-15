@@ -2,10 +2,10 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Jul 15 15:46:13 2019
-# Process ID: 5704
+# Start of session at: Mon Jul 15 17:27:45 2019
+# Process ID: 7760
 # Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12344 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Position\Update_Position.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11936 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Position\Update_Position.xpr
 # Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/vivado.log
 # Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position\vivado.jou
 #-----------------------------------------------------------
@@ -19,7 +19,5 @@ Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
-open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 874.770 ; gain = 141.059
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:26 . Memory (MB): peak = 859.734 ; gain = 127.555
 update_compile_order -fileset sources_1
-exit
-INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 16:23:33 2019...

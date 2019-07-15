@@ -548,3 +548,179 @@ selectCodeEditor("final_code.vhd", 285, 418); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 366, 384); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 341, 415); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 364, 440); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_code.vhd", 284, 433); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 45 MB. Current time: 7/15/19 5:22:15 PM CEST
+// Elapsed time: 222 seconds
+selectCodeEditor("final_code.vhd", 126, 268); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 263, 407); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 192, 454); // cd (w, ch)
+// Elapsed time: 68 seconds
+selectCodeEditor("final_code.vhd", 350, 110); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// WARNING: HTimer (FileMgr Design Graph Update Timer) is taking too long to process. Increasing delay to 3000 ms.
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 11 seconds
+selectCodeEditor("final_code.vhd", 241, 352); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 92 seconds
+selectCodeEditor("final_code.vhd", 272, 408); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 396, 382); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 379, 388, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 275, 404); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 364, 381); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 312, 401); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 286, 476); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("final_code.vhd", 161, 79); // cd (w, ch)
+// Elapsed time: 54 seconds
+selectCodeEditor("final_code.vhd", 356, 454); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("final_code.vhd", 120, 276); // cd (w, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 67 seconds
+selectCodeEditor("final_code.vhd", 145, 93); // cd (w, ch)
+// Elapsed time: 54 seconds
+selectCodeEditor("final_code.vhd", 306, 399); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 296, 401, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 227, 418); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("final_code.vhd", 129, 161); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 114, 164, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 260, 466); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("final_code.vhd", 316, 467); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("final_code.vhd", 181, 470); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 175, 467, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 124, 483); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 121, 487); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 91 seconds
+selectCodeEditor("final_code.vhd", 188, 448); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 144, 485); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 271, 446); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 193, 485); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 285, 471); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 278, 490); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 202, 382); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'c'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 315, 488); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, final_code.vhd]", 2, false); // B (D, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// V (ch): Specify Top Module: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+dismissDialog("Specify Top Module"); // V (ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// f (ch): Launch Runs: addNotify
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Mon Jul 15 17:33:39 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.runs/synth_1/runme.log 
+// 'k' command handler elapsed time: 4 seconds
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_FAILED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// Elapsed time: 26 seconds
+selectCodeEditor("final_code.vhd", 356, 264); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 356, 260); // cd (w, ch)
+// ah (ch): Synthesis Failed: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Synthesis Failed"); // ah (ch)
+selectCodeEditor("final_code.vhd", 358, 265); // cd (w, ch)
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Synthesis, [Synth 8-274] error: cannot constrain a constrained type [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:89]. ]", 1, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\final_code\final_code.srcs\sources_1\new\final_code.vhd;-;;-;16;-;line;-;89;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("final_code.vhd", 275, 129); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("final_code.vhd", 338, 322); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 484, 441); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectButton(PAResourceItoN.MainToolbarMgr_RUN, (String) null); // ax (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_RUN_SYNTHESIS, "Run Synthesis"); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// f (ch): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (f)
+// bv (ch):  Starting Design Runs : addNotify
+dismissDialog("Launch Runs"); // f (ch)
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 3 
+// Tcl Message: [Mon Jul 15 17:35:07 2019] Launched synth_1... Run output will be captured here: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// WARNING: HTimer (ExpRunMgr Pending Runs Timer) is taking too long to process. Increasing delay to 3000 ms.
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 69 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Synthesis Completed"); // ah (ch)
+selectCodeEditor("final_code.vhd", 573, 456); // cd (w, ch)

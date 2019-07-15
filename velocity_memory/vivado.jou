@@ -12,3 +12,8 @@
 start_gui
 open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory.xpr}
 update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory_tb_behav.wcfg}
+source velocity_memory_tb.tcl
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory_tb_behav.wcfg}
+close_sim

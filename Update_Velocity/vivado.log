@@ -174,3 +174,7 @@ Time resolution is 1 ps
 relaunch_xsim_kernel: Time (s): cpu = 00:00:02 ; elapsed = 00:00:14 . Memory (MB): peak = 919.383 ; gain = 0.000
 relaunch_sim: Time (s): cpu = 00:00:03 ; elapsed = 00:00:20 . Memory (MB): peak = 919.383 ; gain = 0.000
 save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 17:22:33 2019...

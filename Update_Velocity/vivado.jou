@@ -18,3 +18,7 @@ wait_on_run synth_1
 launch_simulation
 open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb_behav.wcfg}
 source Update_Velocity_tb.tcl
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb_behav.wcfg}
+close_sim
