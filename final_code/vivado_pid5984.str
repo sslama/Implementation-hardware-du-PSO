@@ -381,3 +381,4 @@ selectCodeEditor("final_code.vhd", 232, 399); // cd (w, ch)
 typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
 // Elapsed time: 60 seconds
 selectCodeEditor("final_code.vhd", 272, 224); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 310, 261); // cd (w, ch)

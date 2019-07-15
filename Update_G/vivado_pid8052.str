@@ -267,3 +267,34 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_
 // Elapsed time: 44 seconds
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G_tb.vhd", 1); // k (j, ch)
 // [GUI Memory]: 97 MB (+4111kb) [00:05:00]
+// Elapsed time: 88 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 0); // k (j, ch)
+// Elapsed time: 192 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "test_g_best_behav.wcfg", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G_tb.vhd", 1); // k (j, ch)
+// Elapsed time: 74 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_G.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_G.vhd", 92, 164); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 167, 179); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 104, 108); // cd (w, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+selectCodeEditor("Update_G.vhd", 101, 113); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 102, 113, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_G.vhd", 90, 128); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 90, 128, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_G.vhd", 96, 192); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 96, 192, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_G.vhd", 92, 213); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 92, 213, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_G.vhd", 524, 162); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("Update_G.vhd", 132, 231); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 132, 231, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("Update_G.vhd", 124, 175); // cd (w, ch)
+selectCodeEditor("Update_G.vhd", 124, 175, false, false, false, false, true); // cd (w, ch) - Double Click
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectCodeEditor("Update_G.vhd", 186, 258); // cd (w, ch)

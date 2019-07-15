@@ -28,7 +28,6 @@ architecture behavioral of g_best is
     signal array_save : array8;
     signal array_in  : array8;
     signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
-    signal fitness_in  : std_logic_vector(17 downto 0) := (others => '0');
     signal first_time : std_logic := '1';
     begin 
 process(clk)
