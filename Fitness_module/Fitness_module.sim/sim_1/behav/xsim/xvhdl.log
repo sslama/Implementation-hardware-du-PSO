@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/fitness_module.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity fitness
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/Fitness_module_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity pkg_tb

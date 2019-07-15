@@ -204,3 +204,64 @@ selectCodeEditor("final_code.vhd", 194, 220); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 75, 126); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 233, 247); // cd (w, ch)
 // HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 49 MB. Current time: 7/15/19 2:22:13 PM CEST
+// Elapsed time: 110 seconds
+selectCodeEditor("final_code.vhd", 298, 280); // cd (w, ch)
+// Elapsed time: 348 seconds
+selectCodeEditor("final_code.vhd", 140, 232); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 146, 253); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 107, 262); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 160, 392); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 156, 401); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 206, 268); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 271, 258); // cd (w, ch)
+// Elapsed time: 128 seconds
+selectCodeEditor("final_code.vhd", 417, 116); // cd (w, ch)
+// Elapsed time: 124 seconds
+selectCodeEditor("final_code.vhd", 239, 381); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("final_code.vhd", 117, 225); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 150, 268); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("final_code.vhd", 77, 78); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 60, 80, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("final_code.vhd", 182, 397); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("final_code.vhd", 269, 263); // cd (w, ch)
+// Elapsed time: 46 seconds
+selectCodeEditor("final_code.vhd", 270, 265); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 314, 315); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 150, 228); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 135, 230); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("final_code.vhd", 69, 77); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 129, 179); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 252, 381); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 228, 381, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 211, 402); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("final_code.vhd", 162, 108); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 116, 108, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("final_code.vhd", 139, 248); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 251, 404); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 406, 447); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 159, 216); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 159, 216, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 96, 124); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 59, 127, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("final_code.vhd", 317, 404); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 322, 404); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("final_code.vhd", 398, 407); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 107, 140); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 148, 271); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 89, 366); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 81, 364, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)

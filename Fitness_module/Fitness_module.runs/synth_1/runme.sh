@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/IDEAL-INFO/Desktop/VHDL V2/Fitness_module/Fitness_module.runs/synth_1'
+HD_PWD='C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/Fitness_module.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
