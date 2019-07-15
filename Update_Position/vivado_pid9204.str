@@ -329,3 +329,52 @@ dismissDialog("Run Simulation"); // e (ch)
 selectButton(RDIResource.GraphicalView_ZOOM_FIT, "Waveform Viewer_zoom_fit"); // B (f, ch)
 // TclEventType: WAVEFORM_UPDATE_WAVEFORM
 // HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 48 MB. Current time: 7/15/19 2:37:15 AM CEST
+// Elapsed time: 11 seconds
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Position/Update_P_tb_behav.wcfg} 
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 298 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectCodeEditor("Update_Position.vhd", 452, 75); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 47 MB. Current time: 7/15/19 2:42:30 AM CEST
+selectCodeEditor("Update_Position.vhd", 522, 68, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 98 seconds
+selectCodeEditor("Update_Position.vhd", 382, 79, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 188 seconds
+selectCodeEditor("Update_Position.vhd", 352, 222); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 111, 194); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 389, 195, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// Elapsed time: 137 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 178, 130); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 174, 212); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 71, 96); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 202, 92, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("Update_Position_tb1.vhd", 211, 96); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 77, 217); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 223, 205); // cd (w, ch)
+selectCodeEditor("Update_Position_tb1.vhd", 74, 189); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Update_Position_tb1.vhd", 76, 57); // cd (w, ch)
+typeControlKey((HResource) null, "Update_Position_tb1.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_P_tb_behav.wcfg", 2); // k (j, ch)
+selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); // B (f, ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position_tb1.vhd", 1); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE

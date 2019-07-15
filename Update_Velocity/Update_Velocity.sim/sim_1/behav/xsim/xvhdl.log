@@ -1,0 +1,4 @@
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity velocity
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb

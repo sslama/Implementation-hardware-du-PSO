@@ -63,6 +63,7 @@ stim_proc: process
             v_in(2)<= "00001100";
            
            wait for 300 ns;
+           --  2 eme  addition 
            
             x_in(0)<= "00000010";
             x_in(1)<= "00000100";
@@ -73,7 +74,7 @@ stim_proc: process
             v_in(2)<= "00000100"; 
             
            wait for 100 ns;
-           
+          --  3 eme  addition 
             x_in(0)<= "01000010";
             x_in(1)<= "00100100";
             x_in(2)<= "01100111";
@@ -83,7 +84,7 @@ stim_proc: process
             v_in(2)<= "01000100";           
             
             wait for 100 ns;
-            
+           -- 4 eme  addition  
              x_in(0)<= "00000001";
              x_in(1)<= "00000010";
              x_in(2)<= "00000111";

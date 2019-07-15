@@ -127,3 +127,4 @@ selectCodeEditor("pbest_memory.vhd", 911, 98); // cd (w, ch)
 selectCodeEditor("pbest_memory.vhd", 942, 71); // cd (w, ch)
 selectCodeEditor("pbest_memory.vhd", 551, 74, false, false, false, true, false); // cd (w, ch) - Popup Trigger
 selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 685 MB. GUI used memory: 41 MB. Current time: 7/15/19 2:29:09 AM CEST
