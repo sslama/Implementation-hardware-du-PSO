@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 --define an array of 8bit std_logic_vector
 package pkg is
-  type array8 is array (natural range <>) of std_logic_vector(7 downto 0);
+  type array8 is array (0 to 2) of std_logic_vector(7 downto 0);
 end package;
  
  
@@ -20,13 +20,13 @@ use work.pkg.all;
 entity g_best is
 port
        (  clk: in std_logic;
-          x_i: in array8(0 to 2);
+          x_i: in array8;
           f_i: in std_logic_vector(17 downto 0);
-          g_best_o :out array8(0 to 2));
+          g_best_o :out array8);
 end g_best;
 architecture behavioral of g_best is
-    signal array_save : array8(0 to 2);
-    signal array_in  : array8(0 to 2);
+    signal array_save : array8;
+    signal array_in  : array8;
     signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
     signal fitness_in  : std_logic_vector(17 downto 0) := (others => '0');
     signal first_time : std_logic := '1';
@@ -61,8 +61,6 @@ begin
                             fitness_save <= f_i ;           --si fitness inferieur, on stocke le fitness et le tableau
                             array_save <= x_i ;  
                         end if;
-                        
-                    --WHEN OTHERS => NULL;
                 end case;
             end if;              
         end if;

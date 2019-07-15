@@ -16,16 +16,16 @@ architecture Behavioral of Update_G_tb is
  component g_best
     port
         (  clk: in std_logic;
-           x_i: in array8(0 to 2);
+           x_i: in array8;
            f_i: in std_logic_vector(17 downto 0);
-           g_best_o :out array8(0 to 2));
+           g_best_o :out array8);
   end component; 
    --Inputs
     signal  clk : std_logic := '0';
-    signal x_i: array8(0 to 2) ;
+    signal x_i: array8;
     signal  f_i : std_logic_vector(17 downto 0) := (others => '0');
     --outputs 
-    signal g_best_o  : array8(0 to 2) ;
+    signal g_best_o  : array8;
   -- Clock period definitions
     constant clk_period : time := 10 ns;
   
