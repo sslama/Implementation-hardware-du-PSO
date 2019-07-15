@@ -343,3 +343,5 @@ selectButton(RDIResource.GraphicalView_ZOOM_OUT, "Waveform Viewer_zoom_out"); //
 // TclEventType: WAVEFORM_UPDATE_COMMANDS
 // [GUI Memory]: 94 MB (+620kb) [00:15:51]
 // [GUI Memory]: 99 MB (+275kb) [00:20:50]
+// Elapsed time: 1504 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Velocity.vhd", 0); // k (j, ch)

@@ -1,9 +1,8 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
---define an array of 8bit std_logic_vector
-package pkg is
-  type array8 is array (0 to 2) of std_logic_vector(7 downto 0); -- creation d'un tableau 3D de vecteurs codees sur 8 Bits
+package pkg is -- creation d un nouveau type
+  type array8 is array (0 to 2) of std_logic_vector(7 downto 0); -- creation d'un tableau 3D de vecteurs codees sur 8 Bits ( positiond'une particule) 
 end package;
  
  
@@ -21,7 +20,7 @@ entity p_best is
 port
        (  clk: in std_logic;
           x_i: in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
-          f_i: in std_logic_vector(17 downto 0);       -- Fitness a l'entree codee sur 18 bits 
+          f_i: in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
           f_best_o: out std_logic_vector(17 downto 0); -- Fitness a la sortie codee sur 18 bits
           p_best_o :out array8);                       -- tableau contenant les 3 dimension de la particule codees sur 8 bits (la PBest)
 end p_best;
@@ -29,7 +28,6 @@ architecture behavioral of p_best is
     signal array_save : array8;
     signal array_in  : array8;
     signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
-    signal fitness_in  : std_logic_vector(17 downto 0) := (others => '0');
     signal first_time : std_logic := '1';
     begin 
 process(clk)
@@ -39,7 +37,7 @@ begin
             if (first_time = '1') then
                 first_time <= '0';
              else
-                  if (x_i(1) /= array_in(1)) then                  --nouvelle valeur en entree
+                  if (x_i /= array_in) then                  --nouvelle valeur en entree
                        array_in <=  x_i ;
                        case cpt is
                            when 0 =>                               --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage) 

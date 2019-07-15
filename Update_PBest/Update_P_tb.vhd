@@ -3,7 +3,7 @@ use IEEE.STD_LOGIC_1164.ALL;
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 use IEEE.std_logic_unsigned.all;    --used to do operations on vectors
-use IEEE.std_logic_misc.all;        --maybe not necessary
+use IEEE.std_logic_misc.all;        
 USE IEEE.numeric_std.ALL;
 use IEEE.std_logic_arith.all;
 library work;
@@ -97,7 +97,7 @@ stim_proc: process
             x_i(1)<= "01000100";
             x_i(2)<= "00000111";
             f_i<= "110000000000000111";
-            --wait for 100 ns;
+    
           
                        
            wait;

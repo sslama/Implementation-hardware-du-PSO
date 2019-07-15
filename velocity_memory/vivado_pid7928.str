@@ -321,3 +321,5 @@ selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Wavefo
 // TclEventType: WAVEFORM_UPDATE_TITLE
 // Tcl Message: save_wave_config {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory_tb_behav.wcfg} 
 // TclEventType: FILE_SET_CHANGE
+// Elapsed time: 96 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "velocity_memory.vhd", 0); // k (j, ch)
