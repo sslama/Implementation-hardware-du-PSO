@@ -2,11 +2,11 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Sun Jul 14 19:46:52 2019
-# Process ID: 7440
-# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.runs/synth_1
+# Start of session at: Mon Jul 15 03:46:58 2019
+# Process ID: 7580
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.runs/synth_1
 # Command line: vivado.exe -log g_best.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source g_best.tcl
-# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.runs/synth_1/g_best.vds
-# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_G/Update_G.runs/synth_1\vivado.jou
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.runs/synth_1/g_best.vds
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source g_best.tcl -notrace

@@ -44,12 +44,12 @@
 #endif
 typedef void (*funcp)(char *, char *);
 extern int main(int, char**);
-extern void execute_23(char*, char *);
-extern void execute_24(char*, char *);
-extern void execute_22(char*, char *);
+extern void execute_20(char*, char *);
+extern void execute_21(char*, char *);
+extern void execute_19(char*, char *);
 extern void transaction_0(char*, char*, unsigned, unsigned, unsigned);
 extern void vhdl_transfunc_eventcallback(char*, char*, unsigned, unsigned, unsigned, char *);
-funcp funcTab[5] = {(funcp)execute_23, (funcp)execute_24, (funcp)execute_22, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback};
+funcp funcTab[5] = {(funcp)execute_20, (funcp)execute_21, (funcp)execute_19, (funcp)transaction_0, (funcp)vhdl_transfunc_eventcallback};
 const int NumRelocateId= 5;
 
 void relocate(char *dp)
