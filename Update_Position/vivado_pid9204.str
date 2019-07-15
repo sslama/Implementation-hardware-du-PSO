@@ -378,3 +378,5 @@ selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_
 selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
 // TclEventType: DG_GRAPH_STALE
 // TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

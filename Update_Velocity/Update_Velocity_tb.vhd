@@ -57,7 +57,8 @@ architecture Behavioral of Update_Velocity_tb is
           wait for clk_period/2;
      end process;
 stim_proc: process
-        begin        
+        begin 
+     -- 1 ere opération         
         -- PBest 
             pb(0)<= "10000010";
             pb(1)<= "10000100";
@@ -75,9 +76,9 @@ stim_proc: process
            v(1)<= "00000010";
            v(2)<= "00000011";
            wait for 200 ns;
-       
+    -- 2 eme opération   
+        
         -- PBest 
-               
             pb(0)<= "10001100";
             pb(1)<= "10000010";
             pb(2)<= "10000000";
