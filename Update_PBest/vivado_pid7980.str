@@ -1,0 +1,94 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 7980
+License: Customer
+
+Current time: 	Mon Jul 15 03:15:30 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 39 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	D:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	ThibaultPB
+User home directory: C:/Users/ThibaultPB
+User working directory: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: D:/Xilinx/Vivado
+HDI_APPROOT: D:/Xilinx/Vivado/2018.1
+RDI_DATADIR: D:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: D:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/ThibaultPB/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/ThibaultPB/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/ThibaultPB/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	D:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/vivado.log
+Vivado journal file location: 	C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/vivado.jou
+Engine tmp dir: 	C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/.Xil/Vivado-7980-ThibaultPB-PC
+
+GUI allocated memory:	160 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 571 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 15 MB (+13387kb) [00:00:05]
+// [Engine Memory]: 310 MB (+174078kb) [00:00:05]
+// [GUI Memory]: 19 MB (+2955kb) [00:00:10]
+// [GUI Memory]: 24 MB (+4654kb) [00:00:15]
+// [GUI Memory]: 36 MB (+11032kb) [00:00:20]
+// [Engine Memory]: 334 MB (+8562kb) [00:00:20]
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+selectList(PAResourceQtoS.SyntheticaGettingStartedView_RECENT_PROJECTS, "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/Position_memory.xpr", 3); // q (O, ch)
+// [GUI Memory]: 70 MB (+33980kb) [00:00:27]
+// [Engine Memory]: 524 MB (+181542kb) [00:00:27]
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\ThibaultPB\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_PBest\Update_P.xpr. Version: Vivado v2018.1 
+// Tcl Message: open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 571 MB (+22199kb) [00:00:29]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr} 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 579 MB. GUI used memory: 35 MB. Current time: 7/15/19 3:15:32 AM CEST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 627 MB (+28200kb) [00:00:33]
+// [Engine Memory]: 667 MB (+9116kb) [00:00:35]
+// Project name: Update_P; location: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest; part: xc7z020clg400-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:08 . Memory (MB): peak = 856.527 ; gain = 122.391 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

@@ -145,3 +145,4 @@ selectCodeEditor("pbest_memory.vhd", 308, 75); // cd (w, ch)
 typeControlKey((HResource) null, "pbest_memory.vhd", 'c'); // cd (w, ch)
 // Elapsed time: 12 seconds
 selectCodeEditor("pbest_memory.vhd", 302, 132); // cd (w, ch)
+typeControlKey((HResource) null, "pbest_memory.vhd", 'c'); // cd (w, ch)

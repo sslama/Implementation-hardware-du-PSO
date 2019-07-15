@@ -40,7 +40,7 @@ begin
             first_time <= '0';
         
         else
-            if ((x_in(1) /= array_x_in(1)) and (v_in(1) /= array_v_in(1)) ) then --nouvelle valeur en entree
+            if ((x_in /= array_x_in) and (v_in /= array_v_in) ) then --nouvelle valeur en entree
                 array_x_in <=  x_in ;            --sauvegarde de la nouvelle valeur d'entree
                 array_v_in <=  v_in ;         
 

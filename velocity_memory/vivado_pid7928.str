@@ -316,3 +316,8 @@ selectGraphicalView(RDIResource.RDIViews_WAVEFORM_VIEWER, 107, 129); // n (o, ch
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "velocity_memory.vhd", 0); // k (j, ch)
 // Elapsed time: 15 seconds
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "velocity_memory_tb_behav.wcfg", 2); // k (j, ch)
+selectButton(RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION, "Waveform Viewer_waveform_save_configuration"); // B (f, ch)
+// Run Command: RDIResourceCommand.RDICommands_WAVEFORM_SAVE_CONFIGURATION
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// Tcl Message: save_wave_config {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory_tb_behav.wcfg} 
+// TclEventType: FILE_SET_CHANGE

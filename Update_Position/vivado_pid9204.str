@@ -382,3 +382,12 @@ selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, 
 // TclEventType: DG_GRAPH_GENERATED
 // Elapsed time: 512 seconds
 selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 734 MB. GUI used memory: 50 MB. Current time: 7/15/19 3:12:30 AM CEST
+// Elapsed time: 934 seconds
+selectCodeEditor("Update_Position.vhd", 168, 163); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 261, 162); // cd (w, ch)
+selectCodeEditor("Update_Position.vhd", 342, 164); // cd (w, ch)
+// Elapsed time: 28 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
