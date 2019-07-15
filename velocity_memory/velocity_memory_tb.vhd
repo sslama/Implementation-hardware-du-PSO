@@ -17,14 +17,14 @@ architecture Behavioral of velocity_memory_tb is
     port
         (         clk     : in  std_logic;
                   WR      : in  std_logic;
-                  address : in  std_logic_vector (3 downto 0);
+                  address : in  std_logic_vector (8 downto 0);
                   vitesse_in  : in array8;
                   vitesse_out : out array8);
   end component; 
    --Inputs
     signal  clk: std_logic := '0';
     signal  WR: std_logic := '0';
-    signal  address:  std_logic_vector (3 downto 0);
+    signal  address:  std_logic_vector (8 downto 0);
     signal  vitesse_in : array8 ;
     --outputs 
     signal vitesse_out: array8; 
@@ -56,25 +56,25 @@ architecture Behavioral of velocity_memory_tb is
 stim_proc: process
         begin        
             WR <= '1'; 
-            address <= "0000";
+            address <= "000000000";
             vitesse_in(0)<= "00010000";
             vitesse_in(1)<= "00000010";
             vitesse_in(2)<= "01000000";
             wait for 100 ns;
            
            WR <= '1'; 
-           address <= "0100";
+           address <= "000000100";
            vitesse_in(0)<= "00000010";
            vitesse_in(1)<= "00000001";
            vitesse_in(2)<= "00001100";
            wait for 100 ns;
            
            WR <= '0'; 
-           address <= "0100";
+           address <= "000000100";
            wait for 100 ns;
            
            WR <= '0'; 
-           address <= "0000";
+           address <= "000000000";
            wait for 100 ns;
                        
            wait;

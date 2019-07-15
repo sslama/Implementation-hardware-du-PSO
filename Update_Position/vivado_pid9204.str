@@ -380,3 +380,5 @@ selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, 
 // TclEventType: FILE_SET_CHANGE
 // TclEventType: DG_ANALYSIS_MSG_RESET
 // TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 512 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Update_Position.vhd", 0); // k (j, ch)
