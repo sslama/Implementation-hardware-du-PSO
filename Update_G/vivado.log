@@ -79,3 +79,8 @@ xsim: Time (s): cpu = 00:00:09 ; elapsed = 00:00:16 . Memory (MB): peak = 906.18
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'Update_G_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
 launch_simulation: Time (s): cpu = 00:00:11 ; elapsed = 00:00:20 . Memory (MB): peak = 906.184 ; gain = 18.168
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/test_g_best_behav.wcfg}
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 15:16:43 2019...

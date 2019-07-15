@@ -3,7 +3,8 @@ use IEEE.STD_LOGIC_1164.ALL;
 
 package pkg is --creation d'un nouveau type  
   type array8 is array (0 to 2) of std_logic_vector (7 downto 0); --tableau contenant 3 coordonnees codees sur 8bits (coordonnees de la vitesse de la particule)
-  type array_array is array (0 to 1000) of array8; --tableau de RAM contenant les vitesses des particules 
+    type array10 is array (0 to 2) of std_logic_vector(9 downto 0);
+  type array_array is array (0 to 1000) of array10; --tableau de RAM contenant les vitesses des particules 
 
 end package;
 
@@ -22,8 +23,8 @@ entity VM is
       clk     : in  std_logic;
       WR      : in  std_logic;                       --write/read
       address : in  std_logic_vector (8 downto 0);   --adresses dans la memoire 
-      vitesse_in  : in array8;                       -- vitesse en entree
-      vitesse_out : out array8                       -- vitesse en sortie 
+      vitesse_in  : in array10;                       -- vitesse en entree
+      vitesse_out : out array10                       -- vitesse en sortie 
       
     );
 end entity VM ;

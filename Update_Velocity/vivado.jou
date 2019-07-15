@@ -2,16 +2,19 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Jul 15 02:40:03 2019
-# Process ID: 7820
-# Current directory: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7340 C:\Users\ThibaultPB\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Velocity\Update_Velocity.xpr
-# Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/vivado.log
-# Journal file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity\vivado.jou
+# Start of session at: Mon Jul 15 16:23:42 2019
+# Process ID: 372
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent4036 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Velocity\Update_Velocity.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.xpr}
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.xpr}
 update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
 launch_simulation
-open_wave_config {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb_behav.wcfg}
+open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb_behav.wcfg}
 source Update_Velocity_tb.tcl

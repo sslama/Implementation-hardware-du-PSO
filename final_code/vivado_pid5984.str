@@ -382,3 +382,169 @@ typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
 // Elapsed time: 60 seconds
 selectCodeEditor("final_code.vhd", 272, 224); // cd (w, ch)
 selectCodeEditor("final_code.vhd", 310, 261); // cd (w, ch)
+// Elapsed time: 541 seconds
+selectCodeEditor("final_code.vhd", 271, 423); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 128, 419); // cd (w, ch)
+// Elapsed time: 239 seconds
+selectCodeEditor("final_code.vhd", 96, 363); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 175, 419); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("final_code.vhd", 96, 229); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 69, 231, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 286, 401); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 325, 465); // cd (w, ch)
+// Elapsed time: 41 seconds
+selectCodeEditor("final_code.vhd", 78, 209); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 78, 209, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 258, 441); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 362, 402); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 131, 266); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 91, 259, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 40, 403); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 89 seconds
+selectCodeEditor("final_code.vhd", 156, 399); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 157, 397, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 160, 399); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 165, 399); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 163, 400); // cd (w, ch)
+// Elapsed time: 47 seconds
+selectCodeEditor("final_code.vhd", 224, 386); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 222, 383); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 190, 382, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 186, 401); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 340, 384); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 303, 384, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 238, 400); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 207, 330); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 196, 328, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 295, 402); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 59 seconds
+selectCodeEditor("final_code.vhd", 129, 297); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 114, 299, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 336, 404); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 46 MB. Current time: 7/15/19 3:22:14 PM CEST
+// Elapsed time: 235 seconds
+selectCodeEditor("final_code.vhd", 77, 249); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 56, 245, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 371, 451); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 143, 133); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 83, 178); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 75, 178, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 194, 443); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("final_code.vhd", 523, 416); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 360, 382); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("final_code.vhd", 318, 436); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 81, 182); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 23, 177); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 78, 182); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("final_code.vhd", 153, 178); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 97, 127); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 58, 126, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("final_code.vhd", 95, 244); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 405, 410); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 0, 396); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 82, 57); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 73, 58); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 76, 63); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 76, 63, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 74, 63, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+selectCodeEditor("final_code.vhd", 1, 396); // cd (w, ch)
+// Elapsed time: 245 seconds
+selectCodeEditor("final_code.vhd", 118, 400); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 151, 348); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 181, 350, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 144, 402); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 203, 352); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 267, 351, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 194, 401); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("final_code.vhd", 471, 126); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 91, 131, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, ch)
+// Elapsed time: 175 seconds
+selectCodeEditor("final_code.vhd", 152, 438); // cd (w, ch)
+// [GUI Memory]: 105 MB (+530kb) [01:46:06]
+// Elapsed time: 481 seconds
+selectCodeEditor("final_code.vhd", 277, 400); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 118, 170); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 122, 261); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 2, 412); // cd (w, ch)
+// Elapsed time: 494 seconds
+selectCodeEditor("final_code.vhd", 366, 125); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("final_code.vhd", 162, 416); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 172, 328); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 191, 334, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 188, 418); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 47 MB. Current time: 7/15/19 3:52:14 PM CEST
+// Elapsed time: 340 seconds
+selectCodeEditor("final_code.vhd", 188, 307); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 118, 314); // cd (w, ch)
+// Elapsed time: 258 seconds
+selectCodeEditor("final_code.vhd", 231, 250); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 46 MB. Current time: 7/15/19 4:22:18 PM CEST
+// Elapsed time: 2360 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "final_code.vhd", 1); // k (j, ch)
+selectCodeEditor("final_code.vhd", 1, 267); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 80, 286); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 143, 386); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 142, 386, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 143, 385); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 143, 385, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+// HMemoryUtils.trashcanNow. Engine heap size: 725 MB. GUI used memory: 47 MB. Current time: 7/15/19 4:52:16 PM CEST
+// Elapsed time: 1880 seconds
+selectCodeEditor("final_code.vhd", 223, 346); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 356, 460); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 372, 288); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("final_code.vhd", 147, 195); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 334, 445); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 150, 193); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 75, 195); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 53, 197, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_COPY, "Copy"); // ac (ai, Popup.HeavyWeightWindow)
+selectCodeEditor("final_code.vhd", 75, 181); // cd (w, ch)
+typeControlKey((HResource) null, "final_code.vhd", 'v'); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 155, 197); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 262, 439); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 489, 480); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 537, 348); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("final_code.vhd", 365, 382); // cd (w, ch)
+// Elapsed time: 96 seconds
+selectCodeEditor("final_code.vhd", 272, 489); // cd (w, ch)
+// Elapsed time: 153 seconds
+selectCodeEditor("final_code.vhd", 285, 418); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 366, 384); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 341, 415); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 364, 440); // cd (w, ch)

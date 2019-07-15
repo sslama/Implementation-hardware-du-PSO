@@ -15,3 +15,5 @@ update_compile_order -fileset sources_1
 launch_simulation
 open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/test_g_best_behav.wcfg}
 source Update_G_tb.tcl
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/test_g_best_behav.wcfg}
+close_sim

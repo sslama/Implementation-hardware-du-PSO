@@ -2,27 +2,30 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Fri Jul 12 00:33:02 2019
-# Process ID: 1740
-# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1
+# Start of session at: Mon Jul 15 16:44:36 2019
+# Process ID: 7712
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.runs/synth_1
 # Command line: vivado.exe -log velocity.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source velocity.tcl
-# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/velocity.vds
-# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1\vivado.jou
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.runs/synth_1/velocity.vds
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source velocity.tcl -notrace
-create_project: Time (s): cpu = 00:00:01 ; elapsed = 00:00:05 . Memory (MB): peak = 301.359 ; gain = 67.656
 Command: synth_design -top velocity -part xc7z020clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12244 
+INFO: Helper process launched with PID 12500 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:14 . Memory (MB): peak = 409.969 ; gain = 95.973
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 409.613 ; gain = 96.738
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'velocity' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:35]
-	Parameter num_particules bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'velocity' (1#1) [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.vhd:35]
+INFO: [Synth 8-638] synthesizing module 'velocity' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:30]
+WARNING: [Synth 8-3936] Found unconnected internal register 'tmp_sig_reg' and it is trimmed from '10' to '8' bits. [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:44]
+INFO: [Synth 8-4471] merging register 'vs_reg[1][7:0]' into 'vs_reg[0][7:0]' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:45]
+INFO: [Synth 8-4471] merging register 'vs_reg[2][7:0]' into 'vs_reg[0][7:0]' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:45]
+WARNING: [Synth 8-6014] Unused sequential element vs_reg[1] was removed.  [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:45]
+WARNING: [Synth 8-6014] Unused sequential element vs_reg[2] was removed.  [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:45]
+INFO: [Synth 8-256] done synthesizing module 'velocity' (1#1) [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd:30]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[0][7]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[0][6]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[0][5]
@@ -39,14 +42,6 @@ WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][3]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][2]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][1]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][0]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][7]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][6]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][5]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][4]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][3]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][2]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][1]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][0]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][7]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][6]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][5]
@@ -63,14 +58,6 @@ WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][3]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][2]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][1]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][0]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][7]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][6]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][5]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][4]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][3]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][2]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][1]
-WARNING: [Synth 8-3331] design velocity has unconnected port gb[2][0]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[0][7]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[0][6]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[0][5]
@@ -87,30 +74,38 @@ WARNING: [Synth 8-3331] design velocity has unconnected port x[1][3]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[1][2]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[1][1]
 WARNING: [Synth 8-3331] design velocity has unconnected port x[1][0]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][7]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][6]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][5]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][4]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][3]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][2]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][1]
-WARNING: [Synth 8-3331] design velocity has unconnected port x[2][0]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][7]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][6]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][5]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][4]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][3]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][2]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][1]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[0][0]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][7]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][6]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][5]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][4]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][3]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][2]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][1]
+WARNING: [Synth 8-3331] design velocity has unconnected port v[1][0]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 465.094 ; gain = 151.098
+Finished Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 464.836 ; gain = 151.961
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 465.094 ; gain = 151.098
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 464.836 ; gain = 151.961
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 465.094 ; gain = 151.098
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 464.836 ; gain = 151.961
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:16 . Memory (MB): peak = 465.094 ; gain = 151.098
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:13 . Memory (MB): peak = 464.836 ; gain = 151.961
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -123,6 +118,10 @@ No constraint files found.
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -130,6 +129,12 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
+Module velocity 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input      8 Bit       Adders := 2     
++---Registers : 
+	                8 Bit    Registers := 2     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -163,28 +168,29 @@ WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][3]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][2]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][1]
 WARNING: [Synth 8-3331] design velocity has unconnected port pb[1][0]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][7]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][6]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][5]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][4]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][3]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][2]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][1]
-WARNING: [Synth 8-3331] design velocity has unconnected port pb[2][0]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][7]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][6]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][5]
 WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][4]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][3]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][2]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][1]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[0][0]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][7]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][6]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][5]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][4]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][3]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][2]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][1]
+WARNING: [Synth 8-3331] design velocity has unconnected port gb[1][0]
+WARNING: [Synth 8-3331] design velocity has unconnected port x[0][7]
+WARNING: [Synth 8-3331] design velocity has unconnected port x[0][6]
+WARNING: [Synth 8-3331] design velocity has unconnected port x[0][5]
+WARNING: [Synth 8-3331] design velocity has unconnected port x[0][4]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
-INFO: [Synth 8-3886] merging instance 'vs_reg[2][0]' (FD) to 'vs_reg[1][9]'
-INFO: [Synth 8-3886] merging instance 'vs_reg[2][9]' (FD) to 'vs_reg[1][9]'
-INFO: [Synth 8-3886] merging instance 'vs_reg[1][0]' (FD) to 'vs_reg[1][9]'
-INFO: [Synth 8-3886] merging instance 'vs_reg[1][9]' (FD) to 'vs_reg[0][0]'
-INFO: [Synth 8-3886] merging instance 'vs_reg[0][0]' (FD) to 'vs_reg[0][9]'
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\vs_reg[0][9] )
-WARNING: [Synth 8-3332] Sequential element (vs_reg[0][9]) is unused and will be removed from module velocity.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:40 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -197,7 +203,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:41 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Timing Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -209,7 +215,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:42 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Technology Mapping : Time (s): cpu = 00:00:16 ; elapsed = 00:00:27 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -233,7 +239,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished IO Insertion : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -246,7 +252,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -258,25 +264,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -289,29 +295,32 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+-----+------+
-|      |Cell |Count |
-+------+-----+------+
-|1     |BUFG |     1|
-|2     |FDRE |    24|
-|3     |IBUF |    25|
-|4     |OBUF |    30|
-+------+-----+------+
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |    10|
+|3     |LUT1   |     1|
+|4     |LUT2   |    35|
+|5     |FDRE   |    16|
+|6     |IBUF   |    31|
+|7     |OBUF   |    24|
++------+-------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |    80|
+|1     |top      |       |   118|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:44 . Memory (MB): peak = 600.461 ; gain = 286.465
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 145 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:45 . Memory (MB): peak = 600.461 ; gain = 286.465
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:45 . Memory (MB): peak = 600.465 ; gain = 286.465
+Synthesis finished with 0 errors, 0 critical warnings and 132 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
+Synthesis Optimization Complete : Time (s): cpu = 00:00:18 ; elapsed = 00:00:28 . Memory (MB): peak = 622.012 ; gain = 309.137
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 41 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -319,11 +328,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-18 Infos, 101 Warnings, 0 Critical Warnings and 0 Errors encountered.
+14 Infos, 103 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:21 ; elapsed = 00:01:28 . Memory (MB): peak = 723.141 ; gain = 421.781
-INFO: [Common 17-1381] The checkpoint 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity/Update_Velocity.runs/synth_1/velocity.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:01 ; elapsed = 00:00:09 . Memory (MB): peak = 723.141 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:46 . Memory (MB): peak = 736.242 ; gain = 436.191
+INFO: [Common 17-1381] The checkpoint 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.runs/synth_1/velocity.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file velocity_utilization_synth.rpt -pb velocity_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 723.141 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Jul 12 00:35:09 2019...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 736.242 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Mon Jul 15 16:45:49 2019...

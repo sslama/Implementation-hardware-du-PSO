@@ -20,7 +20,7 @@ architecture Behavioral of Update_Velocity_tb is
               gb :in array8; --best position Gbest 
               x : in array8; -- particule en entrée 
               v : in array8; -- vitesse en entrée 
-              vs: out array10);--Vitesse de la sortie
+              vs: out array8);--Vitesse de la sortie
   end component; 
    --Inputs
     signal  clk: std_logic := '0';
@@ -30,10 +30,10 @@ architecture Behavioral of Update_Velocity_tb is
     signal  v: array8;
    
     --outputs 
-    signal vs: array10; 
+    signal vs: array8; 
        
     
-  -- Clock period definitions
+  -- Clock period definitions 
     constant clk_period : time := 20 ns;
   
   BEGIN
