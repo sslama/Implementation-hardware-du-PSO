@@ -1,6 +1,6 @@
 
 *** Running vivado
-    with args -log RAM1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source RAM1.tcl
+    with args -log PBM.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source PBM.tcl
 
 
 ****** Vivado v2018.1 (64-bit)
@@ -8,52 +8,135 @@
   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 
-source RAM1.tcl -notrace
-create_project: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 301.012 ; gain = 67.047
-Command: synth_design -top RAM1 -part xc7z020clg400-1
+source PBM.tcl -notrace
+Command: synth_design -top PBM -part xc7z020clg400-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 7068 
+INFO: Helper process launched with PID 10540 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 410.219 ; gain = 96.527
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 409.457 ; gain = 100.711
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'RAM1' [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Pbest_memory/pbest_memory.vhd:36]
-	Parameter num_particules bound to: 3 - type: integer 
-INFO: [Synth 8-256] done synthesizing module 'RAM1' (1#1) [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Pbest_memory/pbest_memory.vhd:36]
+INFO: [Synth 8-638] synthesizing module 'PBM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:35]
+INFO: [Synth 8-256] done synthesizing module 'PBM' (1#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:35]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:10 . Memory (MB): peak = 465.316 ; gain = 151.625
+Finished Synthesize : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 544.430 ; gain = 235.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 465.316 ; gain = 151.625
+Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 544.430 ; gain = 235.684
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 465.316 ; gain = 151.625
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 544.430 ; gain = 235.684
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-1
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[0][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[1][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[2][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[3][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[4][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[5][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[6][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[7][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[8][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[9][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[10][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[11][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[12][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[13][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[14][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "myRam_particule_reg[15][0]" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[1]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[2]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[3]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[4]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[5]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[6]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[7]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[8]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[9]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[10]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[11]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[12]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[13]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[14]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[15]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[16]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[17]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[18]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[19]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[20]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[21]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[22]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[23]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[24]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[25]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[26]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[27]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[28]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[29]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[30]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[31]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[32]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[33]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[34]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[35]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[36]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[37]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[38]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[39]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[40]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[41]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[42]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[43]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[44]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[45]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[46]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[47]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[48]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[49]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[50]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[51]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[52]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[53]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[54]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[55]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[56]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[57]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[58]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[59]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[60]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[61]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[62]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[63]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[64]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[65]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[66]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[67]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[68]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[69]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[70]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[71]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[72]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[73]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[74]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[75]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[76]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[77]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[78]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[79]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[80]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[81]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[82]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[83]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[84]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[85]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[86]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[87]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[88]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[89]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[90]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[91]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[92]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[93]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[94]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[95]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[96]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[97]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[98]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_fitness_reg[99]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:11 . Memory (MB): peak = 465.316 ; gain = 151.625
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:28 ; elapsed = 00:00:22 . Memory (MB): peak = 642.152 ; gain = 333.406
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -67,12 +150,10 @@ Start RTL Component Statistics
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Registers : 
-	               18 Bit    Registers := 1     
-	                8 Bit    Registers := 51    
-+---RAMs : 
-	              288 Bit         RAMs := 1     
+	               18 Bit    Registers := 335   
+	                8 Bit    Registers := 1005  
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 334   
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -80,15 +161,13 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module RAM1 
+Module PBM 
 Detailed RTL Component Info : 
 +---Registers : 
-	               18 Bit    Registers := 1     
-	                8 Bit    Registers := 51    
-+---RAMs : 
-	              288 Bit         RAMs := 1     
+	               18 Bit    Registers := 335   
+	                8 Bit    Registers := 1005  
 +---Muxes : 
-	   2 Input      1 Bit        Muxes := 16    
+	   2 Input      1 Bit        Muxes := 334   
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -107,22 +186,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:22 . Memory (MB): peak = 638.613 ; gain = 324.922
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Distributed RAM: Preliminary Mapping  Report (see note below)
-+------------+-------------------+-----------+----------------------+-----------------+
-|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives      | 
-+------------+-------------------+-----------+----------------------+-----------------+
-|RAM1        | myRam_fitness_reg | Implied   | 16 x 18              | RAM16X1S x 18   | 
-+------------+-------------------+-----------+----------------------+-----------------+
-
-Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:41 ; elapsed = 00:00:35 . Memory (MB): peak = 720.672 ; gain = 411.926
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -135,21 +199,7 @@ No constraint files found.
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 638.613 ; gain = 324.922
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
-Start ROM, RAM, DSP and Shift Register Reporting
----------------------------------------------------------------------------------
-
-Distributed RAM: Final Mapping  Report
-+------------+-------------------+-----------+----------------------+-----------------+
-|Module Name | RTL Object        | Inference | Size (Depth x Width) | Primitives      | 
-+------------+-------------------+-----------+----------------------+-----------------+
-|RAM1        | myRam_fitness_reg | Implied   | 16 x 18              | RAM16X1S x 18   | 
-+------------+-------------------+-----------+----------------------+-----------------+
-
----------------------------------------------------------------------------------
-Finished ROM, RAM, DSP and Shift Register Reporting
+Finished Timing Optimization : Time (s): cpu = 00:00:42 ; elapsed = 00:00:37 . Memory (MB): peak = 720.672 ; gain = 411.926
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -161,7 +211,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:23 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Technology Mapping : Time (s): cpu = 00:00:47 ; elapsed = 00:00:42 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -185,7 +235,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished IO Insertion : Time (s): cpu = 00:00:49 ; elapsed = 00:00:44 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -198,7 +248,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:49 ; elapsed = 00:00:44 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -210,25 +260,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -241,47 +291,48 @@ Report BlackBoxes:
 +-+--------------+----------+
 
 Report Cell Usage: 
-+------+---------+------+
-|      |Cell     |Count |
-+------+---------+------+
-|1     |BUFG     |     1|
-|2     |LUT1     |     1|
-|3     |LUT5     |    16|
-|4     |LUT6     |    96|
-|5     |MUXF7    |    48|
-|6     |MUXF8    |    24|
-|7     |RAM16X1S |    18|
-|8     |FDRE     |   426|
-|9     |IBUF     |    48|
-|10    |OBUF     |    42|
-+------+---------+------+
++------+------+------+
+|      |Cell  |Count |
++------+------+------+
+|1     |BUFG  |     1|
+|2     |LUT2  |     1|
+|3     |LUT3  |    42|
+|4     |LUT4  |   252|
+|5     |LUT5  |    54|
+|6     |LUT6  |  4174|
+|7     |MUXF7 |  1806|
+|8     |MUXF8 |   840|
+|9     |FDRE  | 14071|
+|10    |IBUF  |    63|
+|11    |OBUF  |    42|
++------+------+------+
 
 Report Instance Areas: 
 +------+---------+-------+------+
 |      |Instance |Module |Cells |
 +------+---------+-------+------+
-|1     |top      |       |   720|
+|1     |top      |       | 21346|
 +------+---------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:25 . Memory (MB): peak = 638.613 ; gain = 324.922
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
+Synthesis Optimization Complete : Time (s): cpu = 00:00:50 ; elapsed = 00:00:45 . Memory (MB): peak = 737.922 ; gain = 429.176
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 138 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-17] Analyzing 2709 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'PBM' is not ideal for floorplanning, since the cellview 'PBM' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 18 instances were transformed.
-  RAM16X1S => RAM32X1S (RAMS32): 18 instances
+No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+112 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:44 . Memory (MB): peak = 735.914 ; gain = 434.902
-INFO: [Common 17-1381] The checkpoint 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Pbest_memory/Pbest_memory.runs/synth_1/RAM1.dcp' has been generated.
-INFO: [runtcl-4] Executing : report_utilization -file RAM1_utilization_synth.rpt -pb RAM1_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.348 . Memory (MB): peak = 735.914 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Jul 12 13:23:49 2019...
+synth_design: Time (s): cpu = 00:01:08 ; elapsed = 00:01:04 . Memory (MB): peak = 800.922 ; gain = 504.809
+INFO: [Common 17-1381] The checkpoint 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/Pbest_memory.runs/synth_1/PBM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file PBM_utilization_synth.rpt -pb PBM_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.244 . Memory (MB): peak = 800.922 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 24 19:44:10 2019...

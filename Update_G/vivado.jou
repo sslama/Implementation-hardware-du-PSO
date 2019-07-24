@@ -2,18 +2,12 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Jul 15 14:59:50 2019
-# Process ID: 8052
-# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10492 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_G\Update_G.xpr
-# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/vivado.log
-# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G\vivado.jou
+# Start of session at: Wed Jul 24 17:18:45 2019
+# Process ID: 3904
+# Current directory: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9568 C:\Users\ThibaultPB\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_G\Update_G.xpr
+# Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/vivado.log
+# Journal file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.xpr}
-update_compile_order -fileset sources_1
-launch_simulation
-open_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/test_g_best_behav.wcfg}
-source Update_G_tb.tcl
-save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/test_g_best_behav.wcfg}
-close_sim
+open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.xpr}

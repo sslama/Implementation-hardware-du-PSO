@@ -1,4 +1,4 @@
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Pbest_memory/pbest_memory.vhd" into library xil_defaultlib
-INFO: [VRFC 10-307] analyzing entity RAM1
-INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/IDEAL-INFO/Desktop/VHDL V2/Pbest_memory/Pbest_memory_tb.vhd" into library xil_defaultlib
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd" into library xil_defaultlib
+INFO: [VRFC 10-307] analyzing entity PBM
+INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/Pbest_memory_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity velocity_memory_tb

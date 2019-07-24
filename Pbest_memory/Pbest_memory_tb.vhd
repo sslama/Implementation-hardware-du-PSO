@@ -18,6 +18,8 @@ architecture Behavioral of velocity_memory_tb is
         (        clk     : in  std_logic;   
                  WR      : in  std_logic;                     -- write/read 
                  address : in  std_logic_vector (8 downto 0); -- adress dans la memoire 
+                 WR_2      : in  std_logic;                        --write-read 
+                 address_2 : in  std_logic_vector (8 downto 0);
                  particule_in  : in array8;                    
                  particule_out : out array8;
                  fitness_in : in std_logic_vector(17 downto 0);
@@ -32,6 +34,8 @@ architecture Behavioral of velocity_memory_tb is
     --outputs 
     signal  fitness_out: std_logic_vector (17 downto 0);
     signal  particule_out : array8;
+    signal  address_2 : std_logic_vector (8 downto 0);    --adresses dans la memoire
+    signal  WR_2 : std_logic;                        --write-read 
        
     
   -- Clock period definitions
@@ -44,6 +48,8 @@ architecture Behavioral of velocity_memory_tb is
             clk => clk,
             WR => WR,
             address => address,
+            WR_2 => WR_2,
+            address_2 => address_2,
             particule_in => particule_in,
             fitness_in => fitness_in,
             fitness_out => fitness_out, 
@@ -65,7 +71,7 @@ stim_proc: process
             particule_in(0)<= "00010000";
             particule_in(1)<= "00000010";
             particule_in(2)<= "01000000";
-            fitness_in <= "000000000000000000";
+            fitness_in <= "000000000000010000";
             wait for 100 ns;
             
             
@@ -79,12 +85,12 @@ stim_proc: process
 
            wait for 100 ns;
            
-            WR <= '0'; 
-            address <= "000000010";
+            WR_2 <= '0'; 
+            address_2 <= "000000010";
             wait for 100 ns;
            
-             WR <= '0'; 
-             address <= "000000110";
+             WR_2 <= '0'; 
+             address_2 <= "101001101";
              wait for 100 ns;
                        
            wait;

@@ -42,6 +42,16 @@ begin
              else
                   if (x_i /= array_in) then                  --nouvelle valeur en entree
                        array_in <=  x_i ;
+                       
+                       if(cpt_address = 5) then
+                            WR <= '1';
+                            loop1: FOR i IN 0 TO 333 LOOP
+                                address <= conv_std_logic_vector(i,9);
+                                f_best_o <= "000000000000000000";
+                            END LOOP loop1;
+                            cpt_address <= 0;
+                       end if;
+                       
                        case cpt is
                            when 0 =>   
                                WR <= '0';                          --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage)
@@ -64,6 +74,7 @@ begin
                                     address <= conv_std_logic_vector( cpt_address,9);     --on compare avec la valeur stockee
                                     f_best_o <= f_i ;                                     --si fitness inferieur, on place le nouveau fitness et le tableau en sortie
                                     p_best_o <= x_i ;
+                                    cpt_address <= cpt_address +1;
                                else                                                       --si fitness superieur, on place le fitness et le tableau stockes en sortie
                                     WR <= '1';
                                     address <= conv_std_logic_vector( cpt_address,9); 
