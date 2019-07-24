@@ -1,0 +1,193 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 3268
+License: Customer
+
+Current time: 	Wed Jul 17 11:43:06 CEST 2019
+Time zone: 	Central European Time (Europe/Paris)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1366x768
+Screen resolution (DPI): 96
+Available screens: 2
+Available disk space: 21 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	IDEAL-INFO
+User home directory: C:/Users/IDEAL-INFO
+User working directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code
+User country: 	FR
+User language: 	fr
+User locale: 	fr_FR
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/IDEAL-INFO/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/vivado.log
+Vivado journal file location: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/vivado.jou
+Engine tmp dir: 	C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/.Xil/Vivado-3268-DESKTOP-SFCC8J7
+
+GUI allocated memory:	163 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 496 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// [GUI Memory]: 23 MB (+21325kb) [00:00:05]
+// [Engine Memory]: 315 MB (+179022kb) [00:00:05]
+// WARNING: HTimer (WrapperUtils Delayed Delete Timer) is taking too long to process. Increasing delay to 2000 ms.
+// TclEventType: START_GUI
+// [GUI Memory]: 45 MB (+22070kb) [00:00:50]
+// [Engine Memory]: 483 MB (+159273kb) [00:00:50]
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// [GUI Memory]: 58 MB (+11668kb) [00:00:53]
+// Opening Vivado Project: C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\final_code\final_code.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// HMemoryUtils.trashcanNow. Engine heap size: 496 MB. GUI used memory: 39 MB. Current time: 7/17/19 11:43:07 AM CEST
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.xpr} 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [Engine Memory]: 519 MB (+12770kb) [00:01:02]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// [Engine Memory]: 563 MB (+18848kb) [00:01:12]
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 610 MB (+19369kb) [00:01:24]
+// [GUI Memory]: 63 MB (+1438kb) [00:01:28]
+// HMemoryUtils.trashcanNow. Engine heap size: 639 MB. GUI used memory: 41 MB. Current time: 7/17/19 11:43:42 AM CEST
+// Project name: final_code; location: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code; part: xc7z020clg400-1
+// [Engine Memory]: 648 MB (+8383kb) [00:01:31]
+// Tcl Message: open_project: Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 805.637 ; gain = 128.328 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (final_code.vhd) elapsed time: 0.5s
+// Elapsed time: 127 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, final_code(Behavioral) (final_code.vhd)]", 1, true); // B (D, ch) - Node
+// [GUI Memory]: 68 MB (+1837kb) [00:03:40]
+// [GUI Memory]: 75 MB (+4198kb) [00:04:46]
+// [GUI Memory]: 79 MB (+39kb) [00:04:56]
+// Elapsed time: 452 seconds
+selectCodeEditor("final_code.vhd", 264, 433); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 285, 397); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 285, 397, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 316, 381); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 316, 381, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 312, 357); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 312, 357, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 271, 365); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 271, 365, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 272, 344); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 272, 344, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 267, 330); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 267, 330, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 224, 316); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 224, 316, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 182, 314); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 181, 315, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 189, 419); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 189, 419, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 177, 449); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 128, 419); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 128, 418, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 174, 446); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 161, 342); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 161, 342, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 216, 311); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 216, 311, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 312, 332); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 312, 332, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 311, 361); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 311, 361, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 338, 452); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 215, 367); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 215, 367, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 189, 319); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 189, 320, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 190, 297); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 190, 297, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("final_code.vhd", 257, 458); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 555, 271); // cd (w, ch)
+// [GUI Memory]: 84 MB (+1642kb) [00:12:12]
+// [GUI Memory]: 89 MB (+929kb) [00:12:22]
+// Elapsed time: 394 seconds
+selectCodeEditor("final_code.vhd", 67, 258); // cd (w, ch)
+selectCodeEditor("final_code.vhd", 60, 279); // cd (w, ch)
+// Elapsed time: 234 seconds
+selectCodeEditor("final_code.vhd", 34, 325); // cd (w, ch)
+// [GUI Memory]: 94 MB (+9kb) [00:28:45]
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 12:13:42 PM CEST
+// Elapsed time: 571 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3, true); // B (D, ch) - Node
+// PAPropertyPanels.initPanels (sim_1) elapsed time: 0.2s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_code_tb(Behavioral) (final_code_tb.vhd)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_code_tb(Behavioral) (final_code_tb.vhd)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_code_tb(Behavioral) (final_code_tb.vhd)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, final_code_tb(Behavioral) (final_code_tb.vhd)]", 5, true); // B (D, ch) - Node
+selectCodeEditor("final_code_tb.vhd", 67, 336); // cd (w, ch)
+selectCodeEditor("final_code_tb.vhd", 63, 387); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 7/17/19 12:43:43 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 7/17/19 1:13:43 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 7/17/19 1:43:43 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 2:13:43 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 2:43:43 PM CEST
+// [GUI Memory]: 99 MB (+234kb) [03:11:54]
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 3:13:44 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 3:43:44 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 7/17/19 4:13:44 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 7/17/19 4:43:51 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 7/17/19 5:13:49 PM CEST
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 7/17/19 5:43:47 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 7/17/19 6:13:48 PM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 4000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 35 MB. Current time: 7/17/19 10:44:51 PM CEST
+// Elapsed time: 37950 seconds
+closeMainWindow("final_code - [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.xpr] - Vivado 2018.1"); // ch
+// an (ch): Save Project: addNotify
+// Elapsed time: 29 seconds
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// WARNING: updateGUI() is taking  1274 ms.
+// bv (ch):  Save Constraints : addNotify

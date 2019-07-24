@@ -15,17 +15,21 @@ end Update_P_tb;
 architecture Behavioral of Update_P_tb is
  component p_best
     port
-        (     clk: in std_logic;
-              x_i: in array8;
-              f_i: in std_logic_vector(17 downto 0);
-              f_best_o: out std_logic_vector(17 downto 0); 
-              p_best_o :out array8);
+        (    clk: in std_logic;
+             WR: out std_logic; 
+             address: out std_logic_vector ( 8 downto 0); 
+             x_i: in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
+             f_i: in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
+             f_best_o: out std_logic_vector(17 downto 0); -- Fitness a la sortie codee sur 18 bits
+             p_best_o :out array8);  
   end component; 
    --Inputs
     signal  clk: std_logic := '0';
     signal  x_i: array8;
     signal  f_i: std_logic_vector(17 downto 0) := (others => '0');
     --outputs 
+    signal WR: std_logic; 
+    signal address: std_logic_vector ( 8 downto 0) ; 
     signal f_best_o: std_logic_vector(17 downto 0) := (others => '0'); 
     signal p_best_o: array8; 
        
@@ -39,6 +43,8 @@ architecture Behavioral of Update_P_tb is
      uut: p_best PORT MAP (
             clk => clk,
             x_i => x_i,
+            WR => WR, 
+            address => address,
             f_i => f_i,
             f_best_o => f_best_o,
             p_best_o => p_best_o

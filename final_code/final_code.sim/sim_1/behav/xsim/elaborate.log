@@ -1,0 +1,29 @@
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 7f0d1ad06aec492dbc0ea89995d16941 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot final_code_tb_behav xil_defaultlib.final_code_tb -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+WARNING: [VRFC 10-122] fitness remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:103]
+WARNING: [VRFC 10-122] p_best remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:104]
+WARNING: [VRFC 10-122] pbm remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:105]
+WARNING: [VRFC 10-122] g_best remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:106]
+WARNING: [VRFC 10-122] velocity remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:107]
+WARNING: [VRFC 10-122] vm remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:108]
+WARNING: [VRFC 10-122] position remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:109]
+WARNING: [VRFC 10-122] pm remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/final_code/final_code.srcs/sources_1/new/final_code.vhd:110]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling package synopsys.attributes
+Compiling package ieee.std_logic_misc
+Compiling package ieee.numeric_std
+Compiling package xil_defaultlib.pkg
+Compiling architecture behavioral of entity xil_defaultlib.final_code [final_code_default]
+Compiling architecture behavioral of entity xil_defaultlib.final_code_tb
+Built simulation snapshot final_code_tb_behav

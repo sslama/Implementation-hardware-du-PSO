@@ -100,6 +100,9 @@ component PM                                 --Update Position Memory
 end component;
  
 begin 
+
+
+
 u1: fitness port map (clk,XI_1,FXI_1);
 u2: p_best port map (clk,XI_1,FXI_1,FPBEST_1,PBEST_1);  
 u3: PBM port map (clk,WR_sig,address_sig,PBEST_1,PBEST_2,FPBEST_1,FPBEST_2);

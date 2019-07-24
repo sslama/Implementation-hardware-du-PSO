@@ -21,13 +21,13 @@ create_project -in_memory -part xc7z020clg400-1
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
-set_property webtalk.parent_dir {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.vhd}}
+read_vhdl -library xil_defaultlib {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd}}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be

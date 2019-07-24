@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Fri Jul 19 13:04:14 2019
+# Process ID: 14900
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3708 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\Position_memory\Position_memory.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/Position_memory.xpr}
+INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
+Current project path is 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory'
+INFO: [Project 1-313] Project file moved from 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Poopen_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Fopen_project: Time (s): cpu = 00:00:31 ; elapsed = 00:01:35 . Memory (MB): peak = 806.918 ; gain = 132.125
+uupdate_compile_order -fileset sources_1eexit
+INFO: [Common 17-206] Exiting Vivado at Wed Jul 24 11:50:55 2019...
+
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Jul 19 13:07:20 2019...

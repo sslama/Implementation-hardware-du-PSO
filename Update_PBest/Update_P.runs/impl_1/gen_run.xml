@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1563963329">
+  <File Type="PWROPT-DCP" Name="p_best_pwropt.dcp"/>
+  <File Type="ROUTE-PWR" Name="p_best_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="p_best.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="p_best_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="p_best_reports.tcl"/>
+  <File Type="BG-DRC" Name="p_best.drc"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="p_best_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="p_best_timing_summary_init.rpt"/>
+  <File Type="OPT-HWDEF" Name="p_best.hwdef"/>
+  <File Type="OPT-DCP" Name="p_best_opt.dcp"/>
+  <File Type="OPT-DRC" Name="p_best_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="p_best_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DRC" Name="p_best_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="p_best_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="p_best_placed.dcp"/>
+  <File Type="PLACE-IO" Name="p_best_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="p_best_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="p_best_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="p_best_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="p_best_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="p_best_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="p_best_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="p_best_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="p_best_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="p_best_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="p_best_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="p_best_drc_physopted.rpt"/>
+  <File Type="BG-BIT" Name="p_best.bit"/>
+  <File Type="PHYSOPT-TIMING" Name="p_best_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="p_best_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="p_best_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="p_best_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="p_best_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="p_best_drc_routed.pb"/>
+  <File Type="BITSTR-MSK" Name="p_best.msk"/>
+  <File Type="ROUTE-DRC-RPX" Name="p_best_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="p_best.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="p_best_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-RBT" Name="p_best.rbt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="p_best_methodology_drc_routed.rpx"/>
+  <File Type="BG-BIN" Name="p_best.bin"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="p_best_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="p_best_power_routed.rpx"/>
+  <File Type="ROUTE-STATUS" Name="p_best_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="p_best_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="p_best_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="p_best_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="p_best_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="p_best_incremental_reuse_routed.rpt"/>
+  <File Type="RDI-RDI" Name="p_best.vdi"/>
+  <File Type="ROUTE-CLK" Name="p_best_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="p_best_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="p_best_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="p_best_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="p_best_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="p_best_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="p_best.nky"/>
+  <File Type="BITSTR-BMM" Name="p_best_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="p_best.mmi"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="p_best.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="p_best.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/Update_P.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="p_best"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

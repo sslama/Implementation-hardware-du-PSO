@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_PBest/Update_P.runs/synth_1'
+HD_PWD='C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

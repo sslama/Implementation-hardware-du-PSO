@@ -19,6 +19,8 @@ use work.pkg.all;
 entity p_best is
 port
        (  clk: in std_logic;
+          WR: out std_logic; 
+          address: out std_logic_vector ( 8 downto 0); 
           x_i: in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
           f_i: in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
           f_best_o: out std_logic_vector(17 downto 0); -- Fitness a la sortie codee sur 18 bits
@@ -29,6 +31,7 @@ architecture behavioral of p_best is
     signal array_in  : array8;
     signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
     signal first_time : std_logic := '1';
+    signal cpt_address: integer := 0; 
     begin 
 process(clk)
         variable cpt: integer := 0;  --inisilisation du compteur cpt pour se reperer dans le voisinage
@@ -40,7 +43,9 @@ begin
                   if (x_i /= array_in) then                  --nouvelle valeur en entree
                        array_in <=  x_i ;
                        case cpt is
-                           when 0 =>                               --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage) 
+                           when 0 =>   
+                               WR <= '0';                          --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage)
+                               --cpt_address <= cpt_address +1; 
                                cpt := 1;                           --trouver la meilleur fitness 
                                fitness_save <= f_i ;               -- afficher la meilleur fitness avec sa particule correspondate 
                                array_save <= x_i ;                 --la particule choisie parmi les 3 c est la PBest 
@@ -54,12 +59,17 @@ begin
                            
                            when 2 =>                               --3eme valeur du voisinage
                                cpt := 0;
-                               if( f_i  < fitness_save) then       --on compare avec la valeur stockee
-                                    f_best_o <= f_i ;              --si fitness inferieur, on place le nouveau fitness et le tableau en sortie
+                               if( f_i  < fitness_save) then 
+                                    WR <= '1';
+                                    address <= conv_std_logic_vector( cpt_address,9);     --on compare avec la valeur stockee
+                                    f_best_o <= f_i ;                                     --si fitness inferieur, on place le nouveau fitness et le tableau en sortie
                                     p_best_o <= x_i ;
-                               else                                --si fitness superieur, on place le fitness et le tableau stockes en sortie
+                               else                                                       --si fitness superieur, on place le fitness et le tableau stockes en sortie
+                                    WR <= '1';
+                                    address <= conv_std_logic_vector( cpt_address,9); 
                                     f_best_o <= fitness_save;
                                     p_best_o <= array_save;
+                                    cpt_address <= cpt_address +1;
                                end if;
                            
                            WHEN OTHERS => NULL;
