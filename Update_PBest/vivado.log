@@ -9,3 +9,13 @@
 # Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/vivado.log
 # Journal file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:17 ; elapsed = 00:00:09 . Memory (MB): peak = 850.473 ; gain = 127.918
+update_compile_order -fileset sources_1

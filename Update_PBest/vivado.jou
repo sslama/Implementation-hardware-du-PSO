@@ -9,3 +9,6 @@
 # Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/vivado.log
 # Journal file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest\vivado.jou
 #-----------------------------------------------------------
+start_gui
+open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.xpr}
+update_compile_order -fileset sources_1

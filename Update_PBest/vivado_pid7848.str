@@ -229,3 +229,54 @@ selectCodeEditor("Update_P.vhd", 352, 211); // cd (w, ch)
 selectCodeEditor("Update_P.vhd", 352, 211, false, false, false, false, true); // cd (w, ch) - Double Click
 // Elapsed time: 21 seconds
 selectCodeEditor("Update_P.vhd", 403, 207); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 8:51:38 PM CEST
+// WARNING: HSwingWorker (Monitor File Timestamp Swing Worker) is taking too long to process. Increasing delay to 2000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 46 MB. Current time: 7/24/19 9:21:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 9:51:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 10:21:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 10:51:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 11:21:38 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/24/19 11:51:39 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 45 MB. Current time: 7/25/19 12:21:39 AM CEST
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 12:51:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 1:21:39 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 7:39:21 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 9:30:24 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 10:00:23 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 10:30:24 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 11:00:24 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 11:30:24 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 12:00:24 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 12:30:25 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 40 MB. Current time: 7/25/19 1:00:25 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 1:30:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 2:00:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 40 MB. Current time: 7/25/19 2:30:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 3:00:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 3:30:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 4:00:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 40 MB. Current time: 7/25/19 4:30:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 5:00:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 40 MB. Current time: 7/25/19 5:30:26 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 6:00:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 40 MB. Current time: 7/25/19 6:30:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 7:00:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 7:30:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 8:00:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 8:30:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 9:00:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 39 MB. Current time: 7/25/19 9:30:27 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 37 MB. Current time: 7/25/19 10:00:28 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 739 MB. GUI used memory: 36 MB. Current time: 7/25/19 10:35:09 PM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking too long to process. Increasing delay to 3000 ms.
+// Elapsed time: 93833 seconds
+selectCodeEditor("Update_P.vhd", 69, 93); // cd (w, ch)
+selectCodeEditor("Update_P.vhd", 232, 188); // cd (w, ch)
+// [GUI Memory]: 107 MB (+1271kb) [28:57:59]
