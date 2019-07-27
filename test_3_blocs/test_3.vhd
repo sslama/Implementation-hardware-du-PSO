@@ -23,8 +23,11 @@ use work.pkg.all;
 entity test_3 is
     port( clk: in std_logic; 
           X_IN:  in array8;
-          particul_final : out array8;                     -- position de la particule en sortie ( 3d codee sur 8 bits)
-          fitness_final : out std_logic_vector(17 downto 0));
+          WR_final: out std_logic; 
+          address_final:out std_logic_vector ( 8 downto 0);
+          f_best_o_final:out std_logic_vector(17 downto 0);
+          p_best_o_final :out array8);  
+         
 end test_3;
 
 architecture Behavioral of test_3 is
@@ -32,8 +35,8 @@ component fitness
       port(
           clk: in std_logic; 
           array_i : in array8;                  -- tableau contenant les 3 dimension de la particule codees sur 8 bits 
-          F: out std_logic_vector(17 downto 0));  -- valeur de fitness codee sur 18 bits 
-           
+          F: out std_logic_vector(17 downto 0));  -- valeur de fitness codee sur 18 bits  
+         
 end component; 
 
 
@@ -47,27 +50,15 @@ component p_best
           f_best_o: out std_logic_vector(17 downto 0); -- Fitness a la sortie codee sur 18 bits
           p_best_o :out array8);                       -- tableau contenant les 3 dimension de la particule codees sur 8 bits (la PBest)
 end component; 
- 
- component PBM 
-       port (
-          clk     : in  std_logic;
-          WR      : in  std_logic;                        --write-read 
-          address : in  std_logic_vector (8 downto 0);    --adresses dans la memoire
-         -- WR_2      : in  std_logic;                        --write-read 
-        --  address_2 : in  std_logic_vector (8 downto 0);    --adresses dans la memoire 
-          particule_in  : in array8;                      -- position de la particule en entree ( 3d codee sur 8 bits) 
-          particule_out : out array8;                     -- position de la particule en sortie ( 3d codee sur 8 bits)
-          fitness_in : in std_logic_vector(17 downto 0);  --la fitness de la particule en entree codee sur 18bits 
-          fitness_out : out std_logic_vector(17 downto 0)); --la fitness de la particule en sortie codee sur 18bits 
-end component;   
-signal WR_test: std_logic;
-signal address_test: std_logic_vector (8 downto 0);
-signal particule_out_test,x_i_test: array8;
-signal fitness_out_test,fitness_module_test: std_logic_vector(17 downto 0);  
+   
+signal fitness_module_test: std_logic_vector(17 downto 0);  
 
 
 begin
-u1: fitness port map (clk,X_IN,fitness_module_test);
-u2: p_best port map (clk,WR_test,address_test,X_IN,fitness_module_test,fitness_out_test,particule_out_test);
-u3: PBM  port map( clk,WR_test,address_test,particule_out_test,particul_final,fitness_out_test,fitness_final); 
+u1: fitness port map (clk => clk , array_i => X_IN , F => fitness_module_test);
+u2: p_best port map (clk => clk,WR => WR_final,address => address_final,x_i=> X_IN, f_i =>fitness_module_test, f_best_o=> f_best_o_final,p_best_o => p_best_o_final);  
+--u1: fitness port map (clk,X_IN,fitness_module_test);
+--u2: p_best port map (clk,WR_final,address_final,X_IN,fitness_module_test,f_best_o_final,p_best_o_final);
+
+
 end Behavioral;

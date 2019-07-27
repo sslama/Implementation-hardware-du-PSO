@@ -3,9 +3,6 @@ Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
 Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 2b9651b5b7674b22a95be4c74bdeafab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot test_3_tb_behav xil_defaultlib.test_3_tb -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
-WARNING: [VRFC 10-122] fitness remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:70]
-WARNING: [VRFC 10-122] p_best remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:71]
-WARNING: [VRFC 10-122] pbm remains a black-box since it has no binding entity [C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:72]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -19,6 +16,8 @@ Compiling package synopsys.attributes
 Compiling package ieee.std_logic_misc
 Compiling package ieee.numeric_std
 Compiling package xil_defaultlib.pkg
+Compiling architecture behavioral of entity xil_defaultlib.fitness [fitness_default]
+Compiling architecture behavioral of entity xil_defaultlib.p_best [p_best_default]
 Compiling architecture behavioral of entity xil_defaultlib.test_3 [test_3_default]
 Compiling architecture behavioral of entity xil_defaultlib.test_3_tb
 Built simulation snapshot test_3_tb_behav

@@ -27,7 +27,11 @@ set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo {c:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
-read_vhdl -library xil_defaultlib {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd}}
+read_vhdl -library xil_defaultlib {
+  {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd}
+  {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd}
+  {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd}
+}
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
 # design are intentionally left as such for best results. Dcp files will be

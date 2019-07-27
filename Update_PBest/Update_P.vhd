@@ -1,9 +1,9 @@
-library IEEE;
-use IEEE.STD_LOGIC_1164.ALL;
+--library IEEE;
+--use IEEE.STD_LOGIC_1164.ALL;
 
-package pkg is -- creation d un nouveau type
-  type array8 is array (0 to 2) of std_logic_vector(7 downto 0); -- creation d'un tableau 3D de vecteurs codees sur 8 Bits ( positiond'une particule) 
-end package;
+--package pkg is -- creation d un nouveau type 
+--  type array8 is array (0 to 2) of std_logic_vector(7 downto 0); -- creation d'un tableau 3D de vecteurs codees sur 8 Bits ( positiond'une particule) 
+--end package;
  
  
  
@@ -28,20 +28,27 @@ port
 end p_best;
 architecture behavioral of p_best is
     signal array_save : array8;
-    signal array_in  : array8;
+    signal fitness_in  : std_logic_vector(17 downto 0) := (others => '0');
     signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
     signal first_time : std_logic := '1';
     signal cpt_address: integer := 0; 
     begin 
-process(clk)
+process(clk, x_i, f_i)
         variable cpt: integer := 0;  --inisilisation du compteur cpt pour se reperer dans le voisinage
 begin 
          if (clk'event and clk='1') then
             if (first_time = '1') then
+                --initialisation des sorties a zéros 
+                WR <= '0';
+                address <= "000000000";
+                f_best_o <= "000000000000000000";
+                p_best_o(0) <= "00000000";
+                p_best_o(1) <= "00000000";
+                p_best_o(2) <= "00000000";
                 first_time <= '0';
              else
-                  if (x_i /= array_in) then                  --nouvelle valeur en entree
-                       array_in <=  x_i ;
+                  if (f_i /= fitness_in) then                  --nouvelle valeur de fitness (et donc nouvelle particule) en entree
+                       fitness_in <=  f_i ;
                        
                        if(cpt_address = 5) then
                             WR <= '1';
@@ -55,7 +62,6 @@ begin
                        case cpt is
                            when 0 =>   
                                WR <= '0';                          --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage)
-                               --cpt_address <= cpt_address +1; 
                                cpt := 1;                           --trouver la meilleur fitness 
                                fitness_save <= f_i ;               -- afficher la meilleur fitness avec sa particule correspondate 
                                array_save <= x_i ;                 --la particule choisie parmi les 3 c est la PBest 

@@ -1,0 +1,27 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul 25 20:46:22 2019
+# Process ID: 5284
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent6876 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\test_3_blocs\test_3_blocs.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.xpr}
+update_compile_order -fileset sources_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb.vhd} w ]
+add_files -fileset sim_1 {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb.vhd}}
+update_compile_order -fileset sim_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+source test_3_tb.tcl
+close_sim

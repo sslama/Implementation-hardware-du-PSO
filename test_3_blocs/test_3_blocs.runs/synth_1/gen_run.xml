@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1564091365">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1564244114">
   <File Type="PA-TCL" Name="test_3.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="test_3_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="test_3_reports.tcl"/>
@@ -11,6 +11,18 @@
   <File Type="VDS-TIMING-PB" Name="test_3_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PPRDIR/../Update_PBest/Update_P.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../Fitness_module/fitness_module.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/test_3.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
