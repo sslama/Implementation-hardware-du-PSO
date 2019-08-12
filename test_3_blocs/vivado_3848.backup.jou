@@ -1,0 +1,85 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Jul 25 23:58:43 2019
+# Process ID: 3848
+# Current directory: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent988 C:\Users\IDEAL-INFO\Desktop\VHDL V2\Implementation-hardware-du-PSO\test_3_blocs\test_3_blocs.xpr
+# Log file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/vivado.log
+# Journal file: C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.xpr}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+launch_simulation
+source test_3_tb.tcl
+close_sim
+launch_simulation
+source test_3_tb.tcl
+close_sim
+launch_simulation
+source test_3_tb.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+add_files -norecurse {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd} {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+close_sim
+launch_simulation
+source test_3_tb.tcl
+relaunch_sim
+relaunch_sim
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb_behav.wcfg}
+add_files -fileset sim_1 -norecurse {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb_behav.wcfg}}
+set_property xsim.view {{C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb_behav.wcfg}} [get_filesets sim_1]
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 3
+wait_on_run synth_1
+relaunch_sim
+save_wave_config {C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb_behav.wcfg}

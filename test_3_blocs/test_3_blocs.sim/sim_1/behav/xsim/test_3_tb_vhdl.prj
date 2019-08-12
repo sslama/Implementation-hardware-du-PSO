@@ -1,8 +1,10 @@
 # compile vhdl design source files
 vhdl xil_defaultlib  \
 "../../../../test_3.vhd" \
+"../../../../../Update_G/Update_G.vhd" \
 "../../../../../Update_PBest/Update_P.vhd" \
 "../../../../../Fitness_module/fitness_module.vhd" \
+"../../../../../Pbest_memory/pbest_memory.vhd" \
 "../../../../test_3_tb.vhd" \
 
 # Do not sort compile order

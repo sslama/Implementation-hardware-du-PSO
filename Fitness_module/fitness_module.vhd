@@ -16,11 +16,17 @@ use IEEE.std_logic_arith.all;
 library work;
 use work.pkg.all;
 
-entity fitness is                             -- fitness utilise: fonction de sphere  
+entity fitness is -- fitness utilise: fonction de sphere  
     port(
-        clk: in std_logic; 
-        array_i : in array8;                  -- tableau contenant les 3 dimension de la particule codees sur 8 bits
-        F: out std_logic_vector(17 downto 0)  -- valeur de fitness codee sur 18 bits  
+        --input
+        clk     : in std_logic; 
+        array_i : in array8;                         -- tableau contenant les 3 dimension de la particule codees sur 8 bits
+        
+        --output
+        F       : out std_logic_vector(17 downto 0);  -- valeur de fitness codee sur 18 bits  
+        
+        --debug
+        F_2     : out std_logic_vector(17 downto 0)
     );
 end fitness;
 
@@ -34,12 +40,19 @@ begin
     if (clk'event and clk='1') then                 --Front montant d'horloge
         if (first_time = '1') then                  --Actions a effectuer a la naissance du bloc
             --initialisation des sorties a zeros 
-            F <= "000000000000000000";
+            F <= conv_std_logic_vector(0, 18);
             first_time <= '0';
+            
+            --debug
+            F_2 <= conv_std_logic_vector(0, 18);
+            
         else                                        --Actions a effectuer pendant le vie du bloc
             if (array_i /= array_sig) then    --Si une nouvelle valeur est presente en entree
                 array_sig <= array_i;
-                F <= "00" & ((array_i(0) * array_i(0)) + (array_i(1) * array_i(1)) + (array_i(2) * array_i(2))); --formule de la fonction de sphere dans la sortie
+                F <= ("00" & (array_i(0) * array_i(0))) + ("00" & (array_i(1) * array_i(1))) + ("00" & (array_i(2) * array_i(2))); --formule de la fonction de sphere dans la sortie
+            
+                --debug
+                F_2 <= ("00" & (array_i(0) * array_i(0))) + ("00" & (array_i(1) * array_i(1))) + ("00" & (array_i(2) * array_i(2)));
             end if;
         end if ;
     end if; 

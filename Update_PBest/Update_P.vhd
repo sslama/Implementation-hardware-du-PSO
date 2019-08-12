@@ -1,8 +1,11 @@
+--Uncomment only if you want to use this module alone
+
 --library IEEE;
 --use IEEE.STD_LOGIC_1164.ALL;
 
 --package pkg is -- creation d un nouveau type 
 --  type array8 is array (0 to 2) of std_logic_vector(7 downto 0); -- creation d'un tableau 3D de vecteurs codees sur 8 Bits ( positiond'une particule) 
+--  signal num_particules: integer := 5;
 --end package;
  
  
@@ -17,81 +20,125 @@ library work;
 use work.pkg.all;
  
 entity p_best is
-port
-       (  clk: in std_logic;
-          WR: out std_logic; 
-          address: out std_logic_vector ( 8 downto 0); 
-          x_i: in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
-          f_i: in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
-          f_best_o: out std_logic_vector(17 downto 0); -- Fitness a la sortie codee sur 18 bits
-          p_best_o :out array8);                       -- tableau contenant les 3 dimension de la particule codees sur 8 bits (la PBest)
+port (  
+        --input
+        clk         : in std_logic;
+        x_i         : in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
+        f_i         : in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
+          
+        --output
+        WR          : out std_logic;                          -- demande d'ecriture en memoire
+        address     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+        p_best_o    : out array8;                             -- coordonnees de pbest a stocker en memoire
+        f_best_o    : out std_logic_vector(17 downto 0);      -- fitness de pbest a stocker en memoire
+        
+        --debug  
+        WR_2        : out std_logic;
+        address_2   : out std_logic_vector ( 8 downto 0);
+        f_best_o_2  : out std_logic_vector(17 downto 0)
+    );
 end p_best;
+
 architecture behavioral of p_best is
-    signal array_save : array8;
-    signal fitness_in  : std_logic_vector(17 downto 0) := (others => '0');
-    signal fitness_save  : std_logic_vector(17 downto 0) := (others => '1'); --vect au max pour premiere comparaison
-    signal first_time : std_logic := '1';
-    signal cpt_address: integer := 0; 
-    begin 
-process(clk, x_i, f_i)
-        variable cpt: integer := 0;  --inisilisation du compteur cpt pour se reperer dans le voisinage
+    signal array_save   : array8;                                           --signal pour la sauvegarde se pbest
+    signal fitness_save : std_logic_vector(17 downto 0) := (others => '0'); --signal pour la sauvegarde se pbest
+    signal fitness_in   : std_logic_vector(17 downto 0) := (others => '0'); --signal pour la detection d'une nouvelle entree
+    signal cpt_address  : integer := 0;                                     --compteur d'adresses
+    signal cpt          : integer := 0;                                     --inisilisation du compteur cpt pour se reperer dans le voisinage
+    signal first_time   : std_logic := '1';
 begin 
-         if (clk'event and clk='1') then
+
+process(clk, x_i, f_i)
+    
+    --variable num_particules: integer := 5;
+    --variable cpt: integer := 0;  --inisilisation du compteur cpt pour se reperer dans le voisinage
+    
+    begin 
+        if (clk'event and clk='1') then --front montant d'horloge
             if (first_time = '1') then
                 --initialisation des sorties a zéros 
                 WR <= '0';
-                address <= "000000000";
-                f_best_o <= "000000000000000000";
-                p_best_o(0) <= "00000000";
-                p_best_o(1) <= "00000000";
-                p_best_o(2) <= "00000000";
+                address <= conv_std_logic_vector(0, 9);
+                f_best_o <= conv_std_logic_vector(0, 18);
+                p_best_o(0) <= conv_std_logic_vector(0, 8);
+                p_best_o(1) <= conv_std_logic_vector(0, 8);
+                p_best_o(2) <= conv_std_logic_vector(0, 8);
+                
+                --debug
+                WR_2 <= '0';
+                address_2 <= conv_std_logic_vector(0, 9);
+                f_best_o_2 <= conv_std_logic_vector(0, 18);
+                
                 first_time <= '0';
+                
              else
                   if (f_i /= fitness_in) then                  --nouvelle valeur de fitness (et donc nouvelle particule) en entree
                        fitness_in <=  f_i ;
-                       
-                       if(cpt_address = 5) then
-                            WR <= '1';
-                            loop1: FOR i IN 0 TO 333 LOOP
-                                address <= conv_std_logic_vector(i,9);
-                                f_best_o <= "000000000000000000";
-                            END LOOP loop1;
-                            cpt_address <= 0;
-                       end if;
-                       
+                    
                        case cpt is
-                           when 0 =>   
-                               WR <= '0';                          --ce bloc permet de comparer les fitnesses de 3 particule ( voisinage)
-                               cpt := 1;                           --trouver la meilleur fitness 
-                               fitness_save <= f_i ;               -- afficher la meilleur fitness avec sa particule correspondate 
-                               array_save <= x_i ;                 --la particule choisie parmi les 3 c est la PBest 
-                           
-                           when 1 =>                               --2eme valeur du voisinage
-                               cpt := 2;                           
-                               if( f_i  < fitness_save) then       --on compare avec la 1ere valeur stockee
-                                    fitness_save <= f_i ;          --si fitness inferieur, on stocke le fitness et le tableau
-                                    array_save <= x_i ;  
+                           --reception de la 1ere particule
+                           when 0 =>
+                               if(cpt_address = num_particules) then                         --si la particule appartient a l'iteration suivante, alors on efface la derniere case de memoire
+                                   cpt_address <= 0;
+                                   WR <= '1';                                   --on ecrit
+                                   address <= conv_std_logic_vector(num_particules - 1, 9);  --sur la derniere case memoire
+                                   f_best_o <= conv_std_logic_vector(0, 18);    --la valeur 0
+                                    
+                                   --debug
+                                   WR_2 <= '1';
+                                   address_2 <= conv_std_logic_vector(num_particules - 1, 9);
+                                   f_best_o_2 <= conv_std_logic_vector(0, 18);
                                end if;
+
+                               --premiere particule du voisinage, donc on la stocke sans comparer
+                               fitness_save <= f_i;
+                               array_save <= x_i;
+                                
+                               cpt <= 1;
+                                
+                           --reception de la 2eme particule
+                           when 1 =>                               --2eme valeur du voisinage
+                               WR <= '0';                          --on  remet wr a 0 pour le cas ou wr=1 dans l'etape precedente
+                               if( f_i  < fitness_save) then       --on compare avec la 1ere valeur stockee
+                                    fitness_save <= f_i;           --si fitness inferieur, on stocke le fitness et le tableau
+                                    array_save <= x_i;  
+                               end if;
+                               
+                               cpt <= 2;
+                               
+                               --debug
+                               WR_2 <= '0';
                            
-                           when 2 =>                               --3eme valeur du voisinage
-                               cpt := 0;
-                               if( f_i  < fitness_save) then 
-                                    WR <= '1';
-                                    address <= conv_std_logic_vector( cpt_address,9);     --on compare avec la valeur stockee
-                                    f_best_o <= f_i ;                                     --si fitness inferieur, on place le nouveau fitness et le tableau en sortie
+                           --reception de la 3eme et derniere particule
+                           when 2 =>
+                               address <= conv_std_logic_vector(cpt_address, 9);     
+                               WR <= '1';
+                               cpt_address <= cpt_address + 1;
+
+                               --debug
+                               WR_2 <= '1';
+                               address_2 <= conv_std_logic_vector(cpt_address, 9);
+
+                               if(f_i < fitness_save) then                               --on compare avec la valeur stockee
+                                    f_best_o <= f_i ;                                      --si fitness inferieur, on place le nouveau fitness et le tableau en sortie
                                     p_best_o <= x_i ;
-                                    cpt_address <= cpt_address +1;
+                                    
+                                    --debug
+                                    f_best_o_2 <= f_i ;
+
                                else                                                       --si fitness superieur, on place le fitness et le tableau stockes en sortie
-                                    WR <= '1';
-                                    address <= conv_std_logic_vector( cpt_address,9); 
                                     f_best_o <= fitness_save;
                                     p_best_o <= array_save;
-                                    cpt_address <= cpt_address +1;
+                                    
+                                    --debug
+                                    f_best_o_2 <= fitness_save;
                                end if;
-                           
+                               
+                               cpt <= 0;
+
                            WHEN OTHERS => NULL;
                         end case;
-                   end if; 
+                   end if;
                 end if;                    
          end if;
 end process; 
@@ -99,4 +146,4 @@ end process;
     
     
     
-end behavioral; 
+end behavioral;

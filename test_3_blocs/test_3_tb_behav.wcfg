@@ -12,14 +12,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0fs"></ZoomStartTime>
-      <ZoomEndTime time="765000001fs"></ZoomEndTime>
-      <Cursor1Time time="1000000000fs"></Cursor1Time>
+      <ZoomEndTime time="697500001fs"></ZoomEndTime>
+      <Cursor1Time time="353000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="118"></NameColumnWidth>
-      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+      <NameColumnWidth column_width="141"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="7" />
+   <WVObjectSize size="11" />
    <wvobject fp_name="/test_3_tb/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -28,24 +28,40 @@
       <obj_property name="ElementShortName">X_IN[0:2][7:0]</obj_property>
       <obj_property name="ObjectShortName">X_IN[0:2][7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/f_best_o_final" type="array">
-      <obj_property name="ElementShortName">f_best_o_final[17:0]</obj_property>
-      <obj_property name="ObjectShortName">f_best_o_final[17:0]</obj_property>
+   <wvobject fp_name="/test_3_tb/FITNESS_F" type="array">
+      <obj_property name="ElementShortName">FITNESS_F[17:0]</obj_property>
+      <obj_property name="ObjectShortName">FITNESS_F[17:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/p_best_o_final" type="array">
-      <obj_property name="ElementShortName">p_best_o_final[0:2][7:0]</obj_property>
-      <obj_property name="ObjectShortName">p_best_o_final[0:2][7:0]</obj_property>
+   <wvobject fp_name="/test_3_tb/F_PB_out" type="array">
+      <obj_property name="ElementShortName">F_PB_out[17:0]</obj_property>
+      <obj_property name="ObjectShortName">F_PB_out[17:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/clk_period" type="other">
-      <obj_property name="ElementShortName">clk_period</obj_property>
-      <obj_property name="ObjectShortName">clk_period</obj_property>
+   <wvobject fp_name="/test_3_tb/WR_PB" type="logic">
+      <obj_property name="ElementShortName">WR_PB</obj_property>
+      <obj_property name="ObjectShortName">WR_PB</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/WR_final" type="logic">
-      <obj_property name="ElementShortName">WR_final</obj_property>
-      <obj_property name="ObjectShortName">WR_final</obj_property>
+   <wvobject fp_name="/test_3_tb/ADDRESS_PB" type="array">
+      <obj_property name="ElementShortName">ADDRESS_PB[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_PB[8:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/address_final" type="array">
-      <obj_property name="ElementShortName">address_final[8:0]</obj_property>
-      <obj_property name="ObjectShortName">address_final[8:0]</obj_property>
+   <wvobject fp_name="/test_3_tb/G_OUT" type="array">
+      <obj_property name="ElementShortName">G_OUT[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">G_OUT[0:2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/WR_GB" type="logic">
+      <obj_property name="ElementShortName">WR_GB</obj_property>
+      <obj_property name="ObjectShortName">WR_GB</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/ADDRESS_GB" type="array">
+      <obj_property name="ElementShortName">ADDRESS_GB[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDRESS_GB[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/fitness_memory" type="array">
+      <obj_property name="ElementShortName">fitness_memory[17:0]</obj_property>
+      <obj_property name="ObjectShortName">fitness_memory[17:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/particule_memory" type="array">
+      <obj_property name="ElementShortName">particule_memory[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">particule_memory[0:2][7:0]</obj_property>
    </wvobject>
 </wave_config>
