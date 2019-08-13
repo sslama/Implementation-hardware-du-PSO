@@ -2,8 +2,8 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Aug 12 18:43:16 2019
-# Process ID: 19660
+# Start of session at: Tue Aug 13 14:22:34 2019
+# Process ID: 14628
 # Current directory: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.runs/synth_1
 # Command line: vivado.exe -log test_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source test_3.tcl
 # Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.runs/synth_1/test_3.vds
@@ -15,46 +15,266 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 20328 
+INFO: Helper process launched with PID 18316 
 ---------------------------------------------------------------------------------
-Starting Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 409.609 ; gain = 100.160
+Starting Synthesize : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 409.656 ; gain = 100.211
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'test_3' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:44]
-INFO: [Synth 8-3491] module 'fitness' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:19' bound to instance 'u1' of component 'fitness' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:119]
-INFO: [Synth 8-638] synthesizing module 'fitness' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:33]
-INFO: [Synth 8-256] done synthesizing module 'fitness' (1#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:33]
-INFO: [Synth 8-3491] module 'p_best' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:22' bound to instance 'u2' of component 'p_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:125]
+INFO: [Synth 8-638] synthesizing module 'test_3' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:51]
+INFO: [Synth 8-3491] module 'PM' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:20' bound to instance 'u5' of component 'PM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:148]
+INFO: [Synth 8-638] synthesizing module 'PM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:33]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[512][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[512][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[512][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[513][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[513][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[513][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[514][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[514][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[514][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[515][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[515][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[515][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[516][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[516][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[516][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[517][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[517][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[517][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[518][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[518][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[518][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[519][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[519][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[519][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[520][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[520][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[520][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[521][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[521][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[521][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[522][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[522][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[522][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[523][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[523][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[523][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[524][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[524][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[524][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[525][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[525][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[525][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[526][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[526][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[526][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[527][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[527][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[527][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[528][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[528][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[528][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[529][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[529][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[529][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[530][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[530][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[530][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[531][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[531][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[531][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[532][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[532][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[532][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[533][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[533][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[533][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[534][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[534][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[534][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[535][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[535][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[535][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[536][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[536][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[536][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[537][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[537][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[537][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[538][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[538][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[538][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[539][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[539][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[539][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[540][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[540][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[540][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[541][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[541][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[541][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[542][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[542][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[542][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[543][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[543][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[543][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[544][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[544][1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[544][2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+WARNING: [Synth 8-6014] Unused sequential element myRam_particule_reg[545][0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:49]
+INFO: [Common 17-14] Message 'Synth 8-6014' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-256] done synthesizing module 'PM' (1#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:33]
+INFO: [Synth 8-3491] module 'fitness' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:19' bound to instance 'u1' of component 'fitness' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:156]
+INFO: [Synth 8-638] synthesizing module 'fitness' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'fitness' (2#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:41]
+INFO: [Synth 8-3491] module 'p_best' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:22' bound to instance 'u2' of component 'p_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:170]
 INFO: [Synth 8-638] synthesizing module 'p_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'p_best' (2#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:42]
-INFO: [Synth 8-3491] module 'PBM' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:21' bound to instance 'u3' of component 'PBM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:137]
+INFO: [Synth 8-256] done synthesizing module 'p_best' (3#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:42]
+INFO: [Synth 8-3491] module 'PBM' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:21' bound to instance 'u3' of component 'PBM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:182]
 INFO: [Synth 8-638] synthesizing module 'PBM' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:42]
-INFO: [Synth 8-256] done synthesizing module 'PBM' (3#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:42]
-INFO: [Synth 8-3491] module 'g_best' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:21' bound to instance 'u4' of component 'g_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:150]
+INFO: [Synth 8-256] done synthesizing module 'PBM' (4#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:42]
+INFO: [Synth 8-3491] module 'g_best' declared at 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:21' bound to instance 'u4' of component 'g_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:195]
 INFO: [Synth 8-638] synthesizing module 'g_best' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'g_best' (4#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:40]
-INFO: [Synth 8-256] done synthesizing module 'test_3' (5#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:44]
+INFO: [Synth 8-256] done synthesizing module 'g_best' (5#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'test_3' (6#1) [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd:51]
 ---------------------------------------------------------------------------------
-Finished Synthesize : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 542.020 ; gain = 232.570
+Finished Synthesize : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 635.672 ; gain = 326.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 542.020 ; gain = 232.570
+Finished Constraint Validation : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 635.672 ; gain = 326.227
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z020clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 542.020 ; gain = 232.570
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:22 ; elapsed = 00:00:23 . Memory (MB): peak = 635.672 ; gain = 326.227
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z020clg400-1
-INFO: [Synth 8-4471] merging register 'F_2_reg[17:0]' into 'F_reg[17:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:47]
-WARNING: [Synth 8-6014] Unused sequential element F_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:47]
+INFO: [Synth 8-4471] merging register 'particule_out_1_2_reg[0][7:0]' into 'particule_out_1_reg[0][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:107]
+INFO: [Synth 8-4471] merging register 'particule_out_1_2_reg[1][7:0]' into 'particule_out_1_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:107]
+INFO: [Synth 8-4471] merging register 'particule_out_1_2_reg[2][7:0]' into 'particule_out_1_reg[2][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd:107]
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[0][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[1][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[2][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[3][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[4][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[5][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[6][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[7][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[8][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[9][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[10][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[11][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[12][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[13][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[14][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[15][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[16][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[17][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[18][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[19][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[20][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[21][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[22][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[23][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[24][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[25][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[26][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[27][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[28][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[29][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[30][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[31][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[32][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[33][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[34][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[35][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[36][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[37][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[38][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[39][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[40][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[41][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[42][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[43][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[44][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[45][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[46][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[47][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[48][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[49][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[50][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[51][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[52][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[53][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[54][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[55][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[56][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[57][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[58][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[59][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[60][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[61][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[62][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[63][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[64][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[65][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[66][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[67][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[68][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[69][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[70][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[71][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[72][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[73][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[74][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[75][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[76][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[77][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[78][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[79][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[80][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[81][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[82][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[83][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[84][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[85][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[86][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[87][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[88][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[89][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[90][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[91][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[92][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[93][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[94][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[95][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[96][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[97][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[98][0]" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "myRam_particule_reg[99][0]" won't be mapped to RAM because it is too sparse
+INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-4471] merging register 'array_w_reg[2][7:0]' into 'array_w_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:58]
+INFO: [Synth 8-4471] merging register 'array_w_2_reg[1][7:0]' into 'array_w_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:70]
+INFO: [Synth 8-4471] merging register 'array_w_2_reg[2][7:0]' into 'array_w_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:70]
+INFO: [Synth 8-4471] merging register 'WR_2_reg' into 'WR_reg' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:73]
+INFO: [Synth 8-4471] merging register 'array_w_2_reg[0][7:0]' into 'array_w_reg[0][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:70]
+INFO: [Synth 8-4471] merging register 'address_2_reg[8:0]' into 'address_reg[8:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:74]
+INFO: [Synth 8-4471] merging register 'F_2_reg[17:0]' into 'F_reg[17:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:66]
+INFO: [Synth 8-4471] merging register 'array_o_2_reg[0][7:0]' into 'array_o_reg[0][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:67]
+INFO: [Synth 8-4471] merging register 'array_o_2_reg[1][7:0]' into 'array_o_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:67]
+INFO: [Synth 8-4471] merging register 'array_o_2_reg[2][7:0]' into 'array_o_reg[2][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd:67]
+INFO: [Synth 8-5545] ROM "WR" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "WR" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "memory_ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "addressing" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "addressing" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "cpt_address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-4471] merging register 'WR_2_reg' into 'WR_reg' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:68]
 INFO: [Synth 8-4471] merging register 'address_2_reg[8:0]' into 'address_reg[8:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:69]
 INFO: [Synth 8-4471] merging register 'f_best_o_2_reg[17:0]' into 'f_best_o_reg[17:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:70]
-WARNING: [Synth 8-6014] Unused sequential element WR_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:68]
-WARNING: [Synth 8-6014] Unused sequential element address_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:69]
-WARNING: [Synth 8-6014] Unused sequential element f_best_o_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd:70]
 INFO: [Synth 8-802] inferred FSM for state register 'cpt_reg' in module 'p_best'
 INFO: [Synth 8-5545] ROM "WR" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "cpt_address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
@@ -65,113 +285,7 @@ INFO: [Synth 8-4471] merging register 'particule_out_2_reg[0][7:0]' into 'partic
 INFO: [Synth 8-4471] merging register 'particule_out_2_reg[1][7:0]' into 'particule_out_reg[1][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:68]
 INFO: [Synth 8-4471] merging register 'particule_out_2_reg[2][7:0]' into 'particule_out_reg[2][7:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:68]
 INFO: [Synth 8-4471] merging register 'fitness_out_2_reg[17:0]' into 'fitness_out_reg[17:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:71]
-WARNING: [Synth 8-6014] Unused sequential element particule_out_2_reg[0] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:68]
-WARNING: [Synth 8-6014] Unused sequential element particule_out_2_reg[1] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:68]
-WARNING: [Synth 8-6014] Unused sequential element particule_out_2_reg[2] was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:68]
-WARNING: [Synth 8-6014] Unused sequential element fitness_out_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd:71]
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[0]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[1]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[2]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[3]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[4]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[5]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[6]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[7]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[8]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[9]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[10]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[11]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[12]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[13]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[14]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[15]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[16]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[17]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[18]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[19]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[20]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[21]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[22]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[23]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[24]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[25]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[26]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[27]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[28]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[29]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[30]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[31]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[32]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[33]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[34]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[35]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[36]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[37]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[38]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[39]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[40]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[41]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[42]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[43]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[44]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[45]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[46]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[47]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[48]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[49]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[50]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[51]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[52]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[53]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[54]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[55]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[56]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[57]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[58]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[59]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[60]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[61]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[62]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[63]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[64]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[65]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[66]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[67]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[68]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[69]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[70]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[71]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[72]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[73]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[74]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[75]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[76]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[77]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[78]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[79]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[80]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[81]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[82]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[83]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[84]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[85]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[86]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[87]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[88]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[89]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[90]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[91]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[92]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[93]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[94]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[95]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[96]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[97]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[98]" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "myRam_fitness_reg[99]" won't be mapped to RAM because it is too sparse
-INFO: [Common 17-14] Message 'Synth 8-5546' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 INFO: [Synth 8-4471] merging register 'address_2_reg[8:0]' into 'address_reg[8:0]' [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:68]
-WARNING: [Synth 8-6014] Unused sequential element address_2_reg was removed.  [C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd:68]
 INFO: [Synth 8-5545] ROM "g_best_o[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "array_save[0]" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------------------------
@@ -183,38 +297,45 @@ INFO: [Synth 8-5545] ROM "array_save[0]" won't be mapped to RAM because address 
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'cpt_reg' using encoding 'one-hot' in module 'p_best'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:27 ; elapsed = 00:00:22 . Memory (MB): peak = 662.305 ; gain = 352.855
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:45 ; elapsed = 00:00:41 . Memory (MB): peak = 773.012 ; gain = 463.566
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |test_3__GB0   |           1|     35852|
+|2     |PM            |           1|     30350|
++------+--------------+------------+----------+
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input     32 Bit       Adders := 3     
+	   2 Input     32 Bit       Adders := 4     
 +---Registers : 
-	               32 Bit    Registers := 2     
+	               32 Bit    Registers := 5     
 	               18 Bit    Registers := 343   
-	                9 Bit    Registers := 2     
-	                8 Bit    Registers := 1020  
-	                1 Bit    Registers := 8     
+	                9 Bit    Registers := 3     
+	                8 Bit    Registers := 2561  
+	                1 Bit    Registers := 9     
 +---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
 	   3 Input     32 Bit        Muxes := 3     
-	   2 Input     32 Bit        Muxes := 2     
 	   2 Input     18 Bit        Muxes := 1     
 	   3 Input     18 Bit        Muxes := 2     
-	   3 Input      9 Bit        Muxes := 2     
+	   3 Input      9 Bit        Muxes := 3     
+	   2 Input      9 Bit        Muxes := 1     
 	   2 Input      8 Bit        Muxes := 9     
 	   3 Input      8 Bit        Muxes := 6     
-	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 345   
-	   3 Input      1 Bit        Muxes := 9     
+	   3 Input      7 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 2     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 863   
+	   3 Input      1 Bit        Muxes := 15    
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -222,12 +343,52 @@ Finished RTL Component Statistics
 Start RTL Hierarchical Component Statistics 
 ---------------------------------------------------------------------------------
 Hierarchical RTL Component report 
-Module fitness 
+Module PM 
 Detailed RTL Component Info : 
 +---Registers : 
+	                8 Bit    Registers := 1539  
++---Muxes : 
+	   2 Input      1 Bit        Muxes := 512   
+Module g_best 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               18 Bit    Registers := 4     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 6     
+	                1 Bit    Registers := 5     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 2     
+	   3 Input     32 Bit        Muxes := 2     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      8 Bit        Muxes := 6     
+	   3 Input      8 Bit        Muxes := 3     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 9     
+	   3 Input      1 Bit        Muxes := 3     
+Module fitness 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 3     
 	               18 Bit    Registers := 1     
-	                8 Bit    Registers := 3     
-	                1 Bit    Registers := 1     
+	                9 Bit    Registers := 1     
+	                8 Bit    Registers := 5     
+	                1 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+	   3 Input      9 Bit        Muxes := 1     
+	   2 Input      9 Bit        Muxes := 1     
+	   3 Input      7 Bit        Muxes := 1     
+	   3 Input      3 Bit        Muxes := 1     
+	   2 Input      3 Bit        Muxes := 1     
+	   2 Input      2 Bit        Muxes := 1     
+	   3 Input      2 Bit        Muxes := 1     
+	   2 Input      1 Bit        Muxes := 6     
+	   3 Input      1 Bit        Muxes := 6     
 Module p_best 
 Detailed RTL Component Info : 
 +---Adders : 
@@ -254,25 +415,6 @@ Detailed RTL Component Info :
 	                8 Bit    Registers := 1005  
 +---Muxes : 
 	   2 Input      1 Bit        Muxes := 334   
-Module g_best 
-Detailed RTL Component Info : 
-+---Adders : 
-	   2 Input     32 Bit       Adders := 2     
-+---Registers : 
-	               32 Bit    Registers := 1     
-	               18 Bit    Registers := 4     
-	                9 Bit    Registers := 1     
-	                8 Bit    Registers := 6     
-	                1 Bit    Registers := 5     
-+---Muxes : 
-	   2 Input     32 Bit        Muxes := 2     
-	   3 Input     32 Bit        Muxes := 2     
-	   3 Input      9 Bit        Muxes := 1     
-	   2 Input      8 Bit        Muxes := 6     
-	   3 Input      8 Bit        Muxes := 3     
-	   2 Input      3 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 9     
-	   3 Input      1 Bit        Muxes := 3     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -290,60 +432,351 @@ No constraint files found.
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "u1/cpt_address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u1/memory_ready" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "memory_ready1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "O60" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u1/addressing" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u1/addressing" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "F_21" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u1/WR" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "u1/address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "u2/WR" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "u2/cpt_address" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u4/WR_reg )
-WARNING: [Synth 8-3332] Sequential element (u4/WR_reg) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[31]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[30]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[29]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[28]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[27]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[26]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[25]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[24]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[23]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[22]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[21]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[20]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[19]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[18]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[17]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[16]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[15]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[14]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[13]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[12]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[11]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[10]) is unused and will be removed from module test_3.
-WARNING: [Synth 8-3332] Sequential element (u4/cpt_address_reg[9]) is unused and will be removed from module test_3.
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[30]' (FDE) to 'i_0/u1/addressing_reg[31]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[31]' (FDE) to 'i_0/u1/addressing_reg[29]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[29]' (FDE) to 'i_0/u1/addressing_reg[28]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[28]' (FDE) to 'i_0/u1/addressing_reg[27]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[27]' (FDE) to 'i_0/u1/addressing_reg[26]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[26]' (FDE) to 'i_0/u1/addressing_reg[25]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[25]' (FDE) to 'i_0/u1/addressing_reg[24]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[24]' (FDE) to 'i_0/u1/addressing_reg[23]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[23]' (FDE) to 'i_0/u1/addressing_reg[22]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[22]' (FDE) to 'i_0/u1/addressing_reg[21]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[21]' (FDE) to 'i_0/u1/addressing_reg[20]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[20]' (FDE) to 'i_0/u1/addressing_reg[19]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[19]' (FDE) to 'i_0/u1/addressing_reg[18]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[18]' (FDE) to 'i_0/u1/addressing_reg[17]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[17]' (FDE) to 'i_0/u1/addressing_reg[16]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[16]' (FDE) to 'i_0/u1/addressing_reg[15]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[15]' (FDE) to 'i_0/u1/addressing_reg[14]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[14]' (FDE) to 'i_0/u1/addressing_reg[13]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[13]' (FDE) to 'i_0/u1/addressing_reg[12]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[12]' (FDE) to 'i_0/u1/addressing_reg[11]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[11]' (FDE) to 'i_0/u1/addressing_reg[10]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[10]' (FDE) to 'i_0/u1/addressing_reg[9]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[9]' (FDE) to 'i_0/u1/addressing_reg[8]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[8]' (FDE) to 'i_0/u1/addressing_reg[7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[7]' (FDE) to 'i_0/u1/addressing_reg[6]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[6]' (FDE) to 'i_0/u1/addressing_reg[5]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[5]' (FDE) to 'i_0/u1/addressing_reg[4]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[4]' (FDE) to 'i_0/u1/addressing_reg[3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/addressing_reg[3]' (FDE) to 'i_0/u1/addressing_reg[2]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/addressing_reg[2] )
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][0]' (FDRE) to 'i_0/u1/array_w_reg[1][1]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][1]' (FDRE) to 'i_0/u1/array_w_reg[1][2]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][2]' (FDRE) to 'i_0/u1/array_w_reg[1][3]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][3]' (FDRE) to 'i_0/u1/array_w_reg[1][4]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][4]' (FDRE) to 'i_0/u1/array_w_reg[1][5]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][5]' (FDRE) to 'i_0/u1/array_w_reg[1][6]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[1][6]' (FDRE) to 'i_0/u1/array_w_reg[1][7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/array_w_reg[1][7] )
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][0]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][1]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][2]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][3]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][4]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][5]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3886] merging instance 'i_0/u1/array_w_reg[0][6]' (FDRE) to 'i_0/u1/array_w_reg[0][7]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\u1/array_w_reg[0][7] )
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[511][2][0]' (FDRE) to 'u5/myRam_particule_reg[511][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[510][2][0]' (FDRE) to 'u5/myRam_particule_reg[510][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[509][2][0]' (FDRE) to 'u5/myRam_particule_reg[509][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[508][2][0]' (FDRE) to 'u5/myRam_particule_reg[508][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[507][2][0]' (FDRE) to 'u5/myRam_particule_reg[507][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[506][2][0]' (FDRE) to 'u5/myRam_particule_reg[506][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[505][2][0]' (FDRE) to 'u5/myRam_particule_reg[505][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[504][2][0]' (FDRE) to 'u5/myRam_particule_reg[504][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[503][2][0]' (FDRE) to 'u5/myRam_particule_reg[503][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[502][2][0]' (FDRE) to 'u5/myRam_particule_reg[502][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[501][2][0]' (FDRE) to 'u5/myRam_particule_reg[501][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[500][2][0]' (FDRE) to 'u5/myRam_particule_reg[500][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[499][2][0]' (FDRE) to 'u5/myRam_particule_reg[499][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[498][2][0]' (FDRE) to 'u5/myRam_particule_reg[498][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[497][2][0]' (FDRE) to 'u5/myRam_particule_reg[497][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[496][2][0]' (FDRE) to 'u5/myRam_particule_reg[496][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[495][2][0]' (FDRE) to 'u5/myRam_particule_reg[495][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[494][2][0]' (FDRE) to 'u5/myRam_particule_reg[494][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[493][2][0]' (FDRE) to 'u5/myRam_particule_reg[493][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[492][2][0]' (FDRE) to 'u5/myRam_particule_reg[492][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[491][2][0]' (FDRE) to 'u5/myRam_particule_reg[491][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[490][2][0]' (FDRE) to 'u5/myRam_particule_reg[490][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[489][2][0]' (FDRE) to 'u5/myRam_particule_reg[489][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[488][2][0]' (FDRE) to 'u5/myRam_particule_reg[488][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[487][2][0]' (FDRE) to 'u5/myRam_particule_reg[487][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[486][2][0]' (FDRE) to 'u5/myRam_particule_reg[486][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[485][2][0]' (FDRE) to 'u5/myRam_particule_reg[485][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[484][2][0]' (FDRE) to 'u5/myRam_particule_reg[484][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[483][2][0]' (FDRE) to 'u5/myRam_particule_reg[483][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[482][2][0]' (FDRE) to 'u5/myRam_particule_reg[482][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[481][2][0]' (FDRE) to 'u5/myRam_particule_reg[481][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[480][2][0]' (FDRE) to 'u5/myRam_particule_reg[480][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[479][2][0]' (FDRE) to 'u5/myRam_particule_reg[479][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[478][2][0]' (FDRE) to 'u5/myRam_particule_reg[478][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[477][2][0]' (FDRE) to 'u5/myRam_particule_reg[477][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[476][2][0]' (FDRE) to 'u5/myRam_particule_reg[476][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[475][2][0]' (FDRE) to 'u5/myRam_particule_reg[475][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[474][2][0]' (FDRE) to 'u5/myRam_particule_reg[474][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[473][2][0]' (FDRE) to 'u5/myRam_particule_reg[473][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[472][2][0]' (FDRE) to 'u5/myRam_particule_reg[472][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[471][2][0]' (FDRE) to 'u5/myRam_particule_reg[471][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[470][2][0]' (FDRE) to 'u5/myRam_particule_reg[470][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[469][2][0]' (FDRE) to 'u5/myRam_particule_reg[469][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[468][2][0]' (FDRE) to 'u5/myRam_particule_reg[468][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[467][2][0]' (FDRE) to 'u5/myRam_particule_reg[467][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[466][2][0]' (FDRE) to 'u5/myRam_particule_reg[466][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[465][2][0]' (FDRE) to 'u5/myRam_particule_reg[465][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[464][2][0]' (FDRE) to 'u5/myRam_particule_reg[464][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[463][2][0]' (FDRE) to 'u5/myRam_particule_reg[463][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[462][2][0]' (FDRE) to 'u5/myRam_particule_reg[462][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[461][2][0]' (FDRE) to 'u5/myRam_particule_reg[461][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[460][2][0]' (FDRE) to 'u5/myRam_particule_reg[460][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[459][2][0]' (FDRE) to 'u5/myRam_particule_reg[459][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[458][2][0]' (FDRE) to 'u5/myRam_particule_reg[458][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[457][2][0]' (FDRE) to 'u5/myRam_particule_reg[457][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[456][2][0]' (FDRE) to 'u5/myRam_particule_reg[456][2][1]'
+INFO: [Synth 8-3886] merging instance 'u5/myRam_particule_reg[455][2][0]' (FDRE) to 'u5/myRam_particule_reg[455][2][1]'
+INFO: [Common 17-14] Message 'Synth 8-3886' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[10][0][0] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[9][0][1] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[1][0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[0][0][5] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[11][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[7][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[4][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[3][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[2][0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[511][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[510][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[509][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[508][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[507][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[506][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[505][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[504][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[503][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[502][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[501][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[500][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[499][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[498][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[497][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[496][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[495][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[494][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[493][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[492][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[491][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[490][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[489][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[488][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[487][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[486][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[485][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[484][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[483][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[482][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[481][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[480][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[479][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[478][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[477][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[476][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[475][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[474][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[473][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[472][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[471][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[470][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[469][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[468][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[467][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[466][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[465][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[464][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[463][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[462][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[461][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[460][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[459][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[458][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[457][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[456][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[455][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[454][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[453][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[452][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[451][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[450][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[449][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[448][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[447][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[446][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[445][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[444][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[443][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[442][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[441][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[440][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[439][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[438][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[437][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[436][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[435][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[434][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[433][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[432][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[431][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[430][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[429][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[428][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[427][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[426][0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (u5/\myRam_particule_reg[425][0][7] )
+INFO: [Common 17-14] Message 'Synth 8-3333' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[10][0][0]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[9][0][1]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[0][0][5]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[6][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[1][0][5]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[13][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[11][0][6]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[7][0][6]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[4][0][6]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[3][0][6]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[2][0][6]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[511][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[510][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[509][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[508][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[507][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[506][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[505][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[504][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[503][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[502][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[501][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[500][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[499][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[498][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[497][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[496][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[495][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[494][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[493][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[492][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[491][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[490][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[489][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[488][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[487][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[486][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[485][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[484][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[483][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[482][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[481][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[480][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[479][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[478][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[477][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[476][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[475][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[474][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[473][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[472][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[471][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[470][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[469][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[468][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[467][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[466][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[465][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[464][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[463][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[462][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[461][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[460][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[459][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[458][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[457][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[456][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[455][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[454][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[453][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[452][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[451][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[450][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[449][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[448][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[447][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[446][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[445][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[444][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[443][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[442][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[441][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[440][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[439][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[438][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[437][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[436][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[435][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[434][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[433][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[432][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[431][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[430][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[429][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[428][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[427][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[426][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[425][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[424][0][7]) is unused and will be removed from module PM.
+WARNING: [Synth 8-3332] Sequential element (myRam_particule_reg[423][0][7]) is unused and will be removed from module PM.
+INFO: [Common 17-14] Message 'Synth 8-3332' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:49 ; elapsed = 00:00:45 . Memory (MB): peak = 739.445 ; gain = 429.996
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:24 . Memory (MB): peak = 815.777 ; gain = 506.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |test_3__GB0   |           1|     30584|
+|2     |PM            |           1|       252|
++------+--------------+------------+----------+
 No constraint files found.
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:54 ; elapsed = 00:00:50 . Memory (MB): peak = 739.445 ; gain = 429.996
+Finished Timing Optimization : Time (s): cpu = 00:01:26 ; elapsed = 00:01:24 . Memory (MB): peak = 815.777 ; gain = 506.332
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
-+-+--------------+------------+----------+
-| |RTL Partition |Replication |Instances |
-+-+--------------+------------+----------+
-+-+--------------+------------+----------+
++------+--------------+------------+----------+
+|      |RTL Partition |Replication |Instances |
++------+--------------+------------+----------+
+|1     |test_3__GB0   |           1|     30584|
+|2     |PM            |           1|       252|
++------+--------------+------------+----------+
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:01 ; elapsed = 00:00:57 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Technology Mapping : Time (s): cpu = 00:01:32 ; elapsed = 00:01:30 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -367,7 +800,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:01:04 ; elapsed = 00:00:59 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished IO Insertion : Time (s): cpu = 00:01:35 ; elapsed = 00:01:33 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -380,7 +813,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:01:04 ; elapsed = 00:01:00 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:35 ; elapsed = 00:01:33 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -392,25 +825,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -427,39 +860,41 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     1|
-|2     |CARRY4 |    69|
-|3     |LUT1   |     3|
-|4     |LUT2   |   129|
-|5     |LUT3   |   240|
-|6     |LUT4   |   245|
-|7     |LUT5   |   147|
-|8     |LUT6   |  4175|
+|2     |CARRY4 |    77|
+|3     |LUT1   |     5|
+|4     |LUT2   |   146|
+|5     |LUT3   |   245|
+|6     |LUT4   |   252|
+|7     |LUT5   |   173|
+|8     |LUT6   |  4224|
 |9     |MUXF7  |  1806|
 |10    |MUXF8  |   840|
-|11    |FDRE   | 14772|
-|12    |IBUF   |    25|
-|13    |OBUF   |   140|
+|11    |FDRE   | 14843|
+|12    |FDSE   |    16|
+|13    |IBUF   |     1|
+|14    |OBUF   |   222|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+---------+--------+------+
 |      |Instance |Module  |Cells |
 +------+---------+--------+------+
-|1     |top      |        | 22592|
-|2     |  u1     |fitness |   372|
+|1     |top      |        | 22851|
+|2     |  u1     |fitness |   341|
 |3     |  u2     |p_best  |  1103|
-|4     |  u3     |PBM     | 20557|
-|5     |  u4     |g_best  |   394|
+|4     |  u3     |PBM     | 20558|
+|5     |  u4     |g_best  |   396|
+|6     |  u5     |PM      |   229|
 +------+---------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 33 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
-Synthesis Optimization Complete : Time (s): cpu = 00:01:05 ; elapsed = 00:01:01 . Memory (MB): peak = 761.855 ; gain = 452.406
+Synthesis finished with 0 errors, 0 critical warnings and 2000 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
+Synthesis Optimization Complete : Time (s): cpu = 00:01:36 ; elapsed = 00:01:34 . Memory (MB): peak = 816.828 ; gain = 507.383
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 2740 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-17] Analyzing 2724 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 WARNING: [Netlist 29-101] Netlist 'test_3' is not ideal for floorplanning, since the cellview 'PBM' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -467,10 +902,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-145 Infos, 34 Warnings, 0 Critical Warnings and 0 Errors encountered.
+379 Infos, 201 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:01:15 ; elapsed = 00:01:12 . Memory (MB): peak = 808.738 ; gain = 511.820
+synth_design: Time (s): cpu = 00:01:47 ; elapsed = 00:01:46 . Memory (MB): peak = 827.918 ; gain = 531.004
 INFO: [Common 17-1381] The checkpoint 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_blocs.runs/synth_1/test_3.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file test_3_utilization_synth.rpt -pb test_3_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.264 . Memory (MB): peak = 808.738 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Aug 12 18:44:40 2019...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.257 . Memory (MB): peak = 827.918 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Aug 13 14:24:32 2019...

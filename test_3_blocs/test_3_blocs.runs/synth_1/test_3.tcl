@@ -32,6 +32,7 @@ read_vhdl -library xil_defaultlib {
   {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd}
   {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd}
   {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd}
+  {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd}
   {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd}
 }
 # Mark all dcp files as not used in implementation to prevent them from being

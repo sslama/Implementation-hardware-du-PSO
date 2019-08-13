@@ -16,6 +16,7 @@ Compiling package synopsys.attributes
 Compiling package ieee.std_logic_misc
 Compiling package ieee.numeric_std
 Compiling package xil_defaultlib.pkg
+Compiling architecture rtl of entity xil_defaultlib.PM [pm_default]
 Compiling architecture behavioral of entity xil_defaultlib.fitness [fitness_default]
 Compiling architecture behavioral of entity xil_defaultlib.p_best [p_best_default]
 Compiling architecture rtl of entity xil_defaultlib.PBM [pbm_default]
