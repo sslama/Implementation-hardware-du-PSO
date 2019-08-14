@@ -97,7 +97,8 @@ component PBM
         WR_2            : in  std_logic;                        --write-read demangé par gbest
         address_2       : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée apr gbest
         particule_in    : in array8;                            -- position de la particule en entree ( 3d codee sur 8 bits)
-        fitness_in      : in std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits  
+        fitness_in      : in std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits
+        gbest_in        : in array8;  
         --output
         particule_out   : out array8;                           -- position de la particule en sortie ( 3d codee sur 8 bits)
         fitness_out     : out std_logic_vector(17 downto 0);    --la fitness de la particule en sortie codee sur 18bits 
@@ -117,6 +118,7 @@ component g_best
         WR        : out std_logic;                        --write-read 
         address   : out std_logic_vector (8 downto 0);    --adresses dans la memoire
         g_best_o  : out array8;
+        x_o       : out array8;
         --debug
         WR_2      : out std_logic;
         test_f    : out std_logic_vector(17 downto 0);
@@ -141,7 +143,7 @@ end component;
 signal f_fitness_pbest, f_pbest_o, f_gbest_i    : std_logic_vector(17 downto 0);  
 signal wr_pbest, wr_gbest                           : std_logic;
 signal address_pbest, address_gbest, address_fitness_posmem                 : std_logic_vector(8 downto 0);
-signal p_pbest_o, p_gbest_i, xi_in, xi_out, x_fitness_pbest, x_fitness_posmem_1, x_fitness_posmem_2          : array8;
+signal p_pbest_o, p_gbest_i, xi_in, xi_out, x_fitness_pbest, x_fitness_posmem_1, x_fitness_posmem_2, x_mem_gbest          : array8;
 signal wr_fitness_posmem : std_logic;
 
 begin
@@ -190,7 +192,8 @@ u3: PBM port map (
         fitness_in => f_pbest_o,
         fitness_out_2 => fitness_memory,
         particule_out_2 => particule_memory,
-        fitness_out => f_gbest_i
+        fitness_out => f_gbest_i,
+        gbest_in => x_mem_gbest
     );
 u4: g_best port map(
         clk => clk,
@@ -201,7 +204,8 @@ u4: g_best port map(
         x_i => p_gbest_i,
         f_i => f_gbest_i,
         test_f => TEST_F_GB,
-        g_best_o => G_OUT
+        g_best_o => G_OUT,
+        x_o => x_mem_gbest
     );
 
 --u1: fitness port map (clk,X_IN,fitness_module_test);

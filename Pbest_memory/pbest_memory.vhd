@@ -28,6 +28,7 @@ entity PBM is
         address_2     : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée apr gbest
         particule_in  : in array8;                            -- position de la particule en entree ( 3d codee sur 8 bits)
         fitness_in    : in std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits  
+        gbest_in      : in array8;
         
         --output
         particule_out : out array8;                           -- position de la particule en sortie ( 3d codee sur 8 bits)
@@ -75,23 +76,24 @@ process (clk)
             else
                 --si WR=1, alors pbest demande d'ecrire en memoire
                 if (WR = '1') then
-                  myRam_particule (conv_integer(address)) <= particule_in ;
-                  myRam_fitness (conv_integer(address)) <= fitness_in ;
+                    myRam_particule (conv_integer(address)) <= particule_in ;
+                    myRam_fitness (conv_integer(address)) <= fitness_in ;
                 end if;
                 
                 --si WR_2=0, alors gbest demande de lire la memoire
                 if (WR_2 = '0') then 
-                  particule_out <= myRam_particule(conv_integer(address_2));
-                  fitness_out <= myRam_fitness(conv_integer(address_2));
+                    particule_out <= myRam_particule(conv_integer(address_2));
+                    fitness_out <= myRam_fitness(conv_integer(address_2));
                   
-                  --debug
-                  particule_out_2 <= myRam_particule(conv_integer(address_2));
-                  fitness_out_2 <= myRam_fitness(conv_integer(address_2));
+                    --debug
+                    particule_out_2 <= myRam_particule(conv_integer(address_2));
+                    fitness_out_2 <= myRam_fitness(conv_integer(address_2));
+                elsif (WR_2 = '1') then
+                    myRam_particule (conv_integer(address)) <= gbest_in;
                 end if;
             end if;
         end if;
     end process;
     
-
 end RTL ;
 

@@ -46,6 +46,7 @@ architecture behavioral of p_best is
     signal cpt_address  : integer := 0;                                     --compteur d'adresses
     signal cpt          : integer := 0;                                     --inisilisation du compteur cpt pour se reperer dans le voisinage
     signal first_time   : std_logic := '1';
+    signal memory_full  : integer := 0;
 begin 
 
 process(clk, x_i, f_i)
@@ -72,24 +73,34 @@ process(clk, x_i, f_i)
                 first_time <= '0';
                 
              else
+                  if (memory_full = 1) then
+                        WR <= '1';
+                        address <= conv_std_logic_vector(333, 9); 
+                        p_best_o(0) <= conv_std_logic_vector(1, 8);
+                        p_best_o(1) <= conv_std_logic_vector(0, 8);
+                        p_best_o(2) <= conv_std_logic_vector(0, 8);
+                        f_best_o <= conv_std_logic_vector(0, 18);
+                        memory_full <= 2;
+                        
+                        --debug
+                        WR_2 <= '1';
+                        address_2 <= conv_std_logic_vector(333, 9);
+                        f_best_o_2 <= conv_std_logic_vector(0, 18);
+                        
+                  elsif (memory_full = 2) then
+                        WR <= '0';
+                        memory_full <= 0;
+                        
+                        --debug
+                        WR_2 <= '0';
+                  end if;
+                  
                   if (f_i /= fitness_in) then                  --nouvelle valeur de fitness (et donc nouvelle particule) en entree
                        fitness_in <=  f_i ;
                     
                        case cpt is
                            --reception de la 1ere particule
                            when 0 =>
-                               if(cpt_address = num_particules) then                         --si la particule appartient a l'iteration suivante, alors on efface la derniere case de memoire
-                                   cpt_address <= 0;
-                                   WR <= '1';                                   --on ecrit
-                                   address <= conv_std_logic_vector(num_particules - 1, 9);  --sur la derniere case memoire
-                                   f_best_o <= conv_std_logic_vector(0, 18);    --la valeur 0
-                                    
-                                   --debug
-                                   WR_2 <= '1';
-                                   address_2 <= conv_std_logic_vector(num_particules - 1, 9);
-                                   f_best_o_2 <= conv_std_logic_vector(0, 18);
-                               end if;
-
                                --premiere particule du voisinage, donc on la stocke sans comparer
                                fitness_save <= f_i;
                                array_save <= x_i;
@@ -113,7 +124,6 @@ process(clk, x_i, f_i)
                            when 2 =>
                                address <= conv_std_logic_vector(cpt_address, 9);     
                                WR <= '1';
-                               cpt_address <= cpt_address + 1;
 
                                --debug
                                WR_2 <= '1';
@@ -134,8 +144,14 @@ process(clk, x_i, f_i)
                                     f_best_o_2 <= fitness_save;
                                end if;
                                
-                               cpt <= 0;
-
+                               if(cpt_address = num_particules - 1) then                         --si la particule appartient a l'iteration suivante, alors on efface la derniere case de memoire
+                                   memory_full <= 1;
+                                   cpt_address <= 0;
+                               else
+                                   cpt <= 0;
+                                   cpt_address <= cpt_address + 1;
+                               end if;
+                               
                            WHEN OTHERS => NULL;
                         end case;
                    end if;

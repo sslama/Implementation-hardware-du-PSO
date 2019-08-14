@@ -29,6 +29,7 @@ entity g_best is
         WR        : out std_logic;                        --write-read 
         address   : out std_logic_vector (8 downto 0);    --adresses dans la memoire
         g_best_o  : out array8;
+        x_o       : out array8;
           
         --debug
         WR_2      : out std_logic;
@@ -42,7 +43,7 @@ architecture behavioral of g_best is
     signal fitness_save    : std_logic_vector(17 downto 0) := (others => '0');  --vecteur pour la sauvegarde du fitness gbest
     signal fitness_save_2  : std_logic_vector(17 downto 0) := (others => '0');  --vecteur pour la sauvegarde de la derniere case de memoire
     signal fitness_in      : std_logic_vector(17 downto 0) := (others => '0');  --vecteur pour la détection d'une nouvelle entree
-    signal memory_full     : std_logic := '0';                                  --booleen indiquant si la memoire est pleine (et donc prete a etre lue)
+    signal memory_full     : integer := 0;                                  --booleen indiquant si la memoire est pleine (et donc prete a etre lue)
     signal addressing      : std_logic := '1';                                  --booleen demandant l'ecriture d'une adresse sur le port address
     signal cpt_address     : integer := 0;                                      --compteur d'adresses
     signal cpt             : integer := 0;                                      --inisilisation du compteur cpt pour se reperer dans le voisinage
@@ -61,28 +62,35 @@ begin
             g_best_o(0) <= conv_std_logic_vector(0, 8);
             g_best_o(1) <= conv_std_logic_vector(0, 8);
             g_best_o(2) <= conv_std_logic_vector(0, 8);
+            x_o(0) <= conv_std_logic_vector(0, 8);
+            x_o(1) <= conv_std_logic_vector(0, 8);
+            x_o(2) <= conv_std_logic_vector(0, 8);
             
             --debug
             test_f <= conv_std_logic_vector(0, 18);
-            WR_2<= '0';
+            WR_2 <= '0';
             address_2 <= conv_std_logic_vector(0, 9);
             
             first_time <= '0';
         else
-            if (memory_full = '0') then         --si la memoire n'est pas pleine, alors on attend d'avoir une valeur en derniere case
+            if (memory_full = 0) then         --si la memoire n'est pas pleine, alors on attend d'avoir une valeur en derniere case
 
                 WR <= '0';                                                  --on lit
-                address <= conv_std_logic_vector(num_particules - 1, 9);    --la donnee en derneire case
+                address <= conv_std_logic_vector(333, 9);    --la donnee en derneire case
                 
                 --debug
-                WR_2 <= '1';
-                address_2 <= conv_std_logic_vector(num_particules - 1, 9);
+                WR_2 <= '0';
+                address_2 <= conv_std_logic_vector(333, 9);
                 test_f <= f_i;
                 
-                if ((f_i /= conv_std_logic_vector(0, 18)) and (f_i /= fitness_save_2)) then --si la valeur lue est differente de 0 et est differente de la valeur de l'iteration precedente
-                    memory_full <= '1';                                                     --alors la memoire est donc pleine
-                    fitness_save_2 <= conv_std_logic_vector(0, 18);                         --et on sauvegarde la derniere case
+                if (x_i(0) = conv_std_logic_vector(1, 8)) then --si la valeur lue est de 1
+                    memory_full <= 1;                                                     --alors la memoire est donc pleine
                 end if;
+            elsif (memory_full = 2) then
+                WR <= '0';
+                memory_full <= 0;
+                --debug
+                WR_2 <= '0';
             else                                --si la memoire est pleine, alors :
                 if (addressing = '1') then                   --si on demande une lecture en memoire :
                     fitness_in <= f_i;                                  --on sauvegarde le fitness actuellement en entree (pour savoir quand le nouveau sera en entree)
@@ -121,12 +129,15 @@ begin
                                 
                                 cpt_address <= 0;                   --la derniere particule a ete lue, on remet l'adresse a 0
                                 addressing <= '1';                  --on a fini avec cette particule, on demande donc de lire la suivante
-                                memory_full <= '0';                 --on a parcouru toute la memoire, elle sera donc videe
-                                fitness_save_2 <= f_i;              --on sauvegarde la derniere case memoire pour savoir quand une nouvelle valeur sera dispo
-                                
+                                memory_full <= 2;                 --on a parcouru toute la memoire, elle sera donc videe
+                                --fitness_save_2 <= f_i;              --on sauvegarde la derniere case memoire pour savoir quand une nouvelle valeur sera dispo
+                                WR <= '1';
+                                x_o(0) <= conv_std_logic_vector(2, 8);
+                                x_o(1) <= conv_std_logic_vector(0, 8);
+                                x_o(2) <= conv_std_logic_vector(0, 8);
                                 --debug
                                 test_f <= f_i;
-                                
+                                WR_2 <= '1';
                                 cpt <= 0;
                             
                             --reception des particules entre la 1ere et la derniere            
@@ -138,7 +149,7 @@ begin
                                 
                                 cpt_address <= cpt_address + 1;     
                                 addressing <= '1';                  --on a fini avec cette particule, on demande donc de lire la suivante
-                                
+                                address <= conv_std_logic_vector(cpt_address, 9);
                                 --debug
                                 test_f <= f_i;
                                 
