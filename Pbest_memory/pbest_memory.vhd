@@ -26,13 +26,14 @@ entity PBM is
         address       : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée par pbest
         WR_2          : in  std_logic;                        --write-read demangé par gbest
         address_2     : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée apr gbest
-        particule_in  : in array8;                            -- position de la particule en entree ( 3d codee sur 8 bits)
-        fitness_in    : in std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits  
-        gbest_in      : in array8;
+        particule_in  : in  array8;                            -- position de la particule en entree ( 3d codee sur 8 bits)
+        fitness_in    : in  std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits  
+        gbest_in      : in  array8;
         
         --output
         particule_out : out array8;                           -- position de la particule en sortie ( 3d codee sur 8 bits)
         fitness_out   : out std_logic_vector(17 downto 0);    --la fitness de la particule en sortie codee sur 18bits 
+        fitness_out_p : out std_logic_vector(17 downto 0);
         
         --debug
         fitness_out_2 : out std_logic_vector(17 downto 0);
@@ -53,7 +54,7 @@ process (clk)
             if (first_time = '1') then      --naissance du bloc
                 --initialisation des cases mémoire a zéros 
                 loop1: FOR i IN 0 TO 333 LOOP
-                    myRam_fitness(i) <= "000000000000000000";
+                    myRam_fitness(i) <= conv_std_logic_vector(262143, 18);
                     myRam_particule(i)(0) <= "00000000";
                     myRam_particule(i)(1) <= "00000000";
                     myRam_particule(i)(2) <= "00000000";
@@ -78,7 +79,16 @@ process (clk)
                 if (WR = '1') then
                     myRam_particule (conv_integer(address)) <= particule_in ;
                     myRam_fitness (conv_integer(address)) <= fitness_in ;
+                    
+                --si WR=1, alors pbest demande de lire la memoire
+                elsif (WR = '0') then
+                    fitness_out_p <= myRam_fitness(conv_integer(address));
+              
+                    --debug
                 end if;
+                
+                --particule_out_2 <= myRam_particule(1);
+                --fitness_out_2 <= myRam_fitness(1);
                 
                 --si WR_2=0, alors gbest demande de lire la memoire
                 if (WR_2 = '0') then 

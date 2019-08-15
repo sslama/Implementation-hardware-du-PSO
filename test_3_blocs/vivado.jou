@@ -51,3 +51,45 @@ relaunch_sim
 reset_run synth_1
 launch_runs synth_1 -jobs 4
 wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+save_wave_config {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb_behav.wcfg}
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+relaunch_sim

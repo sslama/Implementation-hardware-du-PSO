@@ -67,36 +67,7 @@ begin
             myRam_particule(4)(0) <= "10001100";
             myRam_particule(4)(1) <= "11101010";
             myRam_particule(4)(2) <= "01000110";
-            myRam_particule(5)(0) <= "00010001";
-            myRam_particule(5)(1) <= "11101110";
-            myRam_particule(5)(2) <= "01010001";
-            myRam_particule(6)(0) <= "01100110";
-            myRam_particule(6)(1) <= "11111100";
-            myRam_particule(6)(2) <= "00010110";
-            myRam_particule(7)(0) <= "10001110";
-            myRam_particule(7)(1) <= "10011011";
-            myRam_particule(7)(2) <= "01100100";
-            myRam_particule(8)(0) <= "00101011";
-            myRam_particule(8)(1) <= "11001110";
-            myRam_particule(8)(2) <= "10011001";
-            myRam_particule(9)(0) <= "11111101";
-            myRam_particule(9)(1) <= "01101000";
-            myRam_particule(9)(2) <= "11111010";
-            myRam_particule(10)(0) <= "11111110";
-            myRam_particule(10)(1) <= "10110111";
-            myRam_particule(10)(2) <= "10001010";
-            myRam_particule(11)(0) <= "10011111";
-            myRam_particule(11)(1) <= "11010010";
-            myRam_particule(11)(2) <= "01000111";
-            myRam_particule(12)(0) <= "00011101";
-            myRam_particule(12)(1) <= "00111101";
-            myRam_particule(12)(2) <= "01100010";
-            myRam_particule(13)(0) <= "01001110";
-            myRam_particule(13)(1) <= "11000010";
-            myRam_particule(13)(2) <= "10000011";
-            myRam_particule(14)(0) <= "00011111";
-            myRam_particule(14)(1) <= "10011111";
-            myRam_particule(14)(2) <= "10000001";
+            
             
             --la ram est prete
             myRam_particule(100)(0) <= "00000001";

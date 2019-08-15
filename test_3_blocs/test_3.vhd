@@ -76,6 +76,7 @@ component p_best
         clk         : in std_logic;
         x_i         : in array8;                              -- tableau contenant les 3 dimension de la particule codees sur 8 bits
         f_i         : in std_logic_vector(17 downto 0);       -- Fitness a l entree codee sur 18 bits 
+        f_best_i    : in std_logic_vector(17 downto 0);
         --output
         WR          : out std_logic;                          -- demande d'ecriture en memoire
         address     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
@@ -102,6 +103,7 @@ component PBM
         --output
         particule_out   : out array8;                           -- position de la particule en sortie ( 3d codee sur 8 bits)
         fitness_out     : out std_logic_vector(17 downto 0);    --la fitness de la particule en sortie codee sur 18bits 
+        fitness_out_p : out std_logic_vector(17 downto 0);
         --debug
         fitness_out_2   : out std_logic_vector(17 downto 0);
         particule_out_2 : out array8
@@ -140,7 +142,7 @@ component PM
     );
 end component;
     
-signal f_fitness_pbest, f_pbest_o, f_gbest_i    : std_logic_vector(17 downto 0);  
+signal f_fitness_pbest, f_pbest_o, f_gbest_i, f_pb_mem    : std_logic_vector(17 downto 0);  
 signal wr_pbest, wr_gbest                           : std_logic;
 signal address_pbest, address_gbest, address_fitness_posmem                 : std_logic_vector(8 downto 0);
 signal p_pbest_o, p_gbest_i, xi_in, xi_out, x_fitness_pbest, x_fitness_posmem_1, x_fitness_posmem_2, x_mem_gbest          : array8;
@@ -179,6 +181,7 @@ u2: p_best port map (
         f_i         => f_fitness_pbest,
         f_best_o    => f_pbest_o,
         f_best_o_2  => F_PB_out,
+        f_best_i    => f_pb_mem,
         p_best_o    => p_pbest_o
     );  
 u3: PBM port map (
@@ -193,6 +196,7 @@ u3: PBM port map (
         fitness_out_2 => fitness_memory,
         particule_out_2 => particule_memory,
         fitness_out => f_gbest_i,
+        fitness_out_p => f_pb_mem,
         gbest_in => x_mem_gbest
     );
 u4: g_best port map(

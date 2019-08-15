@@ -2,10 +2,10 @@
 # Vivado v2018.1 (64-bit)
 # SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
 # IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
-# Start of session at: Mon Jul 15 02:40:03 2019
-# Process ID: 7820
+# Start of session at: Mon Aug 12 21:23:03 2019
+# Process ID: 7628
 # Current directory: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7340 C:\Users\ThibaultPB\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Velocity\Update_Velocity.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18892 C:\Users\ThibaultPB\Desktop\VHDL V2\Implementation-hardware-du-PSO\Update_Velocity\Update_Velocity.xpr
 # Log file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/vivado.log
 # Journal file: C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity\vivado.jou
 #-----------------------------------------------------------
@@ -13,13 +13,13 @@ start_gui
 open_project {C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.xpr}
 INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal path. The project is stored in a path with more than 80 characters. If you experience issues with IP, Block Designs, or files not being found, please consider moving the project to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter.
 Current project path is 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity'
-INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Update_Velocity' since last save.
+INFO: [Project 1-313] Project file moved from 'C:/Users/IDEAL-INFO/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
-open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:08 . Memory (MB): peak = 837.027 ; gain = 104.234
+open_project: Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 850.695 ; gain = 119.023
 update_compile_order -fileset sources_1
 launch_simulation
 INFO: [Vivado 12-5682] Launching behavioral simulation in 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim'
@@ -34,7 +34,7 @@ INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Imp
 INFO: [VRFC 10-307] analyzing entity velocity
 INFO: [VRFC 10-163] Analyzing VHDL file "C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity_tb.vhd" into library xil_defaultlib
 INFO: [VRFC 10-307] analyzing entity Update_Velocity_tb
-INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-69] 'compile' step finished in '3' seconds
 INFO: [USF-XSim-3] XSim::Elaborate design
 INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim'
 Vivado Simulator 2018.1
@@ -66,8 +66,8 @@ Built simulation snapshot Update_Velocity_tb_behav
 
 source C:/Users/ThibaultPB/Desktop/VHDL -notrace
 couldn't read file "C:/Users/ThibaultPB/Desktop/VHDL": no such file or directory
-INFO: [Common 17-206] Exiting Webtalk at Mon Jul 15 02:48:11 2019...
-INFO: [USF-XSim-69] 'elaborate' step finished in '3' seconds
+INFO: [Common 17-206] Exiting Webtalk at Mon Aug 12 21:28:08 2019...
+INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds
 INFO: [USF-XSim-4] XSim::Simulate design
 INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.sim/sim_1/behav/xsim'
 INFO: [USF-XSim-98] *** Running xsim
@@ -89,4 +89,9 @@ source Update_Velocity_tb.tcl
 # run 1000ns
 INFO: [USF-XSim-96] XSim completed. Design snapshot 'Update_Velocity_tb_behav' loaded.
 INFO: [USF-XSim-97] XSim simulation ran for 1000ns
-launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 880.648 ; gain = 7.445
+launch_simulation: Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 877.668 ; gain = 6.832
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:16 . Memory (MB): peak = 900.043 ; gain = 0.000
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Aug 14 21:38:03 2019...

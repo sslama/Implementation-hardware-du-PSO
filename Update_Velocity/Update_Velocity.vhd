@@ -19,12 +19,30 @@ use work.pkg.all;
  
 entity velocity is
  port(
-      clk:in std_logic;
-      pb :in array8; --best position Pbest 
-      gb :in array8; --best position Gbest 
-      x : in array8; -- particule en entree
-      v : in array8; -- vitesse en entree
-      vs: out array8--Vitesse en sortie
+      --input
+      clk   : in std_logic; 
+      pos   : in array8;                         -- tableau contenant les 3 dimension de la particule codees sur 8 bits
+      pbest : in array8;
+      gbest : in array8;
+      vel_i : in array8;
+         
+      --output
+      WR_pos          : out std_logic;                          -- demande d'ecriture en memoire
+      address_pos     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      WR_pbm          : out std_logic;                          -- demande d'ecriture en memoire
+      address_pbm     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      WR_velm         : out std_logic;                          -- demande d'ecriture en memoire
+      address_velm    : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      vel_o           : out array8;
+      
+      --debug
+      WR_pos_d          : out std_logic;                          -- demande d'ecriture en memoire
+      address_pos_d     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      WR_pbm_d          : out std_logic;                          -- demande d'ecriture en memoire
+      address_pbm_d     : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      WR_velm_d         : out std_logic;                          -- demande d'ecriture en memoire
+      address_velm_d    : out std_logic_vector ( 8 downto 0);     -- adresse pour l'ecriture en memoire
+      vel_o_d           : out array8
       ); 
 end velocity;
 architecture arch of velocity is 
@@ -41,8 +59,8 @@ begin
       if (clk'event and clk ='1')then 
         loop1: for i in 0 to 2 loop --mise a jour de la vitesse pour x, y et z (loop)
         
-             tmp_sig(i) <= ((k * v(i)) + (c1 * (pb(i) - x(i))) + (c2 * (gb(i)-x(i)))); -- formule de mise a jour de la vitesse 
-            vs(i) <= tmp_sig(i)(7 downto 0);
+             tmp_sig(i) <= ((k * vel_i(i)) + (c1 * (pbest(i) - pos(i))) + (c2 * (gbest(i)-pos(i)))); -- formule de mise a jour de la vitesse 
+             vel_o(i) <= tmp_sig(i)(7 downto 0);
         end loop loop1;
       end if;
   end process;

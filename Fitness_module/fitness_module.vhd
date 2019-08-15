@@ -110,7 +110,7 @@ begin
                     F <= ("00" & (array_r(0) * array_r(0))) + ("00" & (array_r(1) * array_r(1))) + ("00" & (array_r(2) * array_r(2))); --formule de la fonction de sphere dans la sortie
                     array_o <= array_r;                    
                     
-                    if (cpt_address = 14) then
+                    if (cpt_address = 4) then
                         cpt_address <= 0;
                         memory_ready <= 0;
                     else
