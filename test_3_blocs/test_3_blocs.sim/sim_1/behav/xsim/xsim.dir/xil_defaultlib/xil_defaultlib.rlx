@@ -2,10 +2,12 @@
 2018.1
 Apr  4 2018
 19:30:32
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd,1565824044,vhdl,,,,fitness,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd,1565825656,vhdl,,,,pbm,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd,1565822213,vhdl,,,,pm,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd,1565798228,vhdl,,,,g_best,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd,1565826281,vhdl,,,,p_best,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd,1565819878,vhdl,C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd,,,pkg,,,,,,,,
-C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb.vhd,1565689804,vhdl,,,,test_3_tb,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Fitness_module/fitness_module.vhd,1565855449,vhdl,,,,fitness,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Pbest_memory/pbest_memory.vhd,1565897341,vhdl,,,,pbm,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Position_memory/position_memory.vhd,1565872342,vhdl,,,,pm,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_G/Update_G.vhd,1565899141,vhdl,,,,g_best,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_PBest/Update_P.vhd,1565827133,vhdl,,,,p_best,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd,1565900877,vhdl,,,,velocity,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3.vhd,1565899271,vhdl,C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity/Update_Velocity.vhd,,,pkg,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/test_3_blocs/test_3_tb.vhd,1565899745,vhdl,,,,test_3_tb,,,,,,,,
+C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/velocity_memory/velocity_memory.vhd,1565872600,vhdl,,,,vm,,,,,,,,

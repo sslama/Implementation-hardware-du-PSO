@@ -3,9 +3,11 @@ vhdl xil_defaultlib  \
 "../../../../test_3.vhd" \
 "../../../../../Update_G/Update_G.vhd" \
 "../../../../../Update_PBest/Update_P.vhd" \
+"../../../../../Update_Velocity/Update_Velocity.vhd" \
 "../../../../../Fitness_module/fitness_module.vhd" \
 "../../../../../Pbest_memory/pbest_memory.vhd" \
 "../../../../../Position_memory/position_memory.vhd" \
+"../../../../../velocity_memory/velocity_memory.vhd" \
 "../../../../test_3_tb.vhd" \
 
 # Do not sort compile order

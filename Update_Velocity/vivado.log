@@ -15,3 +15,10 @@ INFO: [ProjectBase 1-489] The host OS only allows 260 characters in a normal pat
 Current project path is 'C:/Users/ThibaultPB/Desktop/VHDL V2/Implementation-hardware-du-PSO/Update_Velocity'
 Scanning sources...
 Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:18 ; elapsed = 00:00:16 . Memory (MB): peak = 867.992 ; gain = 131.480
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Aug 15 14:32:38 2019...

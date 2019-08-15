@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="448220000fs"></ZoomStartTime>
-      <ZoomEndTime time="649620001fs"></ZoomEndTime>
+      <ZoomStartTime time="474300000fs"></ZoomStartTime>
+      <ZoomEndTime time="771212426fs"></ZoomEndTime>
       <Cursor1Time time="1000000000fs"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="141"></NameColumnWidth>
-      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+      <NameColumnWidth column_width="189"></NameColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="14" />
+   <WVObjectSize size="19" />
    <wvobject fp_name="/test_3_tb/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -72,8 +72,28 @@
       <obj_property name="ElementShortName">particule_memory[0:2][7:0]</obj_property>
       <obj_property name="ObjectShortName">particule_memory[0:2][7:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/test_3_tb/G_OUT" type="array">
-      <obj_property name="ElementShortName">G_OUT[0:2][7:0]</obj_property>
-      <obj_property name="ObjectShortName">G_OUT[0:2][7:0]</obj_property>
+   <wvobject fp_name="/test_3_tb/PART_POSMEM" type="array">
+      <obj_property name="ElementShortName">PART_POSMEM[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">PART_POSMEM[0:2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/WR_V_UPD" type="logic">
+      <obj_property name="ElementShortName">WR_V_UPD</obj_property>
+      <obj_property name="ObjectShortName">WR_V_UPD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/ADDR_V_UPD" type="array">
+      <obj_property name="ElementShortName">ADDR_V_UPD[8:0]</obj_property>
+      <obj_property name="ObjectShortName">ADDR_V_UPD[8:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/V_UPD" type="array">
+      <obj_property name="ElementShortName">V_UPD[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">V_UPD[0:2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/vitesse_mem" type="array">
+      <obj_property name="ElementShortName">vitesse_mem[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">vitesse_mem[0:2][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/test_3_tb/GBEST" type="array">
+      <obj_property name="ElementShortName">GBEST[0:2][7:0]</obj_property>
+      <obj_property name="ObjectShortName">GBEST[0:2][7:0]</obj_property>
    </wvobject>
 </wave_config>

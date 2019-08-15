@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1565826291">
+<GenRun Id="synth_1" LaunchPart="xc7z020clg400-1" LaunchTime="1565900898">
   <File Type="PA-TCL" Name="test_3.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="test_3_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="test_3_reports.tcl"/>
@@ -23,6 +23,12 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PPRDIR/../Update_Velocity/Update_Velocity.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../Fitness_module/fitness_module.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -36,6 +42,12 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../Position_memory/position_memory.vhd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../velocity_memory/velocity_memory.vhd">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="simulation"/>

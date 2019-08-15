@@ -34,7 +34,8 @@ entity g_best is
         --debug
         WR_2      : out std_logic;
         test_f    : out std_logic_vector(17 downto 0);
-        address_2 : out std_logic_vector (8 downto 0)
+        address_2 : out std_logic_vector (8 downto 0);
+        g_best_o_d: out array8
     );
 end g_best;
 
@@ -67,6 +68,9 @@ begin
             x_o(2) <= conv_std_logic_vector(0, 8);
             
             --debug
+            g_best_o_d(0) <= conv_std_logic_vector(0, 8);
+            g_best_o_d(1) <= conv_std_logic_vector(0, 8);
+            g_best_o_d(2) <= conv_std_logic_vector(0, 8);
             test_f <= conv_std_logic_vector(0, 18);
             WR_2 <= '0';
             address_2 <= conv_std_logic_vector(0, 9);
@@ -123,8 +127,14 @@ begin
                             when (n_part) =>
                                 if( f_i  < fitness_save) then       --on compare avec la valeur stockee, si le nouveau fitness est inferieur, alors :
                                     g_best_o <= x_i ;               --on place le nouveau tableau en sortie
+                                    
+                                    --debug
+                                    g_best_o_d <= x_i ;
                                 else                                --si le ouveau fitness est superieur, alors :
                                     g_best_o <= array_save;         --on place le tableau stocke en sortie
+                                    
+                                    --debug
+                                    g_best_o_d <= array_save;
                                 end if;
                                 
                                 cpt_address <= 0;                   --la derniere particule a ete lue, on remet l'adresse a 0
@@ -132,10 +142,13 @@ begin
                                 memory_full <= 2;                 --on a parcouru toute la memoire, elle sera donc videe
                                 --fitness_save_2 <= f_i;              --on sauvegarde la derniere case memoire pour savoir quand une nouvelle valeur sera dispo
                                 WR <= '1';
+                                address <= conv_std_logic_vector(333, 9);
                                 x_o(0) <= conv_std_logic_vector(2, 8);
                                 x_o(1) <= conv_std_logic_vector(0, 8);
                                 x_o(2) <= conv_std_logic_vector(0, 8);
+                                
                                 --debug
+                                address_2 <= conv_std_logic_vector(333, 9);
                                 test_f <= f_i;
                                 WR_2 <= '1';
                                 cpt <= 0;

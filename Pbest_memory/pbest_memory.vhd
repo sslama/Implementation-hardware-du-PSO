@@ -26,14 +26,18 @@ entity PBM is
         address       : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée par pbest
         WR_2          : in  std_logic;                        --write-read demangé par gbest
         address_2     : in  std_logic_vector (8 downto 0);    --adresse dans la memoire demandée apr gbest
+        WR_updvel     : in  std_logic;                        --write-read demangé par updvel
+        address_updvel: in  std_logic_vector (8 downto 0);
         particule_in  : in  array8;                            -- position de la particule en entree ( 3d codee sur 8 bits)
         fitness_in    : in  std_logic_vector(17 downto 0);     --la fitness de la particule en entree codee sur 18bits  
         gbest_in      : in  array8;
+        particule_updvel_i: in array8;
         
         --output
         particule_out : out array8;                           -- position de la particule en sortie ( 3d codee sur 8 bits)
         fitness_out   : out std_logic_vector(17 downto 0);    --la fitness de la particule en sortie codee sur 18bits 
         fitness_out_p : out std_logic_vector(17 downto 0);
+        particule_updvel_o: out array8;
         
         --debug
         fitness_out_2 : out std_logic_vector(17 downto 0);
@@ -61,6 +65,10 @@ process (clk)
                 END LOOP loop1;
 
                 --initialisation des sorties a zéros 
+                particule_updvel_o(0) <= "00000000";
+                particule_updvel_o(1) <= "00000000";
+                particule_updvel_o(2) <= "00000000";
+                
                 particule_out(0) <= "00000000"; 
                 particule_out(1) <= "00000000";
                 particule_out(2) <= "00000000";
@@ -99,8 +107,19 @@ process (clk)
                     particule_out_2 <= myRam_particule(conv_integer(address_2));
                     fitness_out_2 <= myRam_fitness(conv_integer(address_2));
                 elsif (WR_2 = '1') then
-                    myRam_particule (conv_integer(address)) <= gbest_in;
+                    myRam_particule (conv_integer(address_2)) <= gbest_in;
                 end if;
+                
+                if (WR_updvel = '0') then 
+                    particule_updvel_o <= myRam_particule(conv_integer(address_updvel));
+                  
+                    --debug
+                    --particule_out_2 <= myRam_particule(conv_integer(address_2));
+                    --fitness_out_2 <= myRam_fitness(conv_integer(address_2));
+                elsif (WR_updvel = '1') then
+                    myRam_particule (conv_integer(address_updvel)) <= particule_updvel_i;
+                end if;
+                
             end if;
         end if;
     end process;

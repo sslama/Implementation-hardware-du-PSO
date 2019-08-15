@@ -18,15 +18,20 @@ library work;
 use work.pkg.all;
 
 entity PM is
-  port (
-    clk     : in  std_logic;
-    WR      : in  std_logic;                        --Write/Read
-    address : in  std_logic_vector (8 downto 0);    --adresses dans la memoire 
-    particule_in_1  : in array8;                      -- position de la particule en entree ( 3d codee sur 8 bits) 
-    particule_out_1 : out array8;                      -- position de la particule en sortie ( 3d codee sur 8 bits) 
+    port (
+        --input
+        clk     : in  std_logic;
+        WR      : in  std_logic;                        --Write/Read
+        address : in  std_logic_vector (8 downto 0);    --adresses dans la memoire 
+        particule_in_1  : in array8;                      -- position de la particule en entree ( 3d codee sur 8 bits) 
+        WR_updvel     : in  std_logic;                        --write-read demangé par updvel
+        address_updvel: in  std_logic_vector (8 downto 0);
+        --output
+        particule_out_1 : out array8;                      -- position de la particule en sortie ( 3d codee sur 8 bits) 
+        particule_updvel_o: out array8;
     
-    --debug
-    particule_out_1_2 : out array8                      -- position de la particule en sortie ( 3d codee sur 8 bits) 
+        --debug
+        particule_out_1_2 : out array8                      -- position de la particule en sortie ( 3d codee sur 8 bits) 
   );
 end entity PM;
 
@@ -40,6 +45,10 @@ begin
     if (clk'event and clk = '1') then
         if (first_time = '1') then                  --Actions a effectuer a la naissance du bloc
             --initialisation des sorties a zeros 
+            particule_updvel_o(0) <= "00000000";
+            particule_updvel_o(1) <= "00000000";
+            particule_updvel_o(2) <= "00000000";
+            
             particule_out_1(0) <= conv_std_logic_vector(0, 8);
             particule_out_1(1) <= conv_std_logic_vector(0, 8);
             particule_out_1(2) <= conv_std_logic_vector(0, 8);
@@ -84,6 +93,10 @@ begin
              else                          --pour lire de la memoire 
               particule_out_1 <= myRam_particule(conv_integer(address));
               particule_out_1_2 <= myRam_particule(conv_integer(address));
+            end if;
+            
+            if (WR_updvel = '0') then 
+                particule_updvel_o <= myRam_particule(conv_integer(address_updvel));
             end if;
         end if;
     end if;

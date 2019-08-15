@@ -19,7 +19,7 @@ architecture Behavioral of test_3_tb is
    component test_3 
         port( clk: in std_logic; 
               --X_IN:  in array8;
-              G_OUT:  out array8;
+              --G_OUT:  out array8;
               
               fitness_memory: out std_logic_vector(17 downto 0);
               particule_memory : out array8;
@@ -34,7 +34,13 @@ architecture Behavioral of test_3_tb is
               ARRAY_W_F           : out array8;
               WR_F                : out std_logic;                      -- demande d'ecriture en memoire
               ADDRESS_F           : out std_logic_vector(8 downto 0);
-              PART_POSMEM         : out array8
+              PART_POSMEM         : out array8;
+              
+              V_UPD               : out array8;
+              ADDR_V_UPD          : out std_logic_vector(8 downto 0);
+              WR_V_UPD            : out std_logic;
+              vitesse_mem         : out array8;
+              GBEST               : out array8
               );
    end component; 
    
@@ -43,7 +49,7 @@ architecture Behavioral of test_3_tb is
     signal  clk: std_logic := '0';
     --signal  X_IN : array8 ;
       --outputs
-    signal  G_OUT :array8;  
+    --signal  G_OUT :array8;  
     
     signal fitness_memory:  std_logic_vector(17 downto 0);
     signal particule_memory: array8;
@@ -59,6 +65,11 @@ architecture Behavioral of test_3_tb is
     signal WR_F                :  std_logic;                      -- demande d'ecriture en memoire
     signal ADDRESS_F           :  std_logic_vector(8 downto 0);
     signal PART_POSMEM         :  array8;
+    signal V_UPD               :  array8;
+    signal ADDR_V_UPD          :  std_logic_vector(8 downto 0);
+    signal WR_V_UPD            :  std_logic;
+    signal vitesse_mem         :  array8;
+    signal GBEST               :  array8;
     
   -- Clock period definitions
       constant clk_period : time := 10 ns;
@@ -69,7 +80,7 @@ architecture Behavioral of test_3_tb is
        uut: test_3 PORT MAP (
               clk => clk,
               --X_IN => X_IN,
-              G_OUT => G_OUT,
+              --G_OUT => G_OUT,
               
               fitness_memory => fitness_memory,
               particule_memory => particule_memory,
@@ -84,7 +95,12 @@ architecture Behavioral of test_3_tb is
               ARRAY_W_F => ARRAY_W_F,
               WR_F => WR_F,
               ADDRESS_F => ADDRESS_F,
-              PART_POSMEM => PART_POSMEM
+              PART_POSMEM => PART_POSMEM,
+              V_UPD => V_UPD,
+              ADDR_V_UPD => ADDR_V_UPD,
+              WR_V_UPD => WR_V_UPD,
+              vitesse_mem => vitesse_mem,
+              GBEST => GBEST
        );
     
        -- Clock process definitions

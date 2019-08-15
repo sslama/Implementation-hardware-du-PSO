@@ -85,9 +85,9 @@ begin
                 
             elsif (memory_ready = 1) then
                 if (array_r(0) = conv_std_logic_vector(1, 8)) then --si la case 1000 est a 1, la mémoire est prete
-                    WR <= '1';                                    --on demande la lecture de
-                    address <= conv_std_logic_vector(100, 9);    --la donnee en derneire case
-                    array_w(0) <= conv_std_logic_vector(0, 8);
+                    WR <= '1';                                    --on demande l'ecriture
+                    address <= conv_std_logic_vector(100, 9);    --en case 100
+                    array_w(0) <= conv_std_logic_vector(0, 8);      --de 0 pour indiquer que la mémoire est en train d'etre lue
                     memory_ready <= 2;
                     
                     --debug
